@@ -972,7 +972,7 @@ footer{border-top:1px solid var(--line);padding:52px 0 34px;background:var(--bg)
       row.className = 'drow';
       row.innerHTML = '<span class="dn">' + b[0] + '</span><span class="dbar"><i></i></span><span class="dv">' + b[1] + '</span>';
       drill.appendChild(row);
-      requestAnimationFrame(function(){ requestAnimationFrame(function(){ row.querySelector('i').style.width = b[1] + '%'; }); });
+      setTimeout(function(){ row.querySelector('i').style.width = b[1] + '%'; }, 60);
     });
   }
   var feedPool = [], feedIdx = 0;
