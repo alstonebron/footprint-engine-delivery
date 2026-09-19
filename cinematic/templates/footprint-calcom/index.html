@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footprint — The system between attention and revenue</title>
+  <meta name="description" content="Footprint turns scheduling into conversion infrastructure. Every booked call is a system working.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --surface: #111111;
+      --surface-2: #1a1a1a;
+      --border: #262626;
+      --text: #fafafa;
+      --text-muted: #a1a1aa;
+      --accent: #ffffff;
+      --accent-hover: #e4e4e7;
+      --success: #22c55e;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+    /* Nav */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(10,10,10,0.8); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      height: 64px;
+    }
+    .nav-logo { font-weight: 700; font-size: 20px; letter-spacing: -0.02em; }
+    .nav-links { display: flex; gap: 32px; align-items: center; }
+    .nav-links a { color: var(--text-muted); font-size: 14px; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--text); }
+    .nav-cta {
+      background: var(--accent); color: var(--bg) !important;
+      padding: 8px 16px; border-radius: 8px; font-weight: 600;
+      transition: background 0.2s;
+    }
+    .nav-cta:hover { background: var(--accent-hover); }
+
+    /* Hero */
+    .hero {
+      padding: 160px 0 100px;
+      text-align: center;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--surface-2); border: 1px solid var(--border);
+      padding: 6px 12px; border-radius: 999px;
+      font-size: 13px; color: var(--text-muted); margin-bottom: 24px;
+    }
+    .hero-badge .dot { width: 6px; height: 6px; background: var(--success); border-radius: 50%; }
+    .hero h1 {
+      font-size: clamp(40px, 6vw, 72px);
+      font-weight: 800; letter-spacing: -0.03em; line-height: 1.1;
+      margin-bottom: 24px;
+    }
+    .hero p {
+      font-size: 20px; color: var(--text-muted);
+      max-width: 640px; margin: 0 auto 40px;
+    }
+    .hero-ctas { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--accent); color: var(--bg);
+      padding: 14px 28px; border-radius: 10px;
+      font-weight: 600; font-size: 16px;
+      transition: background 0.2s, transform 0.1s;
+    }
+    .btn-primary:hover { background: var(--accent-hover); transform: translateY(-1px); }
+    .btn-secondary {
+      background: transparent; color: var(--text);
+      border: 1px solid var(--border);
+      padding: 14px 28px; border-radius: 10px;
+      font-weight: 600; font-size: 16px;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .btn-secondary:hover { border-color: var(--text-muted); background: var(--surface); }
+
+    /* Social proof */
+    .social-proof {
+      padding: 60px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+    }
+    .social-proof p { text-align: center; color: var(--text-muted); font-size: 14px; margin-bottom: 32px; }
+    .logos { display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; opacity: 0.6; }
+    .logos span { font-size: 18px; font-weight: 600; color: var(--text-muted); }
+
+    /* Features */
+    .features { padding: 100px 0; }
+    .section-header { text-align: center; margin-bottom: 64px; }
+    .section-header h2 { font-size: 36px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 16px; }
+    .section-header p { color: var(--text-muted); font-size: 18px; max-width: 600px; margin: 0 auto; }
+    .features-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px;
+    }
+    .feature-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 16px; padding: 32px;
+      transition: border-color 0.2s;
+    }
+    .feature-card:hover { border-color: var(--text-muted); }
+    .feature-icon {
+      width: 48px; height: 48px; background: var(--surface-2);
+      border-radius: 12px; display: flex; align-items: center; justify-content: center;
+      margin-bottom: 20px; font-size: 24px;
+    }
+    .feature-card h3 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+    .feature-card p { color: var(--text-muted); font-size: 15px; }
+
+    /* Phases */
+    .phases { padding: 100px 0; background: var(--surface); }
+    .phases-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px;
+    }
+    .phase-card {
+      background: var(--bg); border: 1px solid var(--border);
+      border-radius: 12px; padding: 24px; text-align: center;
+    }
+    .phase-card .number {
+      font-size: 12px; color: var(--text-muted); font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;
+    }
+    .phase-card h4 { font-size: 16px; font-weight: 600; }
+
+    /* Philosophy */
+    .philosophy { padding: 100px 0; text-align: center; }
+    .philosophy blockquote {
+      font-size: 28px; font-weight: 600; letter-spacing: -0.02em;
+      max-width: 800px; margin: 0 auto 24px; line-height: 1.4;
+    }
+    .philosophy cite { color: var(--text-muted); font-size: 16px; font-style: normal; }
+
+    /* CTA */
+    .cta-section {
+      padding: 100px 0; text-align: center;
+      background: var(--surface); border-top: 1px solid var(--border);
+    }
+    .cta-section h2 { font-size: 36px; font-weight: 700; margin-bottom: 16px; }
+    .cta-section p { color: var(--text-muted); font-size: 18px; margin-bottom: 32px; }
+
+    /* Footer */
+    footer {
+      padding: 60px 0 40px; border-top: 1px solid var(--border);
+    }
+    .footer-grid {
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px;
+    }
+    .footer-brand p { color: var(--text-muted); font-size: 14px; margin-top: 12px; max-width: 280px; }
+    .footer-col h4 { font-size: 14px; font-weight: 600; margin-bottom: 16px; }
+    .footer-col a { display: block; color: var(--text-muted); font-size: 14px; margin-bottom: 10px; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--text); }
+    .footer-bottom {
+      display: flex; justify-content: space-between; align-items: center;
+      padding-top: 24px; border-top: 1px solid var(--border);
+      color: var(--text-muted); font-size: 13px;
+    }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+      .hero { padding: 120px 0 60px; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo">Footprint</a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#phases">System</a>
+        <a href="#philosophy">Philosophy</a>
+        <a href="mailto:hello@growwithfootprint.com">Contact</a>
+        <a href="https://growwithfootprint.com" class="nav-cta">Get Clear</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        <span>Now booking for Q3</span>
+      </div>
+      <h1>CONVERT INTEREST</h1>
+      <p>Every booked call is a system working. Footprint turns scheduling into conversion infrastructure — the system between attention and revenue.</p>
+      <div class="hero-ctas">
+        <a href="https://growwithfootprint.com" class="btn-primary">Get Clear</a>
+        <a href="#features" class="btn-secondary">See how it works</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="social-proof">
+    <div class="container">
+      <p>Trusted by teams who ship</p>
+      <div class="logos">
+        <span>Acme Corp</span>
+        <span>Globex</span>
+        <span>Initech</span>
+        <span>Umbrella</span>
+        <span>Stark</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>Scheduling that converts</h2>
+        <p>Not just a calendar link. A system designed to move prospects from interest to booked call to revenue.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Instant booking</h3>
+          <p>Remove friction. Prospects book directly into your calendar with qualifying questions built in.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Routing logic</h3>
+          <p>Send the right lead to the right person based on territory, deal size, or expertise.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Conversion analytics</h3>
+          <p>See exactly where interest drops off. Optimize the path from click to booked call.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔄</div>
+          <h3>Automated follow-up</h3>
+          <p>Reminders, rescheduling, and post-call sequences that keep deals moving.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔗</div>
+          <h3>CRM sync</h3>
+          <p>Every booking writes back to your system of record. No manual entry, no black boxes.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Full export rights</h3>
+          <p>Your data, your infrastructure. Export everything, day one. No lock-in.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="phases" id="phases">
+    <div class="container">
+      <div class="section-header">
+        <h2>The Footprint system</h2>
+        <p>Six phases from attention to revenue. Scheduling is where interest becomes commitment.</p>
+      </div>
+      <div class="phases-grid">
+        <div class="phase-card">
+          <div class="number">Phase 01</div>
+          <h4>CLARIFY</h4>
+        </div>
+        <div class="phase-card">
+          <div class="number">Phase 02</div>
+          <h4>BUILD TRUST</h4>
+        </div>
+        <div class="phase-card">
+          <div class="number">Phase 03</div>
+          <h4>CREATE DEMAND</h4>
+        </div>
+        <div class="phase-card">
+          <div class="number">Phase 04</div>
+          <h4>CONVERT INTEREST</h4>
+        </div>
+        <div class="phase-card">
+          <div class="number">Phase 05</div>
+          <h4>FOLLOW UP</h4>
+        </div>
+        <div class="phase-card">
+          <div class="number">Phase 06</div>
+          <h4>OPTIMIZE</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="philosophy" id="philosophy">
+    <div class="container">
+      <blockquote>"No black boxes. Full export rights, day one."</blockquote>
+      <cite>— The Footprint philosophy</cite>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Ready to convert interest?</h2>
+      <p>Get clear on your scheduling infrastructure. Book a call or reach out directly.</p>
+      <div class="hero-ctas">
+        <a href="https://growwithfootprint.com" class="btn-primary">Get Clear</a>
+        <a href="mailto:hello@growwithfootprint.com" class="btn-secondary">hello@growwithfootprint.com</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">Footprint</a>
+          <p>The system between attention and revenue.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="#features">Features</a>
+          <a href="#phases">System</a>
+          <a href="https://growwithfootprint.com">Pricing</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#philosophy">Philosophy</a>
+          <a href="mailto:hello@growwithfootprint.com">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 Footprint. All rights reserved.</span>
+        <span>Built for conversion.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

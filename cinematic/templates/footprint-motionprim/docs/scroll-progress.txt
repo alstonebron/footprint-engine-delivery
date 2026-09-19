@@ -1,0 +1,342 @@
+1:"$Sreact.fragment"
+2:I[41402,["471","static/chunks/471-ee721aabd03ece82.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","7177","static/chunks/app/layout-ced9f3e2b13c9985.js"],""]
+3:I[63415,["471","static/chunks/471-ee721aabd03ece82.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","7177","static/chunks/app/layout-ced9f3e2b13c9985.js"],"ThemeProvider"]
+4:I[82180,["471","static/chunks/471-ee721aabd03ece82.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","7177","static/chunks/app/layout-ced9f3e2b13c9985.js"],"TooltipProvider"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+7:I[17989,[],"ClientSegmentRoot"]
+8:I[79539,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","5345","static/chunks/5345-a5d38fd7d9ff7d65.js","531","static/chunks/531-09373ad051bc78d2.js","4499","static/chunks/app/docs/layout-da12a9ca723d3e56.js"],"default"]
+a:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","5210","static/chunks/5210-4ed075dcd25a7888.js","3256","static/chunks/3256-885b97157c7da168.js","7608","static/chunks/app/docs/scroll-progress/page-d385525cbc8ad7bb.js"],"Tabs"]
+b:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","5210","static/chunks/5210-4ed075dcd25a7888.js","3256","static/chunks/3256-885b97157c7da168.js","7608","static/chunks/app/docs/scroll-progress/page-d385525cbc8ad7bb.js"],"TabsList"]
+c:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","5210","static/chunks/5210-4ed075dcd25a7888.js","3256","static/chunks/3256-885b97157c7da168.js","7608","static/chunks/app/docs/scroll-progress/page-d385525cbc8ad7bb.js"],"TabsTrigger"]
+d:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","5210","static/chunks/5210-4ed075dcd25a7888.js","3256","static/chunks/3256-885b97157c7da168.js","7608","static/chunks/app/docs/scroll-progress/page-d385525cbc8ad7bb.js"],"TabsContent"]
+e:I[62546,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","5210","static/chunks/5210-4ed075dcd25a7888.js","3256","static/chunks/3256-885b97157c7da168.js","7608","static/chunks/app/docs/scroll-progress/page-d385525cbc8ad7bb.js"],"default"]
+f:I[34609,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","5210","static/chunks/5210-4ed075dcd25a7888.js","3256","static/chunks/3256-885b97157c7da168.js","7608","static/chunks/app/docs/scroll-progress/page-d385525cbc8ad7bb.js"],"ScrollProgressBasic1"]
+10:I[89796,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","5210","static/chunks/5210-4ed075dcd25a7888.js","3256","static/chunks/3256-885b97157c7da168.js","7608","static/chunks/app/docs/scroll-progress/page-d385525cbc8ad7bb.js"],"default"]
+20:I[57150,[],""]
+:HL["/cinematic/templates/footprint-motionprim/_next/static/css/39ee142490a545b4.css","style"]
+:HL["/cinematic/templates/footprint-motionprim/_next/static/css/d9c9cd7e3d77da30.css","style"]
+11:T5e0,'use client';
+import { useRef } from 'react';
+import { ScrollProgress } from '@/components/core/scroll-progress';
+
+const dummyContent = Array.from({ length: 10 }, (_, i) => (
+  <p key={i} className='pb-4 font-mono text-sm text-zinc-500'>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam
+    lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra
+    nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget
+    libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut
+    porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies
+    a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  </p>
+));
+
+export function ScrollProgressBasic1() {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  return (
+    <div
+      className='h-[350px] overflow-auto px-8 pb-16 pt-16'
+      ref={containerRef}
+    >
+      <div className='pointer-events-none absolute bottom-0 left-0 h-12 w-full bg-white to-transparent backdrop-blur-xl [-webkit-mask-image:linear-gradient(to_top,white,transparent)] dark:bg-neutral-900' />
+      <div className='pointer-events-none absolute left-0 top-0 w-full'>
+        <div className='absolute left-0 top-0 h-1 w-full bg-[#E6F4FE] dark:bg-[#111927]' />
+        <ScrollProgress
+          containerRef={containerRef}
+          className='absolute top-0 bg-[#0090FF]'
+        />
+      </div>
+      {dummyContent}
+    </div>
+  );
+}
+0:{"P":null,"b":"4Whs73mUEgvya8frn5cet","p":"/cinematic/templates/footprint-motionprim","c":["","docs","scroll-progress"],"i":false,"f":[[["",{"children":["docs",{"children":["scroll-progress",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/cinematic/templates/footprint-motionprim/_next/static/css/39ee142490a545b4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/cinematic/templates/footprint-motionprim/_next/static/css/d9c9cd7e3d77da30.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","$L2",null,{"async":true,"defer":true,"src":"https://assets.onedollarstats.com/stonks.js"}],["$","body",null,{"className":"__className_b00530 __variable_b17a72 bg-white font-sans antialiased dark:bg-zinc-950","children":["$","$L3",null,{"attribute":"class","children":["$","$L4",null,{"children":["$","div",null,{"className":"isolate min-h-screen","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}]]}]]}],{"children":["docs",["$","$1","c",{"children":[null,["$","$L7",null,{"Component":"$8","slots":{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]},"params":{},"promise":"$@9"}]]}],{"children":["scroll-progress",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","h1",null,{"id":"scroll-progress","data-heading":"1","children":"Scroll Progress"}],"\n",["$","p",null,{"children":"Animated scroll progress for your web pages."}],"\n",["$","h2",null,{"id":"examples","data-heading":"2","children":"Examples"}],"\n",["$","h3",null,{"id":"scroll-progress-basic","data-heading":"3","children":"Scroll Progress Basic"}],"\n",["$","div",null,{"className":"not-prose relative z-0 flex items-center justify-between pb-4","children":["$","$La",null,{"defaultValue":"preview","className":"relative mr-auto w-full","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"value":"preview","children":"Preview"}],["$","$Lc",null,{"value":"code","children":"Code"}]]}],["$","$Ld",null,{"value":"preview","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$Le",null,{"component":["$","$Lf",null,{}],"hasReTrigger":"$undefined","className":"$undefined","filePath":"app/docs/scroll-progress/scroll-progress-basic-1.tsx"}]}],["$","$Ld",null,{"value":"code","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$L10",null,{"code":"$11","children":"$L12"}]}]]}]}],"\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b","\n","$L1c","\n","$L1d"],null,"$L1e"]}],{},null,false]},null,false]},null,false]},null,false],"$L1f",false]],"m":"$undefined","G":["$20",[]],"s":false,"S":true}
+21:I[33538,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","5210","static/chunks/5210-4ed075dcd25a7888.js","3256","static/chunks/3256-885b97157c7da168.js","7608","static/chunks/app/docs/scroll-progress/page-d385525cbc8ad7bb.js"],"ScrollProgressBasic2"]
+24:I[58639,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","5210","static/chunks/5210-4ed075dcd25a7888.js","3256","static/chunks/3256-885b97157c7da168.js","7608","static/chunks/app/docs/scroll-progress/page-d385525cbc8ad7bb.js"],"ScrollProgressBasic3"]
+27:I[27340,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","5210","static/chunks/5210-4ed075dcd25a7888.js","3256","static/chunks/3256-885b97157c7da168.js","7608","static/chunks/app/docs/scroll-progress/page-d385525cbc8ad7bb.js"],"InstallationCli"]
+29:I[24431,[],"OutletBoundary"]
+2b:I[15278,[],"AsyncMetadataOutlet"]
+2d:I[24431,[],"ViewportBoundary"]
+2f:I[24431,[],"MetadataBoundary"]
+30:"$Sreact.suspense"
+13:["$","h3",null,{"id":"scroll-progress-navigation","data-heading":"3","children":"Scroll Progress Navigation"}]
+22:T76e,'use client';
+import { useRef } from 'react';
+import { ScrollProgress } from '@/components/core/scroll-progress';
+
+const dummyContent = Array.from({ length: 10 }, (_, i) => (
+  <p key={i} className='pb-4 font-mono text-sm text-zinc-500'>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam
+    lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra
+    nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget
+    libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut
+    porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies
+    a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  </p>
+));
+
+export function ScrollProgressBasic2() {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  return (
+    <div className='h-[350px] overflow-auto px-8 pb-4 pt-16' ref={containerRef}>
+      <div className='border-zin-500 absolute left-0 top-0 z-10 h-10 w-full bg-white dark:bg-zinc-950'>
+        <ScrollProgress
+          className='absolute top-0 h-10 bg-zinc-200 dark:bg-zinc-800'
+          containerRef={containerRef}
+        />
+        <div className='absolute left-0 top-0 flex h-10 items-center space-x-6 px-8 font-[450]'>
+          <a
+            href='#'
+            className='text-zinc-700 hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-white'
+          >
+            Magazine
+          </a>
+          <a
+            href='#'
+            className='text-zinc-700 hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-white'
+          >
+            Blog
+          </a>
+          <a
+            href='#'
+            className='text-zinc-700 hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-white'
+          >
+            About
+          </a>
+        </div>
+      </div>
+      {dummyContent}
+    </div>
+  );
+}
+14:["$","div",null,{"className":"not-prose relative z-0 flex items-center justify-between pb-4","children":["$","$La",null,{"defaultValue":"preview","className":"relative mr-auto w-full","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"value":"preview","children":"Preview"}],["$","$Lc",null,{"value":"code","children":"Code"}]]}],["$","$Ld",null,{"value":"preview","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$Le",null,{"component":["$","$L21",null,{}],"hasReTrigger":"$undefined","className":"$undefined","filePath":"app/docs/scroll-progress/scroll-progress-basic-2.tsx"}]}],["$","$Ld",null,{"value":"code","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$L10",null,{"code":"$22","children":"$L23"}]}]]}]}]
+15:["$","h3",null,{"id":"scroll-progress-gradient","data-heading":"3","children":"Scroll Progress Gradient"}]
+25:T6de,'use client';
+import { useRef } from 'react';
+import { ScrollProgress } from '@/components/core/scroll-progress';
+
+const dummyContent = Array.from({ length: 10 }, (_, i) => (
+  <p key={i} className='pb-4 font-mono text-sm text-zinc-500'>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam
+    lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra
+    nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget
+    libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut
+    porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies
+    a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  </p>
+));
+
+export function ScrollProgressBasic3() {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  return (
+    <div
+      className='h-[350px] overflow-auto px-8 pb-16 pt-16'
+      ref={containerRef}
+    >
+      <div className='pointer-events-none absolute left-0 top-0 h-24 w-full bg-white to-transparent backdrop-blur-xl [-webkit-mask-image:linear-gradient(to_bottom,black,transparent)] dark:bg-neutral-950' />
+      <div className='pointer-events-none absolute left-0 top-0 w-full'>
+        <div className='absolute left-0 top-0 h-0.5 w-full dark:bg-[#111111]' />
+        <ScrollProgress
+          className='absolute top-0 h-0.5 bg-[linear-gradient(to_right,rgba(0,0,0,0),#111111_75%,#111111_100%)] dark:bg-[linear-gradient(to_right,rgba(255,255,255,0),#ffffff_75%,#ffffff_100%)]'
+          containerRef={containerRef}
+          springOptions={{
+            stiffness: 280,
+            damping: 18,
+            mass: 0.3,
+          }}
+        />
+      </div>
+      {dummyContent}
+    </div>
+  );
+}
+16:["$","div",null,{"className":"not-prose relative z-0 flex items-center justify-between pb-4","children":["$","$La",null,{"defaultValue":"preview","className":"relative mr-auto w-full","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"value":"preview","children":"Preview"}],["$","$Lc",null,{"value":"code","children":"Code"}]]}],["$","$Ld",null,{"value":"preview","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$Le",null,{"component":["$","$L24",null,{}],"hasReTrigger":"$undefined","className":"$undefined","filePath":"app/docs/scroll-progress/scroll-progress-basic-3.tsx"}]}],["$","$Ld",null,{"value":"code","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$L10",null,{"code":"$25","children":"$L26"}]}]]}]}]
+17:["$","h2",null,{"id":"installation","data-heading":"2","children":"Installation"}]
+18:["$","$La",null,{"className":"relative mt-6 w-full","defaultValue":"cli","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"className":"","value":"cli","children":"CLI"}],["$","$Lc",null,{"className":"","value":"manual","children":"Manual"}]]}],["$","$Ld",null,{"className":"","value":"cli","children":["$","$L27",null,{"value":"scroll-progress"}]}],["$","$Ld",null,{"className":"","value":"manual","children":["$","div",null,{"className":"steps mb-12 ml-4 border-l pl-8 [counter-reset:step]","children":[["$","h3",null,{"id":"copy-and-paste-the-following-code-into-your-project","className":"step","data-heading":"3","children":"Copy and paste the following code into your project."}],["$","div",null,{"className":"not-prose max-h-[650px] overflow-auto overflow-x-auto overflow-y-hidden rounded-md text-sm dark:border dark:border-zinc-800","children":["$","$L10",null,{"code":"'use client';\r\n\r\nimport { motion, SpringOptions, useScroll, useSpring } from 'motion/react';\r\nimport { cn } from '@/lib/utils';\r\nimport { RefObject } from 'react';\r\n\r\nexport type ScrollProgressProps = {\r\n  className?: string;\r\n  springOptions?: SpringOptions;\r\n  containerRef?: RefObject<HTMLDivElement>;\r\n};\r\n\r\nconst DEFAULT_SPRING_OPTIONS: SpringOptions = {\r\n  stiffness: 200,\r\n  damping: 50,\r\n  restDelta: 0.001,\r\n};\r\n\r\nexport function ScrollProgress({\r\n  className,\r\n  springOptions,\r\n  containerRef,\r\n}: ScrollProgressProps) {\r\n  const { scrollYProgress } = useScroll({\r\n    container: containerRef,\r\n    layoutEffect: Boolean(containerRef?.current),\r\n  });\r\n\r\n  const scaleX = useSpring(scrollYProgress, {\r\n    ...DEFAULT_SPRING_OPTIONS,\r\n    ...(springOptions ?? {}),\r\n  });\r\n\r\n  return (\r\n    <motion.div\r\n      className={cn('inset-x-0 top-0 h-1 origin-left', className)}\r\n      style={{\r\n        scaleX,\r\n      }}\r\n    />\r\n  );\r\n}\r\n","children":"$L28"}]}],["$","h3",null,{"id":"update-the-import-paths-to-match-your-project-setup","className":"step","data-heading":"3","children":"Update the import paths to match your project setup."}]]}]}]]}]
+19:["$","h2",null,{"id":"component-api","data-heading":"2","children":"Component API"}]
+1a:["$","h3",null,{"id":"scrollprogress","data-heading":"3","children":"ScrollProgress"}]
+1b:["$","div",null,{"className":"not-prose relative w-full table-auto overflow-auto rounded-lg border border-zinc-200 text-sm dark:border-zinc-800","children":["$","table",null,{"className":"w-full","children":[["$","thead",null,{"className":"bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100","children":["$","tr",null,{"className":"h-10","children":[["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Prop"}],["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Type"}],["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Default"}],["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Description"}]]}]}],["$","tbody",null,{"className":"divide-y divide-zinc-200 dark:divide-y dark:divide-zinc-600","children":[["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"className"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"string"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"}}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Optional CSS class for styling the scroll progress."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"springOptions"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"SpringOptions"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"}}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Optional spring options for the scroll progress animation."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"containerRef"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"RefObject"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"}}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Optional Ref object for the container element."}]]}]]}]]}]}]
+1c:["$","h2",null,{"id":"credit","data-heading":"2","children":"Credit"}]
+1d:["$","p",null,{"children":["Initiated by ",["$","a",null,{"href":"https://github.com/bhataasim1","children":"@bhataasim1"}]]}]
+1e:["$","$L29",null,{"children":["$L2a",["$","$L2b",null,{"promise":"$@2c"}]]}]
+1f:["$","$1","h",{"children":[null,[["$","$L2d",null,{"children":"$L2e"}],null],["$","$L2f",null,{"children":["$","div",null,{"hidden":true,"children":["$","$30",null,{"fallback":null,"children":"$L31"}]}]}]]}]
+9:"$0:f:0:1:2:children:1:props:children:1:props:params"
+32:T2265,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-string-expression)">'use client'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { useRef } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> 'react'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { ScrollProgress } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/components/core/scroll-progress'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">const</span><span style="color:var(--shiki-token-constant)"> dummyContent</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-token-constant)"> Array</span><span style="color:var(--shiki-token-function)">.from</span><span style="color:var(--shiki-foreground, #B1B1B1)">({ length</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 10</span><span style="color:var(--shiki-foreground, #B1B1B1)"> }</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (_</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> i) </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  &#x3C;</span><span style="color:var(--shiki-token-string-expression)">p</span><span style="color:var(--shiki-token-function)"> key</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{i} </span><span style="color:var(--shiki-token-function)">className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'pb-4 font-mono text-sm text-zinc-500'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">p</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">));</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> ScrollProgressBasic1</span><span style="color:var(--shiki-foreground, #B1B1B1)">() {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-token-constant)"> containerRef</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-token-function)"> useRef</span><span style="color:var(--shiki-foreground, #B1B1B1)">&#x3C;</span><span style="color:var(--shiki-token-function)">HTMLDivElement</span><span style="color:var(--shiki-foreground, #B1B1B1)">>(</span><span style="color:var(--shiki-token-constant)">null</span><span style="color:var(--shiki-foreground, #B1B1B1)">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'h-[350px] overflow-auto px-8 pb-16 pt-16'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      ref</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{containerRef}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    ></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'pointer-events-none absolute bottom-0 left-0 h-12 w-full bg-white to-transparent backdrop-blur-xl [-webkit-mask-image:linear-gradient(to_top,white,transparent)] dark:bg-neutral-900'</span><span style="color:var(--shiki-foreground, #B1B1B1)"> /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'pointer-events-none absolute left-0 top-0 w-full'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'absolute left-0 top-0 h-1 w-full bg-[#E6F4FE] dark:bg-[#111927]'</span><span style="color:var(--shiki-foreground, #B1B1B1)"> /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-constant)">ScrollProgress</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          containerRef</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{containerRef}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'absolute top-0 bg-[#0090FF]'</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      {dummyContent}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>12:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$32"}}]}]
+33:T2db1,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-string-expression)">'use client'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { useRef } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> 'react'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { ScrollProgress } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/components/core/scroll-progress'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">const</span><span style="color:var(--shiki-token-constant)"> dummyContent</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-token-constant)"> Array</span><span style="color:var(--shiki-token-function)">.from</span><span style="color:var(--shiki-foreground, #B1B1B1)">({ length</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 10</span><span style="color:var(--shiki-foreground, #B1B1B1)"> }</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (_</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> i) </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  &#x3C;</span><span style="color:var(--shiki-token-string-expression)">p</span><span style="color:var(--shiki-token-function)"> key</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{i} </span><span style="color:var(--shiki-token-function)">className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'pb-4 font-mono text-sm text-zinc-500'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">p</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">));</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> ScrollProgressBasic2</span><span style="color:var(--shiki-foreground, #B1B1B1)">() {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-token-constant)"> containerRef</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-token-function)"> useRef</span><span style="color:var(--shiki-foreground, #B1B1B1)">&#x3C;</span><span style="color:var(--shiki-token-function)">HTMLDivElement</span><span style="color:var(--shiki-foreground, #B1B1B1)">>(</span><span style="color:var(--shiki-token-constant)">null</span><span style="color:var(--shiki-foreground, #B1B1B1)">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'h-[350px] overflow-auto px-8 pb-4 pt-16'</span><span style="color:var(--shiki-token-function)"> ref</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{containerRef}></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'border-zin-500 absolute left-0 top-0 z-10 h-10 w-full bg-white dark:bg-zinc-950'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-constant)">ScrollProgress</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'absolute top-0 h-10 bg-zinc-200 dark:bg-zinc-800'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          containerRef</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{containerRef}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'absolute left-0 top-0 flex h-10 items-center space-x-6 px-8 font-[450]'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          &#x3C;</span><span style="color:var(--shiki-token-string-expression)">a</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">            href</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'#'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">            className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'text-zinc-700 hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-white'</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          ></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            Magazine</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">a</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          &#x3C;</span><span style="color:var(--shiki-token-string-expression)">a</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">            href</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'#'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">            className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'text-zinc-700 hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-white'</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          ></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            Blog</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">a</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          &#x3C;</span><span style="color:var(--shiki-token-string-expression)">a</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">            href</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'#'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">            className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'text-zinc-700 hover:text-zinc-950 dark:text-zinc-300 dark:hover:text-white'</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          ></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            About</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">a</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      {dummyContent}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>23:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$33"}}]}]
+34:T276e,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-string-expression)">'use client'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { useRef } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> 'react'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { ScrollProgress } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/components/core/scroll-progress'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">const</span><span style="color:var(--shiki-token-constant)"> dummyContent</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-token-constant)"> Array</span><span style="color:var(--shiki-token-function)">.from</span><span style="color:var(--shiki-foreground, #B1B1B1)">({ length</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 10</span><span style="color:var(--shiki-foreground, #B1B1B1)"> }</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (_</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> i) </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  &#x3C;</span><span style="color:var(--shiki-token-string-expression)">p</span><span style="color:var(--shiki-token-function)"> key</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{i} </span><span style="color:var(--shiki-token-function)">className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'pb-4 font-mono text-sm text-zinc-500'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">p</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">));</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> ScrollProgressBasic3</span><span style="color:var(--shiki-foreground, #B1B1B1)">() {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-token-constant)"> containerRef</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-token-function)"> useRef</span><span style="color:var(--shiki-foreground, #B1B1B1)">&#x3C;</span><span style="color:var(--shiki-token-function)">HTMLDivElement</span><span style="color:var(--shiki-foreground, #B1B1B1)">>(</span><span style="color:var(--shiki-token-constant)">null</span><span style="color:var(--shiki-foreground, #B1B1B1)">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'h-[350px] overflow-auto px-8 pb-16 pt-16'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      ref</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{containerRef}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    ></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'pointer-events-none absolute left-0 top-0 h-24 w-full bg-white to-transparent backdrop-blur-xl [-webkit-mask-image:linear-gradient(to_bottom,black,transparent)] dark:bg-neutral-950'</span><span style="color:var(--shiki-foreground, #B1B1B1)"> /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'pointer-events-none absolute left-0 top-0 w-full'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'absolute left-0 top-0 h-0.5 w-full dark:bg-[#111111]'</span><span style="color:var(--shiki-foreground, #B1B1B1)"> /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-constant)">ScrollProgress</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'absolute top-0 h-0.5 bg-[linear-gradient(to_right,rgba(0,0,0,0),#111111_75%,#111111_100%)] dark:bg-[linear-gradient(to_right,rgba(255,255,255,0),#ffffff_75%,#ffffff_100%)]'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          containerRef</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{containerRef}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          springOptions</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{{</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            stiffness</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 280</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            damping</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 18</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            mass</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 0.3</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          }}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      {dummyContent}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>26:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$34"}}]}]
+35:T2630,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-string-expression)">'use client'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { motion</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> SpringOptions</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> useScroll</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> useSpring } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> 'motion/react'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { cn } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/lib/utils'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { RefObject } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> 'react'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> type</span><span style="color:var(--shiki-token-function)"> ScrollProgressProps</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  className</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-constant)"> string</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  springOptions</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-function)"> SpringOptions</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  containerRef</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-function)"> RefObject</span><span style="color:var(--shiki-foreground, #B1B1B1)">&#x3C;</span><span style="color:var(--shiki-token-function)">HTMLDivElement</span><span style="color:var(--shiki-foreground, #B1B1B1)">>;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">};</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">const</span><span style="color:var(--shiki-token-constant)"> DEFAULT_SPRING_OPTIONS</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> SpringOptions</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  stiffness</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 200</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  damping</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 50</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  restDelta</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 0.001</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">};</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> ScrollProgress</span><span style="color:var(--shiki-foreground, #B1B1B1)">({</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  className</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  springOptions</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  containerRef</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> ScrollProgressProps</span><span style="color:var(--shiki-foreground, #B1B1B1)">) {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { </span><span style="color:var(--shiki-token-constant)">scrollYProgress</span><span style="color:var(--shiki-foreground, #B1B1B1)"> } </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-function)"> useScroll</span><span style="color:var(--shiki-foreground, #B1B1B1)">({</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    container</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> containerRef</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    layoutEffect</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> Boolean</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-constant)">containerRef</span><span style="color:var(--shiki-foreground, #B1B1B1)">?.current)</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  });</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-token-constant)"> scaleX</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-token-function)"> useSpring</span><span style="color:var(--shiki-foreground, #B1B1B1)">(scrollYProgress</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    ...</span><span style="color:var(--shiki-token-constant)">DEFAULT_SPRING_OPTIONS</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    ...</span><span style="color:var(--shiki-foreground, #B1B1B1)">(springOptions </span><span style="color:var(--shiki-token-keyword)">??</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {})</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  });</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-constant)">motion.div</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{</span><span style="color:var(--shiki-token-function)">cn</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-string-expression)">'inset-x-0 top-0 h-1 origin-left'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> className)}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      style</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{{</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        scaleX</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      }}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>28:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$35"}}]}]
+2e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+2a:null
+36:I[80622,[],"IconMark"]
+2c:{"metadata":[["$","title","0",{"children":"Scroll Progress - Footprint Motion Kit"}],["$","meta","1",{"name":"description","content":"Animated scroll progress for your web pages. Built for React, Next.js, and Tailwind CSS."}],["$","meta","2",{"property":"og:title","content":"Scroll Progress - Footprint Motion Kit"}],["$","meta","3",{"property":"og:description","content":"Animated scroll progress for your web pages. Built for React, Next.js, and Tailwind CSS."}],["$","meta","4",{"property":"og:image:type","content":"image/jpeg"}],["$","meta","5",{"property":"og:image:width","content":"1200"}],["$","meta","6",{"property":"og:image:height","content":"630"}],["$","meta","7",{"property":"og:image","content":"http://localhost:3000/opengraph-image.jpg?9ca9b9247d6d0fe4"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Scroll Progress - Footprint Motion Kit"}],["$","meta","10",{"name":"twitter:description","content":"Animated scroll progress for your web pages. Built for React, Next.js, and Tailwind CSS."}],["$","meta","11",{"name":"twitter:image:type","content":"image/jpeg"}],["$","meta","12",{"name":"twitter:image:width","content":"1200"}],["$","meta","13",{"name":"twitter:image:height","content":"630"}],["$","meta","14",{"name":"twitter:image","content":"http://localhost:3000/twitter-image.jpg?9ca9b9247d6d0fe4"}],["$","link","15",{"rel":"icon","href":"/icon.ico?71bbcdb60d31e7d3","type":"image/x-icon","sizes":"256x256"}],["$","$L36","16",{}]],"error":null,"digest":"$undefined"}
+31:"$2c:metadata"

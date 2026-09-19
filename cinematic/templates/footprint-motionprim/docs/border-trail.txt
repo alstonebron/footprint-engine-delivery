@@ -1,0 +1,298 @@
+1:"$Sreact.fragment"
+2:I[41402,["471","static/chunks/471-ee721aabd03ece82.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","7177","static/chunks/app/layout-ced9f3e2b13c9985.js"],""]
+3:I[63415,["471","static/chunks/471-ee721aabd03ece82.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","7177","static/chunks/app/layout-ced9f3e2b13c9985.js"],"ThemeProvider"]
+4:I[82180,["471","static/chunks/471-ee721aabd03ece82.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","7177","static/chunks/app/layout-ced9f3e2b13c9985.js"],"TooltipProvider"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+7:I[17989,[],"ClientSegmentRoot"]
+8:I[79539,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","5345","static/chunks/5345-a5d38fd7d9ff7d65.js","531","static/chunks/531-09373ad051bc78d2.js","4499","static/chunks/app/docs/layout-da12a9ca723d3e56.js"],"default"]
+a:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5582","static/chunks/app/docs/border-trail/page-543a176ed4abd486.js"],"Tabs"]
+b:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5582","static/chunks/app/docs/border-trail/page-543a176ed4abd486.js"],"TabsList"]
+c:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5582","static/chunks/app/docs/border-trail/page-543a176ed4abd486.js"],"TabsTrigger"]
+d:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5582","static/chunks/app/docs/border-trail/page-543a176ed4abd486.js"],"TabsContent"]
+e:I[62546,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5582","static/chunks/app/docs/border-trail/page-543a176ed4abd486.js"],"default"]
+f:I[14275,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5582","static/chunks/app/docs/border-trail/page-543a176ed4abd486.js"],"BorderTrail"]
+1d:I[57150,[],""]
+:HL["/cinematic/templates/footprint-motionprim/_next/static/css/39ee142490a545b4.css","style"]
+:HL["/cinematic/templates/footprint-motionprim/_next/static/css/d9c9cd7e3d77da30.css","style"]
+0:{"P":null,"b":"4Whs73mUEgvya8frn5cet","p":"/cinematic/templates/footprint-motionprim","c":["","docs","border-trail"],"i":false,"f":[[["",{"children":["docs",{"children":["border-trail",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/cinematic/templates/footprint-motionprim/_next/static/css/39ee142490a545b4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/cinematic/templates/footprint-motionprim/_next/static/css/d9c9cd7e3d77da30.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","$L2",null,{"async":true,"defer":true,"src":"https://assets.onedollarstats.com/stonks.js"}],["$","body",null,{"className":"__className_b00530 __variable_b17a72 bg-white font-sans antialiased dark:bg-zinc-950","children":["$","$L3",null,{"attribute":"class","children":["$","$L4",null,{"children":["$","div",null,{"className":"isolate min-h-screen","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}]]}]]}],{"children":["docs",["$","$1","c",{"children":[null,["$","$L7",null,{"Component":"$8","slots":{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]},"params":{},"promise":"$@9"}]]}],{"children":["border-trail",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","h1",null,{"id":"border-trail","data-heading":"1","children":"Border Trail"}],"\n",["$","p",null,{"children":"Animated border effect that moves along the edges of its parent container."}],"\n",["$","h2",null,{"id":"examples","data-heading":"2","children":"Examples"}],"\n",["$","h3",null,{"id":"border-trail-card","data-heading":"3","children":"Border Trail Card"}],"\n",["$","div",null,{"className":"not-prose relative z-0 flex items-center justify-between pb-4","children":["$","$La",null,{"defaultValue":"preview","className":"relative mr-auto w-full","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"value":"preview","children":"Preview"}],["$","$Lc",null,{"value":"code","children":"Code"}]]}],["$","$Ld",null,{"value":"preview","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$Le",null,{"component":["$","div",null,{"className":"relative flex h-[200px] w-[300px] flex-col items-center justify-center rounded-md bg-zinc-200 px-5 py-2 dark:bg-zinc-800","children":[["$","$Lf",null,{"style":{"boxShadow":"0px 0px 60px 30px rgb(255 255 255 / 50%), 0 0 100px 60px rgb(0 0 0 / 50%), 0 0 140px 90px rgb(0 0 0 / 50%)"},"size":100}],["$","div",null,{"className":"flex h-full animate-pulse flex-col items-start justify-center space-y-2","role":"status","aria-label":"Loading...","children":[["$","div",null,{"className":"h-1 w-4 rounded-[4px] bg-zinc-600"}],["$","div",null,{"className":"h-1 w-10 rounded-[4px] bg-zinc-600"}],["$","div",null,{"className":"h-1 w-12 rounded-[4px] bg-zinc-600"}],["$","div",null,{"className":"h-1 w-12 rounded-[4px] bg-zinc-600"}],"$L10"]}]]}],"hasReTrigger":"$undefined","className":"$undefined","filePath":"app/docs/border-trail/border-trail-card-1.tsx"}]}],"$L11"]}]}],"\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a"],null,"$L1b"]}],{},null,false]},null,false]},null,false]},null,false],"$L1c",false]],"m":"$undefined","G":["$1d",[]],"s":false,"S":true}
+1e:I[89796,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5582","static/chunks/app/docs/border-trail/page-543a176ed4abd486.js"],"default"]
+21:I[3676,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5582","static/chunks/app/docs/border-trail/page-543a176ed4abd486.js"],"BorderTrailCard2"]
+25:I[27340,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5582","static/chunks/app/docs/border-trail/page-543a176ed4abd486.js"],"InstallationCli"]
+28:I[24431,[],"OutletBoundary"]
+2a:I[15278,[],"AsyncMetadataOutlet"]
+2c:I[24431,[],"ViewportBoundary"]
+2e:I[24431,[],"MetadataBoundary"]
+2f:"$Sreact.suspense"
+10:["$","div",null,{"className":"h-1 w-12 rounded-[4px] bg-zinc-600"}]
+1f:T404,import { BorderTrail } from '@/components/core/border-trail';
+
+export function BorderTrailCard1() {
+  return (
+    <div className='relative flex h-[200px] w-[300px] flex-col items-center justify-center rounded-md bg-zinc-200 px-5 py-2 dark:bg-zinc-800'>
+      <BorderTrail
+        style={{
+          boxShadow:
+            '0px 0px 60px 30px rgb(255 255 255 / 50%), 0 0 100px 60px rgb(0 0 0 / 50%), 0 0 140px 90px rgb(0 0 0 / 50%)',
+        }}
+        size={100}
+      />
+      <div
+        className='flex h-full animate-pulse flex-col items-start justify-center space-y-2'
+        role='status'
+        aria-label='Loading...'
+      >
+        <div className='h-1 w-4 rounded-[4px] bg-zinc-600'></div>
+        <div className='h-1 w-10 rounded-[4px] bg-zinc-600'></div>
+        <div className='h-1 w-12 rounded-[4px] bg-zinc-600'></div>
+        <div className='h-1 w-12 rounded-[4px] bg-zinc-600'></div>
+        <div className='h-1 w-12 rounded-[4px] bg-zinc-600'></div>
+      </div>
+    </div>
+  );
+}
+11:["$","$Ld",null,{"value":"code","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$L1e",null,{"code":"$1f","children":"$L20"}]}]
+12:["$","h3",null,{"id":"border-trail-loading-card","data-heading":"3","children":"Border Trail Loading Card"}]
+22:T6b1,'use client';
+import { cn } from '@/lib/utils';
+import { BorderTrail } from '@/components/core/border-trail';
+import { useState } from 'react';
+
+export function BorderTrailCard2() {
+  const [isLoading, setIsLoading] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+
+  const handleAnimationComplete = () => {
+    setIsLoading(false);
+    setTimeout(() => setIsVisible(false), 300);
+  };
+
+  const handleLoad = () => {
+    setIsLoading(true);
+    setIsVisible(true);
+  };
+
+  return (
+    <div className='relative h-[200px] w-[300px] rounded-md border border-zinc-300/40 bg-zinc-100 px-4 py-3 dark:border-zinc-700/40 dark:bg-zinc-900'>
+      {isVisible && (
+        <BorderTrail
+          className={cn(
+            'bg-linear-to-l from-green-300 via-green-500 to-green-300 transition-opacity duration-300 dark:from-green-700/30 dark:via-green-500 dark:to-green-700/30',
+            isLoading ? 'opacity-100' : 'opacity-0'
+          )}
+          size={120}
+          transition={{
+            ease: [0, 0.5, 0.8, 0.5],
+            duration: 4,
+            repeat: 2,
+          }}
+          onAnimationComplete={handleAnimationComplete}
+        />
+      )}
+      <div className='flex h-full flex-col items-end justify-end'>
+        <button
+          className='relative ml-1 flex h-8 scale-100 select-none appearance-none items-center justify-center rounded-lg border border-zinc-950/10 bg-white px-2 text-sm text-zinc-500 focus-visible:ring-2 active:scale-[0.96] dark:border-zinc-50/10'
+          type='button'
+          aria-label='Load'
+          onClick={handleLoad}
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  );
+}
+13:["$","div",null,{"className":"not-prose relative z-0 flex items-center justify-between pb-4","children":["$","$La",null,{"defaultValue":"preview","className":"relative mr-auto w-full","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"value":"preview","children":"Preview"}],["$","$Lc",null,{"value":"code","children":"Code"}]]}],["$","$Ld",null,{"value":"preview","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$Le",null,{"component":["$","$L21",null,{}],"hasReTrigger":"$undefined","className":"$undefined","filePath":"app/docs/border-trail/border-trail-card-2.tsx"}]}],["$","$Ld",null,{"value":"code","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$L1e",null,{"code":"$22","children":"$L23"}]}]]}]}]
+14:["$","h3",null,{"id":"border-trail-textarea","data-heading":"3","children":"Border Trail Textarea"}]
+15:["$","div",null,{"className":"not-prose relative z-0 flex items-center justify-between pb-4","children":["$","$La",null,{"defaultValue":"preview","className":"relative mr-auto w-full","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"value":"preview","children":"Preview"}],["$","$Lc",null,{"value":"code","children":"Code"}]]}],["$","$Ld",null,{"value":"preview","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$Le",null,{"component":["$","div",null,{"className":"relative h-[160px] w-[260px] overflow-hidden rounded-md border border-zinc-950/10 bg-white text-zinc-700 outline-hidden dark:border-zinc-50/20 dark:bg-zinc-950 dark:text-zinc-300","children":[["$","textarea",null,{"className":"h-full w-full resize-none rounded-md bg-transparent px-4 py-3 text-sm outline-hidden"}],["$","$Lf",null,{"className":"bg-linear-to-l from-blue-200 via-blue-500 to-blue-200 dark:from-blue-400 dark:via-blue-500 dark:to-blue-700","size":120}]]}],"hasReTrigger":"$undefined","className":"$undefined","filePath":"app/docs/border-trail/border-trail-textarea.tsx"}]}],["$","$Ld",null,{"value":"code","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$L1e",null,{"code":"import { BorderTrail } from '@/components/core/border-trail';\r\n\r\nexport function BorderTrailTextarea() {\r\n  return (\r\n    <div className='relative h-[160px] w-[260px] overflow-hidden rounded-md border border-zinc-950/10 bg-white text-zinc-700 outline-hidden dark:border-zinc-50/20 dark:bg-zinc-950 dark:text-zinc-300'>\r\n      <textarea className='h-full w-full resize-none rounded-md bg-transparent px-4 py-3 text-sm outline-hidden' />\r\n      <BorderTrail\r\n        className='bg-linear-to-l from-blue-200 via-blue-500 to-blue-200 dark:from-blue-400 dark:via-blue-500 dark:to-blue-700'\r\n        size={120}\r\n      />\r\n    </div>\r\n  );\r\n}\r\n","children":"$L24"}]}]]}]}]
+16:["$","h2",null,{"id":"installation","data-heading":"2","children":"Installation"}]
+26:T4ca,'use client';
+import { cn } from '@/lib/utils';
+import { motion, Transition } from 'motion/react';
+
+export type BorderTrailProps = {
+  className?: string;
+  size?: number;
+  transition?: Transition;
+  onAnimationComplete?: () => void;
+  style?: React.CSSProperties;
+};
+
+export function BorderTrail({
+  className,
+  size = 60,
+  transition,
+  onAnimationComplete,
+  style,
+}: BorderTrailProps) {
+  const defaultTransition: Transition = {
+    repeat: Infinity,
+    duration: 5,
+    ease: 'linear',
+  };
+
+  return (
+    <div className='pointer-events-none absolute inset-0 rounded-[inherit] border border-transparent [mask-clip:padding-box,border-box] [mask-composite:intersect] [mask-image:linear-gradient(transparent,transparent),linear-gradient(#000,#000)]'>
+      <motion.div
+        className={cn('absolute aspect-square bg-zinc-500', className)}
+        style={{
+          width: size,
+          offsetPath: `rect(0 auto auto 0 round ${size}px)`,
+          ...style,
+        }}
+        animate={{
+          offsetDistance: ['0%', '100%'],
+        }}
+        transition={transition || defaultTransition}
+        onAnimationComplete={onAnimationComplete}
+      />
+    </div>
+  );
+}
+17:["$","$La",null,{"className":"relative mt-6 w-full","defaultValue":"cli","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"className":"","value":"cli","children":"CLI"}],["$","$Lc",null,{"className":"","value":"manual","children":"Manual"}]]}],["$","$Ld",null,{"className":"","value":"cli","children":["$","$L25",null,{"value":"border-trail"}]}],["$","$Ld",null,{"className":"","value":"manual","children":["$","div",null,{"className":"steps mb-12 ml-4 border-l pl-8 [counter-reset:step]","children":[["$","h3",null,{"id":"copy-and-paste-the-following-code-into-your-project","className":"step","data-heading":"3","children":"Copy and paste the following code into your project."}],["$","div",null,{"className":"not-prose max-h-[650px] overflow-auto overflow-x-auto overflow-y-hidden rounded-md text-sm dark:border dark:border-zinc-800","children":["$","$L1e",null,{"code":"$26","children":"$L27"}]}],["$","h3",null,{"id":"update-the-import-paths-to-match-your-project-setup","className":"step","data-heading":"3","children":"Update the import paths to match your project setup."}]]}]}]]}]
+18:["$","h2",null,{"id":"component-api","data-heading":"2","children":"Component API"}]
+19:["$","h3",null,{"id":"border-trail","data-heading":"3","children":"Border Trail"}]
+1a:["$","div",null,{"className":"not-prose relative w-full table-auto overflow-auto rounded-lg border border-zinc-200 text-sm dark:border-zinc-800","children":["$","table",null,{"className":"w-full","children":[["$","thead",null,{"className":"bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100","children":["$","tr",null,{"className":"h-10","children":[["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Prop"}],["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Type"}],["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Default"}],["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Description"}]]}]}],["$","tbody",null,{"className":"divide-y divide-zinc-200 dark:divide-y dark:divide-zinc-600","children":[["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"className"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"string"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"}}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Additional CSS classes for styling the border trail."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"size"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"number"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"60"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Size of the animated border effect."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"transition"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Transition"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"}}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Custom transition settings for the animation."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"onAnimationComplete"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"() => void"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"}}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Callback function triggered when the animation completes."}]]}]]}]]}]}]
+1b:["$","$L28",null,{"children":["$L29",["$","$L2a",null,{"promise":"$@2b"}]]}]
+1c:["$","$1","h",{"children":[null,[["$","$L2c",null,{"children":"$L2d"}],null],["$","$L2e",null,{"children":["$","div",null,{"hidden":true,"children":["$","$2f",null,{"fallback":null,"children":"$L30"}]}]}]]}]
+9:"$0:f:0:1:2:children:1:props:children:1:props:params"
+31:T1d0e,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { BorderTrail } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/components/core/border-trail'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> BorderTrailCard1</span><span style="color:var(--shiki-foreground, #B1B1B1)">() {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'relative flex h-[200px] w-[300px] flex-col items-center justify-center rounded-md bg-zinc-200 px-5 py-2 dark:bg-zinc-800'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-constant)">BorderTrail</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        style</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{{</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          boxShadow</span><span style="color:var(--shiki-token-keyword)">:</span></span>
+<span class="line"><span style="color:var(--shiki-token-string-expression)">            '0px 0px 60px 30px rgb(255 255 255 / 50%), 0 0 100px 60px rgb(0 0 0 / 50%), 0 0 140px 90px rgb(0 0 0 / 50%)'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        }}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        size</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{</span><span style="color:var(--shiki-token-constant)">100</span><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'flex h-full animate-pulse flex-col items-start justify-center space-y-2'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        role</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'status'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        aria-label</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'Loading...'</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      ></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'h-1 w-4 rounded-[4px] bg-zinc-600'</span><span style="color:var(--shiki-foreground, #B1B1B1)">>&#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'h-1 w-10 rounded-[4px] bg-zinc-600'</span><span style="color:var(--shiki-foreground, #B1B1B1)">>&#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'h-1 w-12 rounded-[4px] bg-zinc-600'</span><span style="color:var(--shiki-foreground, #B1B1B1)">>&#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'h-1 w-12 rounded-[4px] bg-zinc-600'</span><span style="color:var(--shiki-foreground, #B1B1B1)">>&#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'h-1 w-12 rounded-[4px] bg-zinc-600'</span><span style="color:var(--shiki-foreground, #B1B1B1)">>&#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>20:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$31"}}]}]
+32:T333e,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-string-expression)">'use client'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { cn } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/lib/utils'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { BorderTrail } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/components/core/border-trail'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { useState } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> 'react'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> BorderTrailCard2</span><span style="color:var(--shiki-foreground, #B1B1B1)">() {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-foreground, #B1B1B1)"> [</span><span style="color:var(--shiki-token-constant)">isLoading</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> setIsLoading</span><span style="color:var(--shiki-foreground, #B1B1B1)">] </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-function)"> useState</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-constant)">false</span><span style="color:var(--shiki-foreground, #B1B1B1)">);</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-foreground, #B1B1B1)"> [</span><span style="color:var(--shiki-token-constant)">isVisible</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> setIsVisible</span><span style="color:var(--shiki-foreground, #B1B1B1)">] </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-function)"> useState</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-constant)">true</span><span style="color:var(--shiki-foreground, #B1B1B1)">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-token-function)"> handleAnimationComplete</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> () </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">    setIsLoading</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-constant)">false</span><span style="color:var(--shiki-foreground, #B1B1B1)">);</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">    setTimeout</span><span style="color:var(--shiki-foreground, #B1B1B1)">(() </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-token-function)"> setIsVisible</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-constant)">false</span><span style="color:var(--shiki-foreground, #B1B1B1)">)</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> 300</span><span style="color:var(--shiki-foreground, #B1B1B1)">);</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  };</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-token-function)"> handleLoad</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> () </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">    setIsLoading</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-constant)">true</span><span style="color:var(--shiki-foreground, #B1B1B1)">);</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">    setIsVisible</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-constant)">true</span><span style="color:var(--shiki-foreground, #B1B1B1)">);</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  };</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'relative h-[200px] w-[300px] rounded-md border border-zinc-300/40 bg-zinc-100 px-4 py-3 dark:border-zinc-700/40 dark:bg-zinc-900'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      {isVisible </span><span style="color:var(--shiki-token-keyword)">&#x26;&#x26;</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-constant)">BorderTrail</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{</span><span style="color:var(--shiki-token-function)">cn</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span></span>
+<span class="line"><span style="color:var(--shiki-token-string-expression)">            'bg-linear-to-l from-green-300 via-green-500 to-green-300 transition-opacity duration-300 dark:from-green-700/30 dark:via-green-500 dark:to-green-700/30'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            isLoading </span><span style="color:var(--shiki-token-keyword)">?</span><span style="color:var(--shiki-token-string-expression)"> 'opacity-100'</span><span style="color:var(--shiki-token-keyword)"> :</span><span style="color:var(--shiki-token-string-expression)"> 'opacity-0'</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          )}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          size</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{</span><span style="color:var(--shiki-token-constant)">120</span><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          transition</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{{</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            ease</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> [</span><span style="color:var(--shiki-token-constant)">0</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> 0.5</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> 0.8</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> 0.5</span><span style="color:var(--shiki-foreground, #B1B1B1)">]</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            duration</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 4</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            repeat</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 2</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          }}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          onAnimationComplete</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{handleAnimationComplete}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      )}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'flex h-full flex-col items-end justify-end'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-string-expression)">button</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'relative ml-1 flex h-8 scale-100 select-none appearance-none items-center justify-center rounded-lg border border-zinc-950/10 bg-white px-2 text-sm text-zinc-500 focus-visible:ring-2 active:scale-[0.96] dark:border-zinc-50/10'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          type</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'button'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          aria-label</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'Load'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          onClick</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{handleLoad}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        ></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          Submit</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">button</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>23:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$32"}}]}]
+33:Td70,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { BorderTrail } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/components/core/border-trail'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> BorderTrailTextarea</span><span style="color:var(--shiki-foreground, #B1B1B1)">() {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'relative h-[160px] w-[260px] overflow-hidden rounded-md border border-zinc-950/10 bg-white text-zinc-700 outline-hidden dark:border-zinc-50/20 dark:bg-zinc-950 dark:text-zinc-300'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">textarea</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'h-full w-full resize-none rounded-md bg-transparent px-4 py-3 text-sm outline-hidden'</span><span style="color:var(--shiki-foreground, #B1B1B1)"> /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-constant)">BorderTrail</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'bg-linear-to-l from-blue-200 via-blue-500 to-blue-200 dark:from-blue-400 dark:via-blue-500 dark:to-blue-700'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        size</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{</span><span style="color:var(--shiki-token-constant)">120</span><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>24:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$33"}}]}]
+34:T2ab8,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-string-expression)">'use client'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { cn } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/lib/utils'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { motion</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> Transition } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> 'motion/react'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> type</span><span style="color:var(--shiki-token-function)"> BorderTrailProps</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  className</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-constant)"> string</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  size</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-constant)"> number</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  transition</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-function)"> Transition</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">  onAnimationComplete</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> () </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-token-constant)"> void</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  style</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-function)"> React</span><span style="color:var(--shiki-foreground, #B1B1B1)">.</span><span style="color:var(--shiki-token-function)">CSSProperties</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">};</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> BorderTrail</span><span style="color:var(--shiki-foreground, #B1B1B1)">({</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  className</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  size </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-constant)"> 60</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  transition</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  onAnimationComplete</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  style</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> BorderTrailProps</span><span style="color:var(--shiki-foreground, #B1B1B1)">) {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-token-constant)"> defaultTransition</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> Transition</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    repeat</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> Infinity</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    duration</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 5</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    ease</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'linear'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  };</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'pointer-events-none absolute inset-0 rounded-[inherit] border border-transparent [mask-clip:padding-box,border-box] [mask-composite:intersect] [mask-image:linear-gradient(transparent,transparent),linear-gradient(#000,#000)]'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-constant)">motion.div</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{</span><span style="color:var(--shiki-token-function)">cn</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-string-expression)">'absolute aspect-square bg-zinc-500'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> className)}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        style</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{{</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          width</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> size</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          offsetPath</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> `rect(0 auto auto 0 round </span><span style="color:var(--shiki-token-keyword)">${</span><span style="color:var(--shiki-foreground, #B1B1B1)">size</span><span style="color:var(--shiki-token-keyword)">}</span><span style="color:var(--shiki-token-string-expression)">px)`</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">          ...</span><span style="color:var(--shiki-foreground, #B1B1B1)">style</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        }}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        animate</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{{</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          offsetDistance</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> [</span><span style="color:var(--shiki-token-string-expression)">'0%'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-string-expression)"> '100%'</span><span style="color:var(--shiki-foreground, #B1B1B1)">]</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        }}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        transition</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{transition </span><span style="color:var(--shiki-token-keyword)">||</span><span style="color:var(--shiki-foreground, #B1B1B1)"> defaultTransition}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        onAnimationComplete</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{onAnimationComplete}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>27:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$34"}}]}]
+2d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+29:null
+35:I[80622,[],"IconMark"]
+2b:{"metadata":[["$","title","0",{"children":"Border Trail - Footprint Motion Kit"}],["$","meta","1",{"name":"description","content":"Animated border effect that moves along the edges of its parent container. Built for React, Next.js, and Tailwind CSS."}],["$","meta","2",{"property":"og:title","content":"Border Trail - Footprint Motion Kit"}],["$","meta","3",{"property":"og:description","content":"Animated border effect that moves along the edges of its parent container. Built for React, Next.js, and Tailwind CSS."}],["$","meta","4",{"property":"og:image:type","content":"image/jpeg"}],["$","meta","5",{"property":"og:image:width","content":"1200"}],["$","meta","6",{"property":"og:image:height","content":"630"}],["$","meta","7",{"property":"og:image","content":"http://localhost:3000/opengraph-image.jpg?9ca9b9247d6d0fe4"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Border Trail - Footprint Motion Kit"}],["$","meta","10",{"name":"twitter:description","content":"Animated border effect that moves along the edges of its parent container. Built for React, Next.js, and Tailwind CSS."}],["$","meta","11",{"name":"twitter:image:type","content":"image/jpeg"}],["$","meta","12",{"name":"twitter:image:width","content":"1200"}],["$","meta","13",{"name":"twitter:image:height","content":"630"}],["$","meta","14",{"name":"twitter:image","content":"http://localhost:3000/twitter-image.jpg?9ca9b9247d6d0fe4"}],["$","link","15",{"rel":"icon","href":"/icon.ico?71bbcdb60d31e7d3","type":"image/x-icon","sizes":"256x256"}],["$","$L35","16",{}]],"error":null,"digest":"$undefined"}
+30:"$2b:metadata"

@@ -1,0 +1,393 @@
+1:"$Sreact.fragment"
+2:I[41402,["471","static/chunks/471-ee721aabd03ece82.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","7177","static/chunks/app/layout-ced9f3e2b13c9985.js"],""]
+3:I[63415,["471","static/chunks/471-ee721aabd03ece82.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","7177","static/chunks/app/layout-ced9f3e2b13c9985.js"],"ThemeProvider"]
+4:I[82180,["471","static/chunks/471-ee721aabd03ece82.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","7177","static/chunks/app/layout-ced9f3e2b13c9985.js"],"TooltipProvider"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+7:I[17989,[],"ClientSegmentRoot"]
+8:I[79539,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","5345","static/chunks/5345-a5d38fd7d9ff7d65.js","531","static/chunks/531-09373ad051bc78d2.js","4499","static/chunks/app/docs/layout-da12a9ca723d3e56.js"],"default"]
+a:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5891","static/chunks/app/docs/text-loop/page-41e164733c58f60c.js"],"Tabs"]
+b:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5891","static/chunks/app/docs/text-loop/page-41e164733c58f60c.js"],"TabsList"]
+c:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5891","static/chunks/app/docs/text-loop/page-41e164733c58f60c.js"],"TabsTrigger"]
+d:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5891","static/chunks/app/docs/text-loop/page-41e164733c58f60c.js"],"TabsContent"]
+e:I[62546,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5891","static/chunks/app/docs/text-loop/page-41e164733c58f60c.js"],"default"]
+f:I[56846,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5891","static/chunks/app/docs/text-loop/page-41e164733c58f60c.js"],"TextLoop"]
+10:I[89796,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5891","static/chunks/app/docs/text-loop/page-41e164733c58f60c.js"],"default"]
+1e:I[57150,[],""]
+:HL["/cinematic/templates/footprint-motionprim/_next/static/css/39ee142490a545b4.css","style"]
+:HL["/cinematic/templates/footprint-motionprim/_next/static/css/d9c9cd7e3d77da30.css","style"]
+0:{"P":null,"b":"4Whs73mUEgvya8frn5cet","p":"/cinematic/templates/footprint-motionprim","c":["","docs","text-loop"],"i":false,"f":[[["",{"children":["docs",{"children":["text-loop",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/cinematic/templates/footprint-motionprim/_next/static/css/39ee142490a545b4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/cinematic/templates/footprint-motionprim/_next/static/css/d9c9cd7e3d77da30.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","$L2",null,{"async":true,"defer":true,"src":"https://assets.onedollarstats.com/stonks.js"}],["$","body",null,{"className":"__className_b00530 __variable_b17a72 bg-white font-sans antialiased dark:bg-zinc-950","children":["$","$L3",null,{"attribute":"class","children":["$","$L4",null,{"children":["$","div",null,{"className":"isolate min-h-screen","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}]]}]]}],{"children":["docs",["$","$1","c",{"children":[null,["$","$L7",null,{"Component":"$8","slots":{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]},"params":{},"promise":"$@9"}]]}],{"children":["text-loop",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","h1",null,{"id":"text-loop","data-heading":"1","children":"Text Loop"}],"\n",["$","p",null,{"children":"Text animation that transitions between multiple items, creating an engaging looping effect"}],"\n",["$","h2",null,{"id":"examples","data-heading":"2","children":"Examples"}],"\n",["$","h3",null,{"id":"text-loop-basic","data-heading":"3","children":"Text Loop Basic"}],"\n",["$","div",null,{"className":"not-prose relative z-0 flex items-center justify-between pb-4","children":["$","$La",null,{"defaultValue":"preview","className":"relative mr-auto w-full","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"value":"preview","children":"Preview"}],["$","$Lc",null,{"value":"code","children":"Code"}]]}],["$","$Ld",null,{"value":"preview","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$Le",null,{"component":["$","$Lf",null,{"className":"font-mono text-sm","children":[["$","span",null,{"children":"How can I assist you today?"}],["$","span",null,{"children":"Generate a logo"}],["$","span",null,{"children":"Create a component"}],["$","span",null,{"children":"Draw a diagram"}]]}],"hasReTrigger":"$undefined","className":"min-h-0 py-12 px-12 justify-start items-start","filePath":"app/docs/text-loop/text-loop-basic.tsx"}]}],["$","$Ld",null,{"value":"code","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$L10",null,{"code":"import { TextLoop } from '@/components/core/text-loop';\r\n\r\nexport function TextLoopBasic() {\r\n  return (\r\n    <TextLoop className='font-mono text-sm'>\r\n      <span>How can I assist you today?</span>\r\n      <span>Generate a logo</span>\r\n      <span>Create a component</span>\r\n      <span>Draw a diagram</span>\r\n    </TextLoop>\r\n  );\r\n}\r\n","children":"$L11"}]}]]}]}],"\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a","\n","$L1b"],null,"$L1c"]}],{},null,false]},null,false]},null,false]},null,false],"$L1d",false]],"m":"$undefined","G":["$1e",[]],"s":false,"S":true}
+21:I[11547,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5891","static/chunks/app/docs/text-loop/page-41e164733c58f60c.js"],"TextLoopOnIndexChange"]
+24:I[27340,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","5891","static/chunks/app/docs/text-loop/page-41e164733c58f60c.js"],"InstallationCli"]
+2a:I[24431,[],"OutletBoundary"]
+2c:I[15278,[],"AsyncMetadataOutlet"]
+2e:I[24431,[],"ViewportBoundary"]
+30:I[24431,[],"MetadataBoundary"]
+31:"$Sreact.suspense"
+12:["$","h3",null,{"id":"text-loop-with-custom-variants-and-transition","data-heading":"3","children":"Text Loop with custom variants and transition"}]
+1f:T415,import { TextLoop } from '@/components/core/text-loop';
+
+export function TextLoopCustomVariantsTransition() {
+  return (
+    <p className='inline-flex whitespace-pre-wrap text-sm'>
+      Beautiful templates for{' '}
+      <TextLoop
+        className='overflow-y-clip'
+        transition={{
+          type: 'spring',
+          stiffness: 900,
+          damping: 80,
+          mass: 10,
+        }}
+        variants={{
+          initial: {
+            y: 20,
+            rotateX: 90,
+            opacity: 0,
+            filter: 'blur(4px)',
+          },
+          animate: {
+            y: 0,
+            rotateX: 0,
+            opacity: 1,
+            filter: 'blur(0px)',
+          },
+          exit: {
+            y: -20,
+            rotateX: -90,
+            opacity: 0,
+            filter: 'blur(4px)',
+          },
+        }}
+      >
+        <span>Founders</span>
+        <span>Developers</span>
+        <span>Designers</span>
+        <span>Design Engineers</span>
+      </TextLoop>
+    </p>
+  );
+}
+13:["$","div",null,{"className":"not-prose relative z-0 flex items-center justify-between pb-4","children":["$","$La",null,{"defaultValue":"preview","className":"relative mr-auto w-full","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"value":"preview","children":"Preview"}],["$","$Lc",null,{"value":"code","children":"Code"}]]}],["$","$Ld",null,{"value":"preview","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$Le",null,{"component":["$","p",null,{"className":"inline-flex whitespace-pre-wrap text-sm","children":["Beautiful templates for"," ",["$","$Lf",null,{"className":"overflow-y-clip","transition":{"type":"spring","stiffness":900,"damping":80,"mass":10},"variants":{"initial":{"y":20,"rotateX":90,"opacity":0,"filter":"blur(4px)"},"animate":{"y":0,"rotateX":0,"opacity":1,"filter":"blur(0px)"},"exit":{"y":-20,"rotateX":-90,"opacity":0,"filter":"blur(4px)"}},"children":[["$","span",null,{"children":"Founders"}],["$","span",null,{"children":"Developers"}],["$","span",null,{"children":"Designers"}],["$","span",null,{"children":"Design Engineers"}]]}]]}],"hasReTrigger":"$undefined","className":"min-h-0 py-12 px-12 justify-start items-start","filePath":"app/docs/text-loop/text-loop-custom-variants-transition.tsx"}]}],["$","$Ld",null,{"value":"code","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$L10",null,{"code":"$1f","children":"$L20"}]}]]}]}]
+14:["$","h3",null,{"id":"text-loop-with-onindexchange","data-heading":"3","children":"Text Loop with onIndexChange"}]
+15:["$","p",null,{"children":["You can use the ",["$","code",null,{"children":"onIndexChange"}]," prop to trigger a callback function when the index changes. In this example, we use it to create alternating animation directions."]}]
+22:T4b0,'use client';
+import { TextLoop } from '@/components/core/text-loop';
+import { Music } from 'lucide-react';
+import { useState } from 'react';
+
+export function TextLoopOnIndexChange() {
+  const [direction, setDirection] = useState(-1);
+
+  return (
+    <TextLoop
+      className='text-sm'
+      transition={{
+        type: 'spring',
+        stiffness: 150,
+        damping: 19,
+        mass: 1.2,
+      }}
+      interval={2.5}
+      onIndexChange={(index) => {
+        setDirection(index === 0 ? -1 : 1);
+      }}
+      variants={{
+        initial: {
+          y: -direction * 20,
+          rotateX: -direction * 90,
+          opacity: 0,
+          filter: 'blur(4px)',
+        },
+        animate: {
+          y: 0,
+          rotateX: 0,
+          opacity: 1,
+          filter: 'blur(0px)',
+        },
+        exit: {
+          y: -direction * 20,
+          rotateX: -direction * 90,
+          opacity: 0,
+          filter: 'blur(4px)',
+        },
+      }}
+    >
+      <span>
+        <Music size={12} className='mr-1 inline-block' />A Little Lost・Arthur
+        Russell
+      </span>
+      <span>La Trinité, Martinique</span>
+    </TextLoop>
+  );
+}
+16:["$","div",null,{"className":"not-prose relative z-0 flex items-center justify-between pb-4","children":["$","$La",null,{"defaultValue":"preview","className":"relative mr-auto w-full","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"value":"preview","children":"Preview"}],["$","$Lc",null,{"value":"code","children":"Code"}]]}],["$","$Ld",null,{"value":"preview","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$Le",null,{"component":["$","$L21",null,{}],"hasReTrigger":"$undefined","className":"min-h-[124px] py-12 px-12 justify-start items-start","filePath":"app/docs/text-loop/text-loop-on-index.tsx"}]}],["$","$Ld",null,{"value":"code","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$L10",null,{"code":"$22","children":"$L23"}]}]]}]}]
+17:["$","h2",null,{"id":"installation","data-heading":"2","children":"Installation"}]
+25:T72c,'use client';
+import { cn } from '@/lib/utils';
+import {
+  motion,
+  AnimatePresence,
+  Transition,
+  Variants,
+  AnimatePresenceProps,
+} from 'motion/react';
+import { useState, useEffect, Children } from 'react';
+
+export type TextLoopProps = {
+  children: React.ReactNode[];
+  className?: string;
+  interval?: number;
+  transition?: Transition;
+  variants?: Variants;
+  onIndexChange?: (index: number) => void;
+  trigger?: boolean;
+  mode?: AnimatePresenceProps['mode'];
+};
+
+export function TextLoop({
+  children,
+  className,
+  interval = 2,
+  transition = { duration: 0.3 },
+  variants,
+  onIndexChange,
+  trigger = true,
+  mode = 'popLayout',
+}: TextLoopProps) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const items = Children.toArray(children);
+
+  useEffect(() => {
+    if (!trigger) return;
+
+    const intervalMs = interval * 1000;
+    const timer = setInterval(() => {
+      setCurrentIndex((current) => {
+        const next = (current + 1) % items.length;
+        onIndexChange?.(next);
+        return next;
+      });
+    }, intervalMs);
+    return () => clearInterval(timer);
+  }, [items.length, interval, onIndexChange, trigger]);
+
+  const motionVariants: Variants = {
+    initial: { y: 20, opacity: 0 },
+    animate: { y: 0, opacity: 1 },
+    exit: { y: -20, opacity: 0 },
+  };
+
+  return (
+    <div className={cn('relative inline-block whitespace-nowrap', className)}>
+      <AnimatePresence mode={mode} initial={false}>
+        <motion.div
+          key={currentIndex}
+          initial='initial'
+          animate='animate'
+          exit='exit'
+          transition={transition}
+          variants={variants || motionVariants}
+        >
+          {items[currentIndex]}
+        </motion.div>
+      </AnimatePresence>
+    </div>
+  );
+}
+18:["$","$La",null,{"className":"relative mt-6 w-full","defaultValue":"cli","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"className":"","value":"cli","children":"CLI"}],["$","$Lc",null,{"className":"","value":"manual","children":"Manual"}]]}],["$","$Ld",null,{"className":"","value":"cli","children":["$","$L24",null,{"value":"text-loop"}]}],["$","$Ld",null,{"className":"","value":"manual","children":["$","div",null,{"className":"steps mb-12 ml-4 border-l pl-8 [counter-reset:step]","children":[["$","h3",null,{"id":"copy-and-paste-the-following-code-into-your-project","className":"step","data-heading":"3","children":"Copy and paste the following code into your project."}],["$","div",null,{"className":"not-prose max-h-[650px] overflow-auto overflow-x-auto overflow-y-hidden rounded-md text-sm dark:border dark:border-zinc-800","children":["$","$L10",null,{"code":"$25","children":"$L26"}]}],["$","h3",null,{"id":"update-the-import-paths-to-match-your-project-setup","className":"step","data-heading":"3","children":"Update the import paths to match your project setup."}]]}]}]]}]
+19:["$","h2",null,{"id":"component-api","data-heading":"2","children":"Component API"}]
+1a:["$","h3",null,{"id":"text-loop","data-heading":"3","children":"Text Loop"}]
+1b:["$","div",null,{"className":"not-prose relative w-full table-auto overflow-auto rounded-lg border border-zinc-200 text-sm dark:border-zinc-800","children":["$","table",null,{"className":"w-full","children":[["$","thead",null,{"className":"bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100","children":["$","tr",null,{"className":"h-10","children":[["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Prop"}],["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Type"}],["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Default"}],["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Description"}]]}]}],["$","tbody",null,{"className":"divide-y divide-zinc-200 dark:divide-y dark:divide-zinc-600","children":[["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"children"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"React.ReactNode[]"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"}}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"The text content to be animated."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"className"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"string"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"}}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Additional CSS classes for styling."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"interval"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"number"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"2"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Time interval between text changes in seconds."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"transition"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Transition"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"}}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Animation transition settings. Can't be more than the interval."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"variants"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Variants"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"}}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Custom animation variants."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"onIndexChange"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"(index: number) => void"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"}}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Callback function that triggers when the index changes."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"trigger"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"boolean"}],"$L27","$L28"]}],"$L29"]}]]}]}]
+1c:["$","$L2a",null,{"children":["$L2b",["$","$L2c",null,{"promise":"$@2d"}]]}]
+1d:["$","$1","h",{"children":[null,[["$","$L2e",null,{"children":"$L2f"}],null],["$","$L30",null,{"children":["$","div",null,{"hidden":true,"children":["$","$31",null,{"fallback":null,"children":"$L32"}]}]}]]}]
+9:"$0:f:0:1:2:children:1:props:children:1:props:params"
+27:["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"true"}]
+28:["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Whether to trigger the animation."}]
+29:["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"mode"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"AnimatePresenceProps['mode']"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"popLayout"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Mode of for the AnimatePresence component."}]]}]
+33:Td29,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { TextLoop } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/components/core/text-loop'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> TextLoopBasic</span><span style="color:var(--shiki-foreground, #B1B1B1)">() {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-constant)">TextLoop</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'font-mono text-sm'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">>How can I assist you today?&#x3C;/</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">>Generate a logo&#x3C;/</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">>Create a component&#x3C;/</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">>Draw a diagram&#x3C;/</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;/</span><span style="color:var(--shiki-token-constant)">TextLoop</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>11:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$33"}}]}]
+34:T29ca,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { TextLoop } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/components/core/text-loop'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> TextLoopCustomVariantsTransition</span><span style="color:var(--shiki-foreground, #B1B1B1)">() {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-string-expression)">p</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'inline-flex whitespace-pre-wrap text-sm'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      Beautiful templates for{</span><span style="color:var(--shiki-token-string-expression)">' '</span><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-constant)">TextLoop</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'overflow-y-clip'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        transition</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{{</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          type</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'spring'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          stiffness</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 900</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          damping</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 80</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          mass</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 10</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        }}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        variants</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{{</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          initial</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            y</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 20</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            rotateX</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 90</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            opacity</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 0</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            filter</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'blur(4px)'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          animate</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            y</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 0</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            rotateX</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 0</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            opacity</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 1</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            filter</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'blur(0px)'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          exit</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            y</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-keyword)"> -</span><span style="color:var(--shiki-token-constant)">20</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            rotateX</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-keyword)"> -</span><span style="color:var(--shiki-token-constant)">90</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            opacity</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 0</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">            filter</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'blur(4px)'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        }}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      ></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">>Founders&#x3C;/</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">>Developers&#x3C;/</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">>Designers&#x3C;/</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">>Design Engineers&#x3C;/</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;/</span><span style="color:var(--shiki-token-constant)">TextLoop</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">p</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>20:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$34"}}]}]
+35:T34ed,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-string-expression)">'use client'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { TextLoop } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/components/core/text-loop'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { Music } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> 'lucide-react'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { useState } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> 'react'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> TextLoopOnIndexChange</span><span style="color:var(--shiki-foreground, #B1B1B1)">() {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-foreground, #B1B1B1)"> [</span><span style="color:var(--shiki-token-constant)">direction</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> setDirection</span><span style="color:var(--shiki-foreground, #B1B1B1)">] </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-function)"> useState</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-keyword)">-</span><span style="color:var(--shiki-token-constant)">1</span><span style="color:var(--shiki-foreground, #B1B1B1)">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-constant)">TextLoop</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'text-sm'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      transition</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{{</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        type</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'spring'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        stiffness</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 150</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        damping</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 19</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        mass</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 1.2</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      }}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      interval</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{</span><span style="color:var(--shiki-token-constant)">2.5</span><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      onIndexChange</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{(index) </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        setDirection</span><span style="color:var(--shiki-foreground, #B1B1B1)">(index </span><span style="color:var(--shiki-token-keyword)">===</span><span style="color:var(--shiki-token-constant)"> 0</span><span style="color:var(--shiki-token-keyword)"> ?</span><span style="color:var(--shiki-token-keyword)"> -</span><span style="color:var(--shiki-token-constant)">1</span><span style="color:var(--shiki-token-keyword)"> :</span><span style="color:var(--shiki-token-constant)"> 1</span><span style="color:var(--shiki-foreground, #B1B1B1)">);</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      }}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      variants</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{{</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        initial</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          y</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-keyword)"> -</span><span style="color:var(--shiki-foreground, #B1B1B1)">direction </span><span style="color:var(--shiki-token-keyword)">*</span><span style="color:var(--shiki-token-constant)"> 20</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          rotateX</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-keyword)"> -</span><span style="color:var(--shiki-foreground, #B1B1B1)">direction </span><span style="color:var(--shiki-token-keyword)">*</span><span style="color:var(--shiki-token-constant)"> 90</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          opacity</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 0</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          filter</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'blur(4px)'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        animate</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          y</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 0</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          rotateX</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 0</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          opacity</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 1</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          filter</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'blur(0px)'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        exit</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          y</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-keyword)"> -</span><span style="color:var(--shiki-foreground, #B1B1B1)">direction </span><span style="color:var(--shiki-token-keyword)">*</span><span style="color:var(--shiki-token-constant)"> 20</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          rotateX</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-keyword)"> -</span><span style="color:var(--shiki-foreground, #B1B1B1)">direction </span><span style="color:var(--shiki-token-keyword)">*</span><span style="color:var(--shiki-token-constant)"> 90</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          opacity</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 0</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          filter</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'blur(4px)'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      }}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    ></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-constant)">Music</span><span style="color:var(--shiki-token-function)"> size</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{</span><span style="color:var(--shiki-token-constant)">12</span><span style="color:var(--shiki-foreground, #B1B1B1)">} </span><span style="color:var(--shiki-token-function)">className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'mr-1 inline-block'</span><span style="color:var(--shiki-foreground, #B1B1B1)"> />A Little Lost・Arthur</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        Russell</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">>La Trinité, Martinique&#x3C;/</span><span style="color:var(--shiki-token-string-expression)">span</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;/</span><span style="color:var(--shiki-token-constant)">TextLoop</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>23:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$35"}}]}]
+36:T50fe,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-string-expression)">'use client'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { cn } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/lib/utils'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  motion</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  AnimatePresence</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  Transition</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  Variants</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  AnimatePresenceProps</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">} </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> 'motion/react'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { useState</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> useEffect</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> Children } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> 'react'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> type</span><span style="color:var(--shiki-token-function)"> TextLoopProps</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  children</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> React</span><span style="color:var(--shiki-foreground, #B1B1B1)">.</span><span style="color:var(--shiki-token-function)">ReactNode</span><span style="color:var(--shiki-foreground, #B1B1B1)">[];</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  className</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-constant)"> string</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  interval</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-constant)"> number</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  transition</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-function)"> Transition</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  variants</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-function)"> Variants</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">  onIndexChange</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (index</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> number</span><span style="color:var(--shiki-foreground, #B1B1B1)">) </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-token-constant)"> void</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  trigger</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-constant)"> boolean</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  mode</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-function)"> AnimatePresenceProps</span><span style="color:var(--shiki-foreground, #B1B1B1)">[</span><span style="color:var(--shiki-token-string-expression)">'mode'</span><span style="color:var(--shiki-foreground, #B1B1B1)">];</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">};</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> TextLoop</span><span style="color:var(--shiki-foreground, #B1B1B1)">({</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  children</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  className</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  interval </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-constant)"> 2</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  transition </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { duration</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 0.3</span><span style="color:var(--shiki-foreground, #B1B1B1)"> }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  variants</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  onIndexChange</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  trigger </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-constant)"> true</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  mode </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)"> 'popLayout'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> TextLoopProps</span><span style="color:var(--shiki-foreground, #B1B1B1)">) {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-foreground, #B1B1B1)"> [</span><span style="color:var(--shiki-token-constant)">currentIndex</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> setCurrentIndex</span><span style="color:var(--shiki-foreground, #B1B1B1)">] </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-function)"> useState</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-constant)">0</span><span style="color:var(--shiki-foreground, #B1B1B1)">);</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-token-constant)"> items</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-token-constant)"> Children</span><span style="color:var(--shiki-token-function)">.toArray</span><span style="color:var(--shiki-foreground, #B1B1B1)">(children);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-function)">  useEffect</span><span style="color:var(--shiki-foreground, #B1B1B1)">(() </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    if</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span><span style="color:var(--shiki-token-keyword)">!</span><span style="color:var(--shiki-foreground, #B1B1B1)">trigger) </span><span style="color:var(--shiki-token-keyword)">return</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    const</span><span style="color:var(--shiki-token-constant)"> intervalMs</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> interval </span><span style="color:var(--shiki-token-keyword)">*</span><span style="color:var(--shiki-token-constant)"> 1000</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    const</span><span style="color:var(--shiki-token-constant)"> timer</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-token-function)"> setInterval</span><span style="color:var(--shiki-foreground, #B1B1B1)">(() </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      setCurrentIndex</span><span style="color:var(--shiki-foreground, #B1B1B1)">((current) </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">        const</span><span style="color:var(--shiki-token-constant)"> next</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (current </span><span style="color:var(--shiki-token-keyword)">+</span><span style="color:var(--shiki-token-constant)"> 1</span><span style="color:var(--shiki-foreground, #B1B1B1)">) </span><span style="color:var(--shiki-token-keyword)">%</span><span style="color:var(--shiki-token-constant)"> items</span><span style="color:var(--shiki-foreground, #B1B1B1)">.</span><span style="color:var(--shiki-token-constant)">length</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        onIndexChange?.</span><span style="color:var(--shiki-foreground, #B1B1B1)">(next);</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">        return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> next;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      });</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    }</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> intervalMs);</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> () </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-token-function)"> clearInterval</span><span style="color:var(--shiki-foreground, #B1B1B1)">(timer);</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  }</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> [</span><span style="color:var(--shiki-token-constant)">items</span><span style="color:var(--shiki-foreground, #B1B1B1)">.</span><span style="color:var(--shiki-token-constant)">length</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> interval</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> onIndexChange</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> trigger]);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-token-constant)"> motionVariants</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> Variants</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    initial</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { y</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 20</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> opacity</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 0</span><span style="color:var(--shiki-foreground, #B1B1B1)"> }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    animate</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { y</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 0</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> opacity</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 1</span><span style="color:var(--shiki-foreground, #B1B1B1)"> }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    exit</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { y</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-keyword)"> -</span><span style="color:var(--shiki-token-constant)">20</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> opacity</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 0</span><span style="color:var(--shiki-foreground, #B1B1B1)"> }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  };</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{</span><span style="color:var(--shiki-token-function)">cn</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-string-expression)">'relative inline-block whitespace-nowrap'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> className)}></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-constant)">AnimatePresence</span><span style="color:var(--shiki-token-function)"> mode</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{mode} </span><span style="color:var(--shiki-token-function)">initial</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{</span><span style="color:var(--shiki-token-constant)">false</span><span style="color:var(--shiki-foreground, #B1B1B1)">}></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-constant)">motion.div</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          key</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{currentIndex}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          initial</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'initial'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          animate</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'animate'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          exit</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'exit'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          transition</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{transition}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          variants</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{variants </span><span style="color:var(--shiki-token-keyword)">||</span><span style="color:var(--shiki-foreground, #B1B1B1)"> motionVariants}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        ></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          {items[currentIndex]}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;/</span><span style="color:var(--shiki-token-constant)">motion.div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;/</span><span style="color:var(--shiki-token-constant)">AnimatePresence</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>26:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$36"}}]}]
+2f:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+2b:null
+37:I[80622,[],"IconMark"]
+2d:{"metadata":[["$","title","0",{"children":"Text Loop - Footprint Motion Kit"}],["$","meta","1",{"name":"description","content":"Text animation that transitions between multiple items, creating an engaging looping effect. Built for React, Next.js, and Tailwind CSS."}],["$","meta","2",{"property":"og:title","content":"Text Loop - Footprint Motion Kit"}],["$","meta","3",{"property":"og:description","content":"Text animation that transitions between multiple items, creating an engaging looping effect. Built for React, Next.js, and Tailwind CSS."}],["$","meta","4",{"property":"og:image:type","content":"image/jpeg"}],["$","meta","5",{"property":"og:image:width","content":"1200"}],["$","meta","6",{"property":"og:image:height","content":"630"}],["$","meta","7",{"property":"og:image","content":"http://localhost:3000/opengraph-image.jpg?9ca9b9247d6d0fe4"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Text Loop - Footprint Motion Kit"}],["$","meta","10",{"name":"twitter:description","content":"Text animation that transitions between multiple items, creating an engaging looping effect. Built for React, Next.js, and Tailwind CSS."}],["$","meta","11",{"name":"twitter:image:type","content":"image/jpeg"}],["$","meta","12",{"name":"twitter:image:width","content":"1200"}],["$","meta","13",{"name":"twitter:image:height","content":"630"}],["$","meta","14",{"name":"twitter:image","content":"http://localhost:3000/twitter-image.jpg?9ca9b9247d6d0fe4"}],["$","link","15",{"rel":"icon","href":"/icon.ico?71bbcdb60d31e7d3","type":"image/x-icon","sizes":"256x256"}],["$","$L37","16",{}]],"error":null,"digest":"$undefined"}
+32:"$2d:metadata"

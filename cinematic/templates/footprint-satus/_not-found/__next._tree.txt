@@ -1,0 +1,3 @@
+:HL["/cinematic/templates/footprint-satus/_next/static/chunks/3izululgeoq-1.css","style"]
+:HL["/cinematic/templates/footprint-satus/_next/static/chunks/3m1f-68qd-9k3.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"Qu-oNV10yk9Tax9uGQOwT"}

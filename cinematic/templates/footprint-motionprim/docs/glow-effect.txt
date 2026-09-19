@@ -1,0 +1,537 @@
+1:"$Sreact.fragment"
+2:I[41402,["471","static/chunks/471-ee721aabd03ece82.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","7177","static/chunks/app/layout-ced9f3e2b13c9985.js"],""]
+3:I[63415,["471","static/chunks/471-ee721aabd03ece82.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","7177","static/chunks/app/layout-ced9f3e2b13c9985.js"],"ThemeProvider"]
+4:I[82180,["471","static/chunks/471-ee721aabd03ece82.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","7177","static/chunks/app/layout-ced9f3e2b13c9985.js"],"TooltipProvider"]
+5:I[9766,[],""]
+6:I[98924,[],""]
+7:I[17989,[],"ClientSegmentRoot"]
+8:I[79539,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","5345","static/chunks/5345-a5d38fd7d9ff7d65.js","531","static/chunks/531-09373ad051bc78d2.js","4499","static/chunks/app/docs/layout-da12a9ca723d3e56.js"],"default"]
+a:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","3218","static/chunks/app/docs/glow-effect/page-e2387c20a7a03048.js"],"Tabs"]
+b:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","3218","static/chunks/app/docs/glow-effect/page-e2387c20a7a03048.js"],"TabsList"]
+c:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","3218","static/chunks/app/docs/glow-effect/page-e2387c20a7a03048.js"],"TabsTrigger"]
+d:I[35480,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","3218","static/chunks/app/docs/glow-effect/page-e2387c20a7a03048.js"],"TabsContent"]
+e:I[62546,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","3218","static/chunks/app/docs/glow-effect/page-e2387c20a7a03048.js"],"default"]
+f:I[33605,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","3218","static/chunks/app/docs/glow-effect/page-e2387c20a7a03048.js"],"GlowEffect"]
+1d:I[57150,[],""]
+:HL["/cinematic/templates/footprint-motionprim/_next/static/css/39ee142490a545b4.css","style"]
+:HL["/cinematic/templates/footprint-motionprim/_next/static/css/d9c9cd7e3d77da30.css","style"]
+0:{"P":null,"b":"4Whs73mUEgvya8frn5cet","p":"/cinematic/templates/footprint-motionprim","c":["","docs","glow-effect"],"i":false,"f":[[["",{"children":["docs",{"children":["glow-effect",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/cinematic/templates/footprint-motionprim/_next/static/css/39ee142490a545b4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/cinematic/templates/footprint-motionprim/_next/static/css/d9c9cd7e3d77da30.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","$L2",null,{"async":true,"defer":true,"src":"https://assets.onedollarstats.com/stonks.js"}],["$","body",null,{"className":"__className_b00530 __variable_b17a72 bg-white font-sans antialiased dark:bg-zinc-950","children":["$","$L3",null,{"attribute":"class","children":["$","$L4",null,{"children":["$","div",null,{"className":"isolate min-h-screen","children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}]]}]]}],{"children":["docs",["$","$1","c",{"children":[null,["$","$L7",null,{"Component":"$8","slots":{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]},"params":{},"promise":"$@9"}]]}],{"children":["glow-effect",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","h1",null,{"id":"glow-effect","data-heading":"1","children":"Glow Effect"}],"\n",["$","p",null,{"children":"A customizable glow effect with animation modes, colors, blur, and transitions."}],"\n",["$","h2",null,{"id":"examples","data-heading":"2","children":"Examples"}],"\n",["$","h3",null,{"id":"glow-effect-static-background","data-heading":"3","children":"Glow effect static background"}],"\n",["$","div",null,{"className":"not-prose relative z-0 flex items-center justify-between pb-4","children":["$","$La",null,{"defaultValue":"preview","className":"relative mr-auto w-full","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"value":"preview","children":"Preview"}],["$","$Lc",null,{"value":"code","children":"Code"}]]}],["$","$Ld",null,{"value":"preview","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$Le",null,{"component":["$","div",null,{"className":"relative h-44 w-64","children":[["$","$Lf",null,{"colors":["#0894FF","#C959DD","#FF2E54","#FF9004"],"mode":"static","blur":"medium"}],["$","div",null,{"className":"relative h-44 w-64 rounded-lg bg-black p-2 text-white dark:bg-white dark:text-black","children":["$","svg",null,{"role":"img","xmlns":"http://www.w3.org/2000/svg","viewBox":"0 0 70 70","aria-label":"MP Logo","width":"70","height":"70","className":"absolute bottom-4 right-4 h-8 w-8","fill":"none","children":["$","path",null,{"stroke":"currentColor","strokeLinecap":"round","strokeWidth":"3","d":"M51.883 26.495c-7.277-4.124-18.08-7.004-26.519-7.425-2.357-.118-4.407-.244-6.364 1.06M59.642 51c-10.47-7.25-26.594-13.426-39.514-15.664-3.61-.625-6.744-1.202-9.991.263"}]}]}]]}],"hasReTrigger":"$undefined","className":"$undefined","filePath":"app/docs/glow-effect/glow-effect-card-background.tsx"}]}],"$L10"]}]}],"\n","$L11","\n","$L12","\n","$L13","\n","$L14","\n","$L15","\n","$L16","\n","$L17","\n","$L18","\n","$L19","\n","$L1a"],null,"$L1b"]}],{},null,false]},null,false]},null,false]},null,false],"$L1c",false]],"m":"$undefined","G":["$1d",[]],"s":false,"S":true}
+1e:I[89796,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","3218","static/chunks/app/docs/glow-effect/page-e2387c20a7a03048.js"],"default"]
+22:I[28015,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","3218","static/chunks/app/docs/glow-effect/page-e2387c20a7a03048.js"],"GlowEffectCardMode"]
+25:I[27340,["471","static/chunks/471-ee721aabd03ece82.js","4347","static/chunks/4347-94b40d997f4154de.js","8920","static/chunks/8920-7717b6bd6a2c14f6.js","3554","static/chunks/3554-ba8d2c41cadb9678.js","2864","static/chunks/2864-001d0d01d4b6afaf.js","3256","static/chunks/3256-885b97157c7da168.js","3218","static/chunks/app/docs/glow-effect/page-e2387c20a7a03048.js"],"InstallationCli"]
+2b:I[24431,[],"OutletBoundary"]
+2d:I[15278,[],"AsyncMetadataOutlet"]
+2f:I[24431,[],"ViewportBoundary"]
+31:I[24431,[],"MetadataBoundary"]
+32:"$Sreact.suspense"
+1f:T427,import { GlowEffect } from '@/components/core/glow-effect';
+
+export function GlowEffectCardBackground() {
+  return (
+    <div className='relative h-44 w-64'>
+      <GlowEffect
+        colors={['#0894FF', '#C959DD', '#FF2E54', '#FF9004']}
+        mode='static'
+        blur='medium'
+      />
+      <div className='relative h-44 w-64 rounded-lg bg-black p-2 text-white dark:bg-white dark:text-black'>
+        <svg
+          role='img'
+          xmlns='http://www.w3.org/2000/svg'
+          viewBox='0 0 70 70'
+          aria-label='MP Logo'
+          width='70'
+          height='70'
+          className='absolute bottom-4 right-4 h-8 w-8'
+          fill='none'
+        >
+          <path
+            stroke='currentColor'
+            strokeLinecap='round'
+            strokeWidth='3'
+            d='M51.883 26.495c-7.277-4.124-18.08-7.004-26.519-7.425-2.357-.118-4.407-.244-6.364 1.06M59.642 51c-10.47-7.25-26.594-13.426-39.514-15.664-3.61-.625-6.744-1.202-9.991.263'
+          ></path>
+        </svg>
+      </div>
+    </div>
+  );
+}
+10:["$","$Ld",null,{"value":"code","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$L1e",null,{"code":"$1f","children":"$L20"}]}]
+11:["$","h3",null,{"id":"glow-effect-button","data-heading":"3","children":"Glow effect button"}]
+12:["$","p",null,{"children":["You can use different ",["$","code",null,{"children":"modes"}]," to animate the glow effect."]}]
+13:["$","div",null,{"className":"not-prose relative z-0 flex items-center justify-between pb-4","children":["$","$La",null,{"defaultValue":"preview","className":"relative mr-auto w-full","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"value":"preview","children":"Preview"}],["$","$Lc",null,{"value":"code","children":"Code"}]]}],["$","$Ld",null,{"value":"preview","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$Le",null,{"component":["$","div",null,{"className":"relative","children":[["$","$Lf",null,{"colors":["#FF5733","#33FF57","#3357FF","#F1C40F"],"mode":"colorShift","blur":"soft","duration":3,"scale":0.9}],["$","button",null,{"className":"relative inline-flex items-center gap-1 rounded-md bg-zinc-950 px-2.5 py-1.5 text-sm text-zinc-50 outline outline-1 outline-[#fff2f21f]","children":["Explore ",["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":24,"height":24,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"lucide lucide-arrow-right h4 w-4","children":[["$","path","1ays0h",{"d":"M5 12h14"}],["$","path","xquz4c",{"d":"m12 5 7 7-7 7"}],"$undefined"]}]]}]]}],"hasReTrigger":"$undefined","className":"$undefined","filePath":"app/docs/glow-effect/glow-effect-button.tsx"}]}],["$","$Ld",null,{"value":"code","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$L1e",null,{"code":"import { GlowEffect } from '@/components/core/glow-effect';\r\nimport { ArrowRight } from 'lucide-react';\r\n\r\nexport function GlowEffectButton() {\r\n  return (\r\n    <div className='relative'>\r\n      <GlowEffect\r\n        colors={['#FF5733', '#33FF57', '#3357FF', '#F1C40F']}\r\n        mode='colorShift'\r\n        blur='soft'\r\n        duration={3}\r\n        scale={0.9}\r\n      />\r\n      <button className='relative inline-flex items-center gap-1 rounded-md bg-zinc-950 px-2.5 py-1.5 text-sm text-zinc-50 outline outline-1 outline-[#fff2f21f]'>\r\n        Explore <ArrowRight className='h4 w-4' />\r\n      </button>\r\n    </div>\r\n  );\r\n}\r\n","children":"$L21"}]}]]}]}]
+14:["$","h3",null,{"id":"glow-effect-card-mode","data-heading":"3","children":"Glow effect card mode"}]
+23:T665,'use client';
+import { motion } from 'motion/react';
+import { TextMorph } from '@/components/core/text-morph';
+import { GlowEffect } from '@/components/core/glow-effect';
+import { useState } from 'react';
+
+export function GlowEffectCardMode() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleLoad = () => {
+    if (isVisible) {
+      setIsVisible(false);
+      return;
+    }
+
+    setIsVisible(true);
+  };
+
+  return (
+    <div className='relative h-[200px] w-[300px]'>
+      <motion.div
+        className='pointer-events-none absolute inset-0'
+        animate={{
+          opacity: isVisible ? 1 : 0,
+        }}
+        transition={{
+          duration: 0.2,
+          ease: 'easeOut',
+        }}
+      >
+        <GlowEffect
+          colors={['#0894FF', '#C959DD', '#FF2E54', '#FF9004']}
+          mode='colorShift'
+          blur='medium'
+          duration={4}
+        />
+      </motion.div>
+      <div className='relative flex h-full flex-col items-end justify-end rounded-md border border-zinc-300/40 bg-zinc-100 px-4 py-3 dark:border-zinc-700/40 dark:bg-zinc-900'>
+        <button
+          className='relative ml-1 flex h-8 scale-100 select-none appearance-none items-center justify-center overflow-hidden rounded-lg border border-zinc-950/10 bg-white px-2 text-sm text-zinc-950 focus-visible:ring-2 active:scale-[0.96] dark:border-zinc-50/10'
+          type='button'
+          aria-label='Load'
+          onClick={handleLoad}
+        >
+          <TextMorph>{isVisible ? 'Submitting...' : 'Submit'}</TextMorph>
+        </button>
+      </div>
+    </div>
+  );
+}
+15:["$","div",null,{"className":"not-prose relative z-0 flex items-center justify-between pb-4","children":["$","$La",null,{"defaultValue":"preview","className":"relative mr-auto w-full","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"value":"preview","children":"Preview"}],["$","$Lc",null,{"value":"code","children":"Code"}]]}],["$","$Ld",null,{"value":"preview","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$Le",null,{"component":["$","$L22",null,{}],"hasReTrigger":"$undefined","className":"$undefined","filePath":"app/docs/glow-effect/glow-effect-card-mode.tsx"}]}],["$","$Ld",null,{"value":"code","className":"border border-zinc-200 dark:border-zinc-800","children":["$","$L1e",null,{"code":"$23","children":"$L24"}]}]]}]}]
+16:["$","h2",null,{"id":"installation","data-heading":"2","children":"Installation"}]
+26:Te66,'use client';
+import { cn } from '@/lib/utils';
+import { motion, Transition } from 'motion/react';
+
+export type GlowEffectProps = {
+  className?: string;
+  style?: React.CSSProperties;
+  colors?: string[];
+  mode?:
+    | 'rotate'
+    | 'pulse'
+    | 'breathe'
+    | 'colorShift'
+    | 'flowHorizontal'
+    | 'static';
+  blur?:
+    | number
+    | 'softest'
+    | 'soft'
+    | 'medium'
+    | 'strong'
+    | 'stronger'
+    | 'strongest'
+    | 'none';
+  transition?: Transition;
+  scale?: number;
+  duration?: number;
+};
+
+export function GlowEffect({
+  className,
+  style,
+  colors = ['#FF5733', '#33FF57', '#3357FF', '#F1C40F'],
+  mode = 'rotate',
+  blur = 'medium',
+  transition,
+  scale = 1,
+  duration = 5,
+}: GlowEffectProps) {
+  const BASE_TRANSITION = {
+    repeat: Infinity,
+    duration: duration,
+    ease: 'linear',
+  };
+
+  const animations = {
+    rotate: {
+      background: [
+        `conic-gradient(from 0deg at 50% 50%, ${colors.join(', ')})`,
+        `conic-gradient(from 360deg at 50% 50%, ${colors.join(', ')})`,
+      ],
+      transition: {
+        ...(transition ?? BASE_TRANSITION),
+      },
+    },
+    pulse: {
+      background: colors.map(
+        (color) =>
+          `radial-gradient(circle at 50% 50%, ${color} 0%, transparent 100%)`
+      ),
+      scale: [1 * scale, 1.1 * scale, 1 * scale],
+      opacity: [0.5, 0.8, 0.5],
+      transition: {
+        ...(transition ?? {
+          ...BASE_TRANSITION,
+          repeatType: 'mirror',
+        }),
+      },
+    },
+    breathe: {
+      background: [
+        ...colors.map(
+          (color) =>
+            `radial-gradient(circle at 50% 50%, ${color} 0%, transparent 100%)`
+        ),
+      ],
+      scale: [1 * scale, 1.05 * scale, 1 * scale],
+      transition: {
+        ...(transition ?? {
+          ...BASE_TRANSITION,
+          repeatType: 'mirror',
+        }),
+      },
+    },
+    colorShift: {
+      background: colors.map((color, index) => {
+        const nextColor = colors[(index + 1) % colors.length];
+        return `conic-gradient(from 0deg at 50% 50%, ${color} 0%, ${nextColor} 50%, ${color} 100%)`;
+      }),
+      transition: {
+        ...(transition ?? {
+          ...BASE_TRANSITION,
+          repeatType: 'mirror',
+        }),
+      },
+    },
+    flowHorizontal: {
+      background: colors.map((color) => {
+        const nextColor = colors[(colors.indexOf(color) + 1) % colors.length];
+        return `linear-gradient(to right, ${color}, ${nextColor})`;
+      }),
+      transition: {
+        ...(transition ?? {
+          ...BASE_TRANSITION,
+          repeatType: 'mirror',
+        }),
+      },
+    },
+    static: {
+      background: `linear-gradient(to right, ${colors.join(', ')})`,
+    },
+  };
+
+  const getBlurClass = (blur: GlowEffectProps['blur']) => {
+    if (typeof blur === 'number') {
+      return `blur-[${blur}px]`;
+    }
+
+    const presets = {
+      softest: 'blur-xs',
+      soft: 'blur-sm',
+      medium: 'blur-md',
+      strong: 'blur-lg',
+      stronger: 'blur-xl',
+      strongest: 'blur-xl',
+      none: 'blur-none',
+    };
+
+    return presets[blur as keyof typeof presets];
+  };
+
+  return (
+    <motion.div
+      style={
+        {
+          ...style,
+          '--scale': scale,
+          willChange: 'transform',
+          backfaceVisibility: 'hidden',
+        } as React.CSSProperties
+      }
+      animate={animations[mode]}
+      className={cn(
+        'pointer-events-none absolute inset-0 h-full w-full',
+        'scale-[var(--scale)] transform-gpu',
+        getBlurClass(blur),
+        className
+      )}
+    />
+  );
+}
+17:["$","$La",null,{"className":"relative mt-6 w-full","defaultValue":"cli","children":[["$","$Lb",null,{"className":"","children":[["$","$Lc",null,{"className":"","value":"cli","children":"CLI"}],["$","$Lc",null,{"className":"","value":"manual","children":"Manual"}]]}],["$","$Ld",null,{"className":"","value":"cli","children":["$","$L25",null,{"value":"glow-effect"}]}],["$","$Ld",null,{"className":"","value":"manual","children":["$","div",null,{"className":"steps mb-12 ml-4 border-l pl-8 [counter-reset:step]","children":[["$","h3",null,{"id":"copy-and-paste-the-following-code-into-your-project","className":"step","data-heading":"3","children":"Copy and paste the following code into your project."}],["$","div",null,{"className":"not-prose max-h-[650px] overflow-auto overflow-x-auto overflow-y-hidden rounded-md text-sm dark:border dark:border-zinc-800","children":["$","$L1e",null,{"code":"$26","children":"$L27"}]}],"$L28"]}]}]]}]
+18:["$","h2",null,{"id":"component-api","data-heading":"2","children":"Component API"}]
+19:["$","h3",null,{"id":"gloweffect","data-heading":"3","children":"GlowEffect"}]
+1a:["$","div",null,{"className":"not-prose relative w-full table-auto overflow-auto rounded-lg border border-zinc-200 text-sm dark:border-zinc-800","children":["$","table",null,{"className":"w-full","children":[["$","thead",null,{"className":"bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100","children":["$","tr",null,{"className":"h-10","children":[["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Prop"}],["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Type"}],["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Default"}],["$","th",null,{"className":"px-4 pb-0 text-left align-middle font-[450]","style":{"textAlign":"left"},"children":"Description"}]]}]}],["$","tbody",null,{"className":"divide-y divide-zinc-200 dark:divide-y dark:divide-zinc-600","children":[["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"className"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"string"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"undefined"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Optional CSS class for styling the component."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"style"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"React.CSSProperties"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"undefined"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Optional CSS properties for styling the component."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"colors"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"string[]"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"['#FF5733', '#33FF57', '#3357FF', '#F1C40F']"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"The colors to use for the glow effect."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"mode"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"'rotate' | 'pulse' | 'breathe' | 'colorShift' | 'flowHorizontal' | 'static'"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"'rotate'"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"The mode to use for the glow effect."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"blur"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"'number' | 'softest' | 'soft' | 'medium' | 'strong' | 'strong' | 'stronger' | 'strongest' | 'none'"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"'medium'"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"The blur to use for the glow effect."}]]}],["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"transition"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"Transition"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"undefined"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"The transition to use for the glow effect."}]]}],"$L29","$L2a"]}]]}]}]
+1b:["$","$L2b",null,{"children":["$L2c",["$","$L2d",null,{"promise":"$@2e"}]]}]
+1c:["$","$1","h",{"children":[null,[["$","$L2f",null,{"children":"$L30"}],null],["$","$L31",null,{"children":["$","div",null,{"hidden":true,"children":["$","$32",null,{"fallback":null,"children":"$L33"}]}]}]]}]
+9:"$0:f:0:1:2:children:1:props:children:1:props:params"
+28:["$","h3",null,{"id":"update-the-import-paths-to-match-your-project-setup","className":"step","data-heading":"3","children":"Update the import paths to match your project setup."}]
+29:["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"scale"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"number"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"1"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"The scale to use for the glow effect."}]]}]
+2a:["$","tr",null,{"className":"h-10","children":[["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"duration"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"number"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"5"}],["$","td",null,{"className":"px-4 py-2 text-left align-middle","style":{"textAlign":"left"},"children":"The duration to use for the glow effect."}]]}]
+34:T1eaa,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { GlowEffect } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/components/core/glow-effect'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> GlowEffectCardBackground</span><span style="color:var(--shiki-foreground, #B1B1B1)">() {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'relative h-44 w-64'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-constant)">GlowEffect</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        colors</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{[</span><span style="color:var(--shiki-token-string-expression)">'#0894FF'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-string-expression)"> '#C959DD'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-string-expression)"> '#FF2E54'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-string-expression)"> '#FF9004'</span><span style="color:var(--shiki-foreground, #B1B1B1)">]}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        mode</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'static'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        blur</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'medium'</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'relative h-44 w-64 rounded-lg bg-black p-2 text-white dark:bg-white dark:text-black'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-string-expression)">svg</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          role</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'img'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          xmlns</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'http://www.w3.org/2000/svg'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          viewBox</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'0 0 70 70'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          aria-label</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'MP Logo'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          width</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'70'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          height</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'70'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'absolute bottom-4 right-4 h-8 w-8'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          fill</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'none'</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        ></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          &#x3C;</span><span style="color:var(--shiki-token-string-expression)">path</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">            stroke</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'currentColor'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">            strokeLinecap</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'round'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">            strokeWidth</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'3'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">            d</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'M51.883 26.495c-7.277-4.124-18.08-7.004-26.519-7.425-2.357-.118-4.407-.244-6.364 1.06M59.642 51c-10.47-7.25-26.594-13.426-39.514-15.664-3.61-.625-6.744-1.202-9.991.263'</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          >&#x3C;/</span><span style="color:var(--shiki-token-string-expression)">path</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">svg</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>20:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$34"}}]}]
+35:T1598,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { GlowEffect } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/components/core/glow-effect'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { ArrowRight } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> 'lucide-react'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> GlowEffectButton</span><span style="color:var(--shiki-foreground, #B1B1B1)">() {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'relative'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-constant)">GlowEffect</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        colors</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{[</span><span style="color:var(--shiki-token-string-expression)">'#FF5733'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-string-expression)"> '#33FF57'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-string-expression)"> '#3357FF'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-string-expression)"> '#F1C40F'</span><span style="color:var(--shiki-foreground, #B1B1B1)">]}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        mode</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'colorShift'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        blur</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'soft'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        duration</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{</span><span style="color:var(--shiki-token-constant)">3</span><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        scale</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{</span><span style="color:var(--shiki-token-constant)">0.9</span><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">button</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'relative inline-flex items-center gap-1 rounded-md bg-zinc-950 px-2.5 py-1.5 text-sm text-zinc-50 outline outline-1 outline-[#fff2f21f]'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        Explore &#x3C;</span><span style="color:var(--shiki-token-constant)">ArrowRight</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'h4 w-4'</span><span style="color:var(--shiki-foreground, #B1B1B1)"> /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">button</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>21:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$35"}}]}]
+36:T31b3,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-string-expression)">'use client'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { motion } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> 'motion/react'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { TextMorph } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/components/core/text-morph'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { GlowEffect } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/components/core/glow-effect'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { useState } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> 'react'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> GlowEffectCardMode</span><span style="color:var(--shiki-foreground, #B1B1B1)">() {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-foreground, #B1B1B1)"> [</span><span style="color:var(--shiki-token-constant)">isVisible</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> setIsVisible</span><span style="color:var(--shiki-foreground, #B1B1B1)">] </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-function)"> useState</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-constant)">false</span><span style="color:var(--shiki-foreground, #B1B1B1)">);</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-token-function)"> handleLoad</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> () </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    if</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (isVisible) {</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      setIsVisible</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-constant)">false</span><span style="color:var(--shiki-foreground, #B1B1B1)">);</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">      return</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-function)">    setIsVisible</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-constant)">true</span><span style="color:var(--shiki-foreground, #B1B1B1)">);</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  };</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'relative h-[200px] w-[300px]'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-constant)">motion.div</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'pointer-events-none absolute inset-0'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        animate</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{{</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          opacity</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> isVisible </span><span style="color:var(--shiki-token-keyword)">?</span><span style="color:var(--shiki-token-constant)"> 1</span><span style="color:var(--shiki-token-keyword)"> :</span><span style="color:var(--shiki-token-constant)"> 0</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        }}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        transition</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{{</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          duration</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> 0.2</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          ease</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'easeOut'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        }}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      ></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-constant)">GlowEffect</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          colors</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{[</span><span style="color:var(--shiki-token-string-expression)">'#0894FF'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-string-expression)"> '#C959DD'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-string-expression)"> '#FF2E54'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-string-expression)"> '#FF9004'</span><span style="color:var(--shiki-foreground, #B1B1B1)">]}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          mode</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'colorShift'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          blur</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'medium'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          duration</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{</span><span style="color:var(--shiki-token-constant)">4</span><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;/</span><span style="color:var(--shiki-token-constant)">motion.div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-token-function)"> className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'relative flex h-full flex-col items-end justify-end rounded-md border border-zinc-300/40 bg-zinc-100 px-4 py-3 dark:border-zinc-700/40 dark:bg-zinc-900'</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;</span><span style="color:var(--shiki-token-string-expression)">button</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'relative ml-1 flex h-8 scale-100 select-none appearance-none items-center justify-center overflow-hidden rounded-lg border border-zinc-950/10 bg-white px-2 text-sm text-zinc-950 focus-visible:ring-2 active:scale-[0.96] dark:border-zinc-50/10'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          type</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'button'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          aria-label</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)">'Load'</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">          onClick</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{handleLoad}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        ></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          &#x3C;</span><span style="color:var(--shiki-token-constant)">TextMorph</span><span style="color:var(--shiki-foreground, #B1B1B1)">>{isVisible </span><span style="color:var(--shiki-token-keyword)">?</span><span style="color:var(--shiki-token-string-expression)"> 'Submitting...'</span><span style="color:var(--shiki-token-keyword)"> :</span><span style="color:var(--shiki-token-string-expression)"> 'Submit'</span><span style="color:var(--shiki-foreground, #B1B1B1)">}&#x3C;/</span><span style="color:var(--shiki-token-constant)">TextMorph</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">button</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;/</span><span style="color:var(--shiki-token-string-expression)">div</span><span style="color:var(--shiki-foreground, #B1B1B1)">></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>24:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$36"}}]}]
+37:T9b3a,<pre class="shiki noir" style="background-color:var(--shiki-background, #18181b);color:var(--shiki-foreground, #B1B1B1)" tabindex="0"><code><span class="line"><span style="color:var(--shiki-token-string-expression)">'use client'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { cn } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> '@/lib/utils'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">import</span><span style="color:var(--shiki-foreground, #B1B1B1)"> { motion</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> Transition } </span><span style="color:var(--shiki-token-keyword)">from</span><span style="color:var(--shiki-token-string-expression)"> 'motion/react'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> type</span><span style="color:var(--shiki-token-function)"> GlowEffectProps</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  className</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-constant)"> string</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  style</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-function)"> React</span><span style="color:var(--shiki-foreground, #B1B1B1)">.</span><span style="color:var(--shiki-token-function)">CSSProperties</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  colors</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-constant)"> string</span><span style="color:var(--shiki-foreground, #B1B1B1)">[];</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  mode</span><span style="color:var(--shiki-token-keyword)">?:</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    |</span><span style="color:var(--shiki-token-string-expression)"> 'rotate'</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    |</span><span style="color:var(--shiki-token-string-expression)"> 'pulse'</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    |</span><span style="color:var(--shiki-token-string-expression)"> 'breathe'</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    |</span><span style="color:var(--shiki-token-string-expression)"> 'colorShift'</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    |</span><span style="color:var(--shiki-token-string-expression)"> 'flowHorizontal'</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    |</span><span style="color:var(--shiki-token-string-expression)"> 'static'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  blur</span><span style="color:var(--shiki-token-keyword)">?:</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    |</span><span style="color:var(--shiki-token-constant)"> number</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    |</span><span style="color:var(--shiki-token-string-expression)"> 'softest'</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    |</span><span style="color:var(--shiki-token-string-expression)"> 'soft'</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    |</span><span style="color:var(--shiki-token-string-expression)"> 'medium'</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    |</span><span style="color:var(--shiki-token-string-expression)"> 'strong'</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    |</span><span style="color:var(--shiki-token-string-expression)"> 'stronger'</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    |</span><span style="color:var(--shiki-token-string-expression)"> 'strongest'</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    |</span><span style="color:var(--shiki-token-string-expression)"> 'none'</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  transition</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-function)"> Transition</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  scale</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-constant)"> number</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  duration</span><span style="color:var(--shiki-token-keyword)">?:</span><span style="color:var(--shiki-token-constant)"> number</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">};</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">export</span><span style="color:var(--shiki-token-keyword)"> function</span><span style="color:var(--shiki-token-function)"> GlowEffect</span><span style="color:var(--shiki-foreground, #B1B1B1)">({</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  className</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  style</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  colors </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)"> [</span><span style="color:var(--shiki-token-string-expression)">'#FF5733'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-string-expression)"> '#33FF57'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-string-expression)"> '#3357FF'</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-string-expression)"> '#F1C40F'</span><span style="color:var(--shiki-foreground, #B1B1B1)">]</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  mode </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)"> 'rotate'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  blur </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-string-expression)"> 'medium'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  transition</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  scale </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-constant)"> 1</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  duration </span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-token-constant)"> 5</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> GlowEffectProps</span><span style="color:var(--shiki-foreground, #B1B1B1)">) {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-token-constant)"> BASE_TRANSITION</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    repeat</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> Infinity</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    duration</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> duration</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    ease</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'linear'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  };</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-token-constant)"> animations</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    rotate</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      background</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> [</span></span>
+<span class="line"><span style="color:var(--shiki-token-string-expression)">        `conic-gradient(from 0deg at 50% 50%, </span><span style="color:var(--shiki-token-keyword)">${</span><span style="color:var(--shiki-token-constant)">colors</span><span style="color:var(--shiki-token-function)">.join</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-string-expression)">', '</span><span style="color:var(--shiki-foreground, #B1B1B1)">)</span><span style="color:var(--shiki-token-keyword)">}</span><span style="color:var(--shiki-token-string-expression)">)`</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-token-string-expression)">        `conic-gradient(from 360deg at 50% 50%, </span><span style="color:var(--shiki-token-keyword)">${</span><span style="color:var(--shiki-token-constant)">colors</span><span style="color:var(--shiki-token-function)">.join</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-string-expression)">', '</span><span style="color:var(--shiki-foreground, #B1B1B1)">)</span><span style="color:var(--shiki-token-keyword)">}</span><span style="color:var(--shiki-token-string-expression)">)`</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      ]</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      transition</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">        ...</span><span style="color:var(--shiki-foreground, #B1B1B1)">(transition </span><span style="color:var(--shiki-token-keyword)">??</span><span style="color:var(--shiki-token-constant)"> BASE_TRANSITION</span><span style="color:var(--shiki-foreground, #B1B1B1)">)</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    pulse</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      background</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> colors</span><span style="color:var(--shiki-token-function)">.map</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        (color) </span><span style="color:var(--shiki-token-keyword)">=></span></span>
+<span class="line"><span style="color:var(--shiki-token-string-expression)">          `radial-gradient(circle at 50% 50%, </span><span style="color:var(--shiki-token-keyword)">${</span><span style="color:var(--shiki-foreground, #B1B1B1)">color</span><span style="color:var(--shiki-token-keyword)">}</span><span style="color:var(--shiki-token-string-expression)"> 0%, transparent 100%)`</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      )</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      scale</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> [</span><span style="color:var(--shiki-token-constant)">1</span><span style="color:var(--shiki-token-keyword)"> *</span><span style="color:var(--shiki-foreground, #B1B1B1)"> scale</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> 1.1</span><span style="color:var(--shiki-token-keyword)"> *</span><span style="color:var(--shiki-foreground, #B1B1B1)"> scale</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> 1</span><span style="color:var(--shiki-token-keyword)"> *</span><span style="color:var(--shiki-foreground, #B1B1B1)"> scale]</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      opacity</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> [</span><span style="color:var(--shiki-token-constant)">0.5</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> 0.8</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> 0.5</span><span style="color:var(--shiki-foreground, #B1B1B1)">]</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      transition</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">        ...</span><span style="color:var(--shiki-foreground, #B1B1B1)">(transition </span><span style="color:var(--shiki-token-keyword)">??</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">          ...</span><span style="color:var(--shiki-token-constant)">BASE_TRANSITION</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          repeatType</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'mirror'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        })</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    breathe</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      background</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> [</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">        ...</span><span style="color:var(--shiki-token-constant)">colors</span><span style="color:var(--shiki-token-function)">.map</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          (color) </span><span style="color:var(--shiki-token-keyword)">=></span></span>
+<span class="line"><span style="color:var(--shiki-token-string-expression)">            `radial-gradient(circle at 50% 50%, </span><span style="color:var(--shiki-token-keyword)">${</span><span style="color:var(--shiki-foreground, #B1B1B1)">color</span><span style="color:var(--shiki-token-keyword)">}</span><span style="color:var(--shiki-token-string-expression)"> 0%, transparent 100%)`</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        )</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      ]</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      scale</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> [</span><span style="color:var(--shiki-token-constant)">1</span><span style="color:var(--shiki-token-keyword)"> *</span><span style="color:var(--shiki-foreground, #B1B1B1)"> scale</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> 1.05</span><span style="color:var(--shiki-token-keyword)"> *</span><span style="color:var(--shiki-foreground, #B1B1B1)"> scale</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-token-constant)"> 1</span><span style="color:var(--shiki-token-keyword)"> *</span><span style="color:var(--shiki-foreground, #B1B1B1)"> scale]</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      transition</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">        ...</span><span style="color:var(--shiki-foreground, #B1B1B1)">(transition </span><span style="color:var(--shiki-token-keyword)">??</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">          ...</span><span style="color:var(--shiki-token-constant)">BASE_TRANSITION</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          repeatType</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'mirror'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        })</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    colorShift</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      background</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> colors</span><span style="color:var(--shiki-token-function)">.map</span><span style="color:var(--shiki-foreground, #B1B1B1)">((color</span><span style="color:var(--shiki-token-punctuation)">,</span><span style="color:var(--shiki-foreground, #B1B1B1)"> index) </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">        const</span><span style="color:var(--shiki-token-constant)"> nextColor</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> colors[(index </span><span style="color:var(--shiki-token-keyword)">+</span><span style="color:var(--shiki-token-constant)"> 1</span><span style="color:var(--shiki-foreground, #B1B1B1)">) </span><span style="color:var(--shiki-token-keyword)">%</span><span style="color:var(--shiki-token-constant)"> colors</span><span style="color:var(--shiki-foreground, #B1B1B1)">.</span><span style="color:var(--shiki-token-constant)">length</span><span style="color:var(--shiki-foreground, #B1B1B1)">];</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">        return</span><span style="color:var(--shiki-token-string-expression)"> `conic-gradient(from 0deg at 50% 50%, </span><span style="color:var(--shiki-token-keyword)">${</span><span style="color:var(--shiki-foreground, #B1B1B1)">color</span><span style="color:var(--shiki-token-keyword)">}</span><span style="color:var(--shiki-token-string-expression)"> 0%, </span><span style="color:var(--shiki-token-keyword)">${</span><span style="color:var(--shiki-foreground, #B1B1B1)">nextColor</span><span style="color:var(--shiki-token-keyword)">}</span><span style="color:var(--shiki-token-string-expression)"> 50%, </span><span style="color:var(--shiki-token-keyword)">${</span><span style="color:var(--shiki-foreground, #B1B1B1)">color</span><span style="color:var(--shiki-token-keyword)">}</span><span style="color:var(--shiki-token-string-expression)"> 100%)`</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      })</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      transition</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">        ...</span><span style="color:var(--shiki-foreground, #B1B1B1)">(transition </span><span style="color:var(--shiki-token-keyword)">??</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">          ...</span><span style="color:var(--shiki-token-constant)">BASE_TRANSITION</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          repeatType</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'mirror'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        })</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    flowHorizontal</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      background</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-constant)"> colors</span><span style="color:var(--shiki-token-function)">.map</span><span style="color:var(--shiki-foreground, #B1B1B1)">((color) </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">        const</span><span style="color:var(--shiki-token-constant)"> nextColor</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> colors[(</span><span style="color:var(--shiki-token-constant)">colors</span><span style="color:var(--shiki-token-function)">.indexOf</span><span style="color:var(--shiki-foreground, #B1B1B1)">(color) </span><span style="color:var(--shiki-token-keyword)">+</span><span style="color:var(--shiki-token-constant)"> 1</span><span style="color:var(--shiki-foreground, #B1B1B1)">) </span><span style="color:var(--shiki-token-keyword)">%</span><span style="color:var(--shiki-token-constant)"> colors</span><span style="color:var(--shiki-foreground, #B1B1B1)">.</span><span style="color:var(--shiki-token-constant)">length</span><span style="color:var(--shiki-foreground, #B1B1B1)">];</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">        return</span><span style="color:var(--shiki-token-string-expression)"> `linear-gradient(to right, </span><span style="color:var(--shiki-token-keyword)">${</span><span style="color:var(--shiki-foreground, #B1B1B1)">color</span><span style="color:var(--shiki-token-keyword)">}</span><span style="color:var(--shiki-token-string-expression)">, </span><span style="color:var(--shiki-token-keyword)">${</span><span style="color:var(--shiki-foreground, #B1B1B1)">nextColor</span><span style="color:var(--shiki-token-keyword)">}</span><span style="color:var(--shiki-token-string-expression)">)`</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      })</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      transition</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">        ...</span><span style="color:var(--shiki-foreground, #B1B1B1)">(transition </span><span style="color:var(--shiki-token-keyword)">??</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">          ...</span><span style="color:var(--shiki-token-constant)">BASE_TRANSITION</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          repeatType</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'mirror'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        })</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    static</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      background</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> `linear-gradient(to right, </span><span style="color:var(--shiki-token-keyword)">${</span><span style="color:var(--shiki-token-constant)">colors</span><span style="color:var(--shiki-token-function)">.join</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span><span style="color:var(--shiki-token-string-expression)">', '</span><span style="color:var(--shiki-foreground, #B1B1B1)">)</span><span style="color:var(--shiki-token-keyword)">}</span><span style="color:var(--shiki-token-string-expression)">)`</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    }</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  };</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  const</span><span style="color:var(--shiki-token-function)"> getBlurClass</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (blur</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-function)"> GlowEffectProps</span><span style="color:var(--shiki-foreground, #B1B1B1)">[</span><span style="color:var(--shiki-token-string-expression)">'blur'</span><span style="color:var(--shiki-foreground, #B1B1B1)">]) </span><span style="color:var(--shiki-token-keyword)">=></span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    if</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span><span style="color:var(--shiki-token-keyword)">typeof</span><span style="color:var(--shiki-foreground, #B1B1B1)"> blur </span><span style="color:var(--shiki-token-keyword)">===</span><span style="color:var(--shiki-token-string-expression)"> 'number'</span><span style="color:var(--shiki-foreground, #B1B1B1)">) {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">      return</span><span style="color:var(--shiki-token-string-expression)"> `blur-[</span><span style="color:var(--shiki-token-keyword)">${</span><span style="color:var(--shiki-foreground, #B1B1B1)">blur</span><span style="color:var(--shiki-token-keyword)">}</span><span style="color:var(--shiki-token-string-expression)">px]`</span><span style="color:var(--shiki-foreground, #B1B1B1)">;</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    const</span><span style="color:var(--shiki-token-constant)"> presets</span><span style="color:var(--shiki-token-keyword)"> =</span><span style="color:var(--shiki-foreground, #B1B1B1)"> {</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      softest</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'blur-xs'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      soft</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'blur-sm'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      medium</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'blur-md'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      strong</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'blur-lg'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      stronger</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'blur-xl'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      strongest</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'blur-xl'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      none</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'blur-none'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    };</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">    return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> presets[blur </span><span style="color:var(--shiki-token-keyword)">as</span><span style="color:var(--shiki-token-keyword)"> keyof</span><span style="color:var(--shiki-token-keyword)"> typeof</span><span style="color:var(--shiki-foreground, #B1B1B1)"> presets];</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  };</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">  return</span><span style="color:var(--shiki-foreground, #B1B1B1)"> (</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    &#x3C;</span><span style="color:var(--shiki-token-constant)">motion.div</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      style</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        {</span></span>
+<span class="line"><span style="color:var(--shiki-token-keyword)">          ...</span><span style="color:var(--shiki-foreground, #B1B1B1)">style</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-token-string-expression)">          '--scale'</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-foreground, #B1B1B1)"> scale</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          willChange</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'transform'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">          backfaceVisibility</span><span style="color:var(--shiki-token-keyword)">:</span><span style="color:var(--shiki-token-string-expression)"> 'hidden'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        } </span><span style="color:var(--shiki-token-keyword)">as</span><span style="color:var(--shiki-token-function)"> React</span><span style="color:var(--shiki-foreground, #B1B1B1)">.</span><span style="color:var(--shiki-token-function)">CSSProperties</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      }</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      animate</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{animations[mode]}</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">      className</span><span style="color:var(--shiki-token-keyword)">=</span><span style="color:var(--shiki-foreground, #B1B1B1)">{</span><span style="color:var(--shiki-token-function)">cn</span><span style="color:var(--shiki-foreground, #B1B1B1)">(</span></span>
+<span class="line"><span style="color:var(--shiki-token-string-expression)">        'pointer-events-none absolute inset-0 h-full w-full'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-token-string-expression)">        'scale-[var(--scale)] transform-gpu'</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-token-function)">        getBlurClass</span><span style="color:var(--shiki-foreground, #B1B1B1)">(blur)</span><span style="color:var(--shiki-token-punctuation)">,</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">        className</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">      )}</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">    /></span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">  );</span></span>
+<span class="line"><span style="color:var(--shiki-foreground, #B1B1B1)">}</span></span>
+<span class="line"></span></code></pre>27:["$","div",null,{"className":"font-mono","children":["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$37"}}]}]
+30:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+2c:null
+38:I[80622,[],"IconMark"]
+2e:{"metadata":[["$","title","0",{"children":"Glow Effect - Footprint Motion Kit"}],["$","meta","1",{"name":"description","content":"A customizable glow effect with animation modes, colors, blur-sm, and transitions. Built for React, Next.js, and Tailwind CSS."}],["$","meta","2",{"property":"og:title","content":"Glow Effect - Footprint Motion Kit"}],["$","meta","3",{"property":"og:description","content":"A customizable glow effect with animation modes, colors, blur-sm, and transitions. Built for React, Next.js, and Tailwind CSS."}],["$","meta","4",{"property":"og:image:type","content":"image/jpeg"}],["$","meta","5",{"property":"og:image:width","content":"1200"}],["$","meta","6",{"property":"og:image:height","content":"630"}],["$","meta","7",{"property":"og:image","content":"http://localhost:3000/opengraph-image.jpg?9ca9b9247d6d0fe4"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Glow Effect - Footprint Motion Kit"}],["$","meta","10",{"name":"twitter:description","content":"A customizable glow effect with animation modes, colors, blur-sm, and transitions. Built for React, Next.js, and Tailwind CSS."}],["$","meta","11",{"name":"twitter:image:type","content":"image/jpeg"}],["$","meta","12",{"name":"twitter:image:width","content":"1200"}],["$","meta","13",{"name":"twitter:image:height","content":"630"}],["$","meta","14",{"name":"twitter:image","content":"http://localhost:3000/twitter-image.jpg?9ca9b9247d6d0fe4"}],["$","link","15",{"rel":"icon","href":"/icon.ico?71bbcdb60d31e7d3","type":"image/x-icon","sizes":"256x256"}],["$","$L38","16",{}]],"error":null,"digest":"$undefined"}
+33:"$2e:metadata"
