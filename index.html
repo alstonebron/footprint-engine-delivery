@@ -925,16 +925,16 @@ footer{border-top:1px solid var(--line);padding:52px 0 34px;background:var(--bg)
     if(fmt === 'pct') return Math.round(v) + '%';
     return Math.round(v).toLocaleString();
   }
+  var kpiTimers = [null, null, null];
   function countKpi(i, target, fmt){
-    var from = curVals[i], t0 = null;
-    function step(ts){
-      if(!t0) t0 = ts;
-      var p = Math.min((ts - t0)/700, 1), eased = 1 - Math.pow(1 - p, 3);
+    if(kpiTimers[i]) clearInterval(kpiTimers[i]);
+    var from = curVals[i], t0 = Date.now();
+    kpiTimers[i] = setInterval(function(){
+      var p = Math.min((Date.now() - t0)/700, 1), eased = 1 - Math.pow(1 - p, 3);
       curVals[i] = from + (target - from) * eased;
       gkEls[i].textContent = fmtVal(fmt, curVals[i]);
-      if(p < 1) requestAnimationFrame(step);
-    }
-    requestAnimationFrame(step);
+      if(p >= 1){ curVals[i] = target; gkEls[i].textContent = fmtVal(fmt, target); clearInterval(kpiTimers[i]); kpiTimers[i] = null; }
+    }, 25);
   }
   function drawChart(){
     var s = CHANNELS[ch].series.slice(-period);
