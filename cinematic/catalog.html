@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Template Studio — Catalog</title>
+<meta name="description" content="Every site we've shipped. One living catalog." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Space+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--ink:#f6f3ee;--amber:#ffc531;--dim:rgba(246,243,238,.6);--dark:#141311;--card:#1d1b18;--line:rgba(246,243,238,.1)}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--dark);color:var(--ink);font-family:'Sora',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1180px;margin:0 auto;padding:64px 24px 96px}
+  header.hero{margin-bottom:40px}
+  .kick{font-family:'Space Grotesk',monospace;font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--amber);display:flex;align-items:center;gap:12px;margin:0 0 18px}
+  .kick::before{content:"";width:28px;height:1px;background:var(--amber)}
+  h1{font-weight:800;font-size:clamp(34px,5vw,58px);letter-spacing:-.03em;line-height:1.02;margin:0 0 14px}
+  h1 em{font-style:normal;color:var(--amber)}
+  .sub{color:var(--dim);max-width:56ch;font-size:15px;line-height:1.7;margin:0}
+  .meta{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px;font-family:'Space Grotesk',monospace;font-size:12px;color:var(--dim)}
+  .meta b{color:var(--ink);font-weight:500}
+  .tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;position:sticky;top:0;z-index:10;background:linear-gradient(var(--dark) 78%,transparent);padding:18px 0 14px;margin-bottom:10px}
+  .search{flex:1 1 260px;min-width:220px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:12px 20px;color:var(--ink);font-family:'Sora',sans-serif;font-size:14px;outline:none;transition:border-color .2s}
+  .search:focus{border-color:var(--amber)}
+  .search::placeholder{color:var(--dim)}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{background:transparent;border:1px solid var(--line);border-radius:999px;padding:9px 16px;color:var(--dim);font-size:12px;font-weight:600;cursor:pointer;font-family:'Sora',sans-serif;transition:all .2s}
+  .chip:hover{color:var(--ink);border-color:rgba(246,243,238,.3)}
+  .chip.on{background:var(--amber);border-color:var(--amber);color:#141311}
+  .chip .n{opacity:.55;font-weight:400;margin-left:6px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;margin-top:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;text-decoration:none;color:inherit;transition:transform .25s ease,border-color .25s ease,box-shadow .25s;position:relative;display:flex;flex-direction:column}
+  .card::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.06) 50%,transparent 60%);transform:translateX(-130%);transition:transform .7s ease;pointer-events:none}
+  .card:hover{transform:translateY(-4px);border-color:rgba(255,197,49,.4);box-shadow:0 24px 50px rgba(0,0,0,.35)}
+  .card:hover::after{transform:translateX(130%)}
+  .card.flat{cursor:default}
+  .card.flat:hover{transform:none;border-color:var(--line);box-shadow:none}
+  .card.flat::after{display:none}
+  .preview{position:relative;width:100%;aspect-ratio:16/10;background:linear-gradient(135deg,#1a1814,#0f0d0a);border-bottom:1px solid var(--line);overflow:hidden}
+  .preview iframe{width:200%;height:200%;border:0;transform:scale(.5);transform-origin:0 0;pointer-events:none;background:#fff}
+  .preview .ph{position:absolute;inset:0;display:grid;place-items:center;color:var(--dim2);font-family:'Space Grotesk',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+  .preview .badgez{position:absolute;top:10px;right:10px;display:flex;gap:6px}
+  .preview .badgez span{font-size:9px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:4px 8px;border-radius:999px;background:rgba(0,0,0,.5);backdrop-filter:blur(4px)}
+  .body{padding:22px 24px 24px;display:flex;flex-direction:column;gap:10px;flex:1}
+  .row{display:flex;align-items:center;justify-content:space-between;gap:10px}
+  .cat{font-family:'Space Grotesk',monospace;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--dim)}
+  .badge{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:5px 10px;border-radius:999px}
+  .b-live{background:rgba(63,213,127,.14);color:#3fd57f}
+  .b-preview{background:rgba(255,197,49,.14);color:var(--amber)}
+  .b-archived{background:rgba(246,243,238,.08);color:var(--dim)}
+  .card h2{font-weight:700;font-size:21px;letter-spacing:-.01em;margin:0}
+  .card p{color:var(--dim);font-size:13.5px;line-height:1.65;margin:0;flex:1}
+  .tags{display:flex;flex-wrap:wrap;gap:6px}
+  .tag{font-family:'Space Grotesk',monospace;font-size:10.5px;color:var(--dim);background:rgba(246,243,238,.05);border-radius:6px;padding:4px 8px}
+  .go{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--amber);margin-top:4px}
+  .go .a{width:7px;height:7px;border-right:2px solid var(--amber);border-bottom:2px solid var(--amber);transform:rotate(-45deg);transition:transform .25s}
+  .card:hover .go .a{transform:rotate(-45deg) translate(3px,3px)}
+  .nolink{font-size:12px;color:var(--dim);font-style:italic;margin-top:4px}
+  .empty{grid-column:1/-1;text-align:center;color:var(--dim);padding:60px 0;font-size:14px}
+  footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;font-family:'Space Grotesk',monospace;font-size:11px;color:var(--dim)}
+  @media(max-width:640px){.wrap{padding:40px 16px 72px}.tools{position:static}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <p class="kick">Template Studio</p>
+    <h1>Every site we've shipped.<br/><em>One living catalog.</em></h1>
+    <p class="sub">The full collection — cinematic worldflights, local-service engines, brand platforms and tools. Click any card to visit the live build.</p>
+    <div class="meta" id="meta"></div>
+  </header>
+
+  <div class="tools">
+    <input class="search" id="q" type="search" placeholder="Search names, tags, descriptions…" autocomplete="off" />
+    <div class="chips" id="chips"></div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <footer>
+    <span id="ftCount"></span>
+    <span id="ftUpdated"></span>
+  </footer>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var DATA = {"brand":"Template Studio","tagline":"Every site we've shipped. One living catalog.","updated":"2026-09-19","templates":[
+    {"id":"aether","name":"Aether","category":"Cinematic","url":"https://unvuvjty.gensparkclaw.com/aether/","description":"A scroll-driven cinematic world — a data center reimagined as a place, told with a single continuous flight.","tags":["scrollcraft","cinematic","brand","three.js"],"live":true,"status":"live"},
+    {"id":"aether-live","name":"Aether LIVE","category":"Cinematic","url":"https://unvuvjty.gensparkclaw.com/aether-live/","description":"The real-time Three.js edition — a live, lighting-driven data-center world you can fly through.","tags":["realtime","three.js","webgl","experimental"],"live":true,"status":"live"},
+    {"id":"arkeco","name":"Ark Eco","category":"Cinematic","url":"https://unvuvjty.gensparkclaw.com/arkeco/","description":"Roofing & solar brand site — dark, cinematic, product-first.","tags":["roofing","solar","cinematic","brand"],"live":true,"status":"live"},
+    {"id":"arkeco-scroll-v2","name":"Ark Eco Scroll","category":"Cinematic","url":"https://unvuvjty.gensparkclaw.com/arkeco-scroll-v2/","description":"Immersive scroll-driven worldflight — one continuous flight over the property, ending on a tagged aerial.","tags":["scrollcraft","worldflight","cinematic"],"live":true,"status":"live"},
+    {"id":"arc-eco-v8","name":"Arc Eco v8","category":"Cinematic","url":"https://unvuvjty.gensparkclaw.com/martin-demo/uwb-staging/arc-eco-v8-2-cinematic-video-pass-20260625/","description":"Cinematic video-pass build for a roofing & solar brand.","tags":["cinematic","video","roofing","solar"],"live":true,"status":"live"},
+    {"id":"pinklagoon","name":"Pink Lagoon Pools","category":"Home & Local Services","url":"https://dsh.growwithfootprint.com/pinklagoon/","description":"Pool cleaning & maintenance for Cape Coral, Fort Myers & Naples, FL — service-first local landing experience.","tags":["home-services","pool","local","lead-gen"],"live":true,"status":"live"},
+    {"id":"acrepairdaily","name":"AC Repair Daily","category":"Home & Local Services","url":"https://unvuvjty.gensparkclaw.com/acrepairdaily/","description":"HVAC repair & installation fleet — a 10-cell microsite engine with per-cell call tracking.","tags":["hvac","local","microsite","lead-gen"],"live":true,"status":"live"},
+    {"id":"city-to-city","name":"City to City","category":"Home & Local Services","url":"https://unvuvjty.gensparkclaw.com/city-to-city/","description":"Three-tier lead engine for an HVAC brand — money site, isolated cells, and an apex domain.","tags":["hvac","microsite","lead-gen","seo"],"live":true,"status":"live"},
+    {"id":"nova-electrical","name":"Nova Electrical","category":"Home & Local Services","url":"https://unvuvjty.gensparkclaw.com/nova-electrical/","description":"Electrical contractor site with a clean, trust-first local layout.","tags":["electrical","local","lead-gen"],"live":true,"status":"live"},
+    {"id":"global-security","name":"Global Security","category":"Home & Local Services","url":"https://unvuvjty.gensparkclaw.com/global-security/","description":"Security & protection services site, built to convert local search.","tags":["security","local","lead-gen"],"live":true,"status":"live"},
+    {"id":"ihomegroup-site","name":"iHome Group","category":"Home & Local Services","url":"https://unvuvjty.gensparkclaw.com/ihomegroup-site/","description":"Real-estate / home partner site.","tags":["real-estate","home","local"],"live":true,"status":"live"},
+    {"id":"growwithfootprint","name":"Grow With Footprint","category":"Home & Local Services","url":"https://unvuvjty.gensparkclaw.com/growwithfootprint-maintenance/","description":"Home maintenance & service brand site.","tags":["home-services","maintenance","local"],"live":true,"status":"live"},
+    {"id":"kennesaw-pro-roofing","name":"Kennesaw Pro Roofing","category":"Roofing & Construction","url":"https://unvuvjty.gensparkclaw.com/kennesaw-pro-roofing-fresh/","description":"Roofing contractor site — proof-first, call-to-action heavy.","tags":["roofing","construction","lead-gen"],"live":true,"status":"live"},
+    {"id":"patton-construction","name":"Patton Construction","category":"Roofing & Construction","url":"https://unvuvjty.gensparkclaw.com/patton-construction/","description":"Commercial/home construction site (archived build).","tags":["construction","archived"],"live":true,"status":"archived"},
+    {"id":"ng-construction","name":"NG Construction","category":"Roofing & Construction","url":"https://unvuvjty.gensparkclaw.com/ng-construction/","description":"Construction site (archived build).","tags":["construction","archived"],"live":true,"status":"archived"},
+    {"id":"xactinsure","name":"Xact Insurance","category":"Insurance & Financial","url":"https://unvuvjty.gensparkclaw.com/xactinsure/","description":"Medicare / insurance brand with a companion WordPress blog.","tags":["insurance","medicare","blog"],"live":true,"status":"live"},
+    {"id":"floridahealthinsuranceweb","name":"Florida Health Insurance","category":"Insurance & Financial","url":"https://unvuvjty.gensparkclaw.com/floridahealthinsuranceweb/","description":"Health insurance brand — a large-scale subdomain microsite network.","tags":["insurance","health","microsite"],"live":true,"status":"live"},
+    {"id":"lysinsurance","name":"LYS Insurance","category":"Insurance & Financial","url":"https://unvuvjty.gensparkclaw.com/lysinsurance/","description":"Personal lines insurance site.","tags":["insurance","local"],"live":true,"status":"live"},
+    {"id":"financial-wellness","name":"Financial Wellness","category":"Insurance & Financial","url":"https://unvuvjty.gensparkclaw.com/financial-wellness/","description":"Financial wellness brand (archived build).","tags":["finance","archived"],"live":true,"status":"archived"},
+    {"id":"christ-leads-life","name":"Christ Leads Life","category":"Insurance & Financial","url":"https://unvuvjty.gensparkclaw.com/christ-leads-life/","description":"Faith-led community brand (archived build).","tags":["community","faith","archived"],"live":true,"status":"archived"},
+    {"id":"cleanhustle","name":"Clean Hustle","category":"Marketing & Digital","url":"https://unvuvjty.gensparkclaw.com/cleanhustle/","description":"A lean marketing / commerce brand site.","tags":["marketing","commerce","brand"],"live":true,"status":"live"},
+    {"id":"revlinc","name":"Revlinc","category":"Marketing & Digital","url":"https://unvuvjty.gensparkclaw.com/revlinc/","description":"Brand / product marketing site.","tags":["marketing","brand"],"live":true,"status":"live"},
+    {"id":"localspot941","name":"Local Spot 941","category":"Marketing & Digital","url":"https://localspot941.com/","description":"Award-winning family restaurant in Venice, FL \u2014 Reubens, homestyle favorites, early bird specials and takeout. 7-page local site.","tags":["restaurant","hospitality","local","venice-fl","multi-page"],"live":true,"status":"live"},
+    {"id":"footprint","name":"Footprint","category":"Marketing & Digital","url":"https://unvuvjty.gensparkclaw.com/footprint/","description":"Multi-site brand platform (archived build).","tags":["brand","platform","archived"],"live":true,"status":"archived"},
+    {"id":"footprint-v2","name":"Footprint V2","category":"Marketing & Digital","url":"https://dsh.growwithfootprint.com/footprint-v2/","description":"The system between attention and revenue — leads, follow-up and optimization in one engine for owner-led service businesses.","tags":["agency","marketing-system","lead-gen","follow-up","brand"],"live":true,"status":"live"},
+    {"id":"shop","name":"Shop","category":"Marketing & Digital","url":"https://unvuvjty.gensparkclaw.com/shop/","description":"Commerce storefront (archived build).","tags":["ecommerce","shop","archived"],"live":true,"status":"archived"},
+    {"id":"lwrb","name":"LWRB","category":"Marketing & Digital","url":"https://unvuvjty.gensparkclaw.com/lwrb/","description":"Brand site (archived build).","tags":["brand","archived"],"live":true,"status":"archived"},
+    {"id":"solhaus","name":"Solhaus","category":"Cinematic","url":"https://dsh.growwithfootprint.com/cinematic/templates/solhaus/index.html","description":"Build your home energy system — a warm, cinematic brand story told as one world.","tags":["cinematic","brand","energy","template"],"live":true,"status":"live"},
+    {"id":"solhaus-worldflight","name":"Solhaus: The Build","category":"Cinematic","url":"https://dsh.growwithfootprint.com/cinematic/templates/solhaus/the-build.html","description":"The home-energy system built from dawn to night — 14 AI-film scenes played by your scroll, each playing once, with a scroll cue inviting the next beat.","tags":["worldflight","cinematic","video","14-scene","solhaus","energy"],"live":true,"status":"live"},
+    {"id":"aurelian","name":"Aurelian","category":"Cinematic","url":"","description":"AURELIAN — a minimal, cinematic brand site.","tags":["brand","cinematic","minimal"],"live":false,"status":"preview"},
+    {"id":"blitzboard","name":"BlitzBoard","category":"Apps & Tools","url":"","description":"Fantasy football rankings, draft assistant, waiver-wire alerts and trade analysis.","tags":["app","sports","tool","fantasy"],"live":false,"status":"preview"},
+    {"id":"namma-studio","name":"Namma Studio","category":"Cinematic Templates","url":"https://dsh.growwithfootprint.com/cinematic/templates/namma-studio/index.html","description":"A bold creative-studio template — building premium brands.","tags":["template","studio","cinematic","brand"],"live":true,"status":"live"},
+    {"id":"paakuko","name":"Paa & Kuko","category":"Home & Local Services","url":"","description":"A nail & foot atelier in Manila — ritual-first, editorial brand.","tags":["beauty","atelier","local"],"live":false,"status":"preview"},
+    {"id":"abc-lawncare","name":"ABC Lawn Care","category":"Home & Local Services","url":"https://dsh.growwithfootprint.com/cinematic/templates/abc-lawncare/index.html","description":"Lawn care for Fort Myers & Cape Coral, FL.","tags":["lawn","local","home-services"],"live":true,"status":"live"},
+    {"id":"tuneup-offer","name":"AC Tune-Up Offer","category":"Home & Local Services","url":"https://unvuvjty.gensparkclaw.com/city-to-city/tuneup-offer/","description":"City to City HVAC $49 AC tune-up offer landing.","tags":["hvac","offer","lead-gen"],"live":true,"status":"live"},
+    {"id":"aegis-global","name":"Aegis Global","category":"Cinematic Templates","url":"https://dsh.growwithfootprint.com/cinematic/templates/aegis-global/index.html","description":"Aegis — global risk, told with restraint.","tags":["template","cinematic","risk","brand"],"live":true,"status":"live"},
+    {"id":"colorfield-story-vantage","name":"Vantage Risk","category":"Cinematic Templates","url":"https://dsh.growwithfootprint.com/cinematic/templates/colorfield-story-vantage/index.html","description":"Vantage Risk — protection without spectacle.","tags":["template","cinematic","risk","story"],"live":true,"status":"live"},
+    {"id":"local-service-premium","name":"Local Service Premium","category":"Cinematic Templates","url":"https://dsh.growwithfootprint.com/cinematic/templates/local-service-premium/index.html","description":"A reusable premium local-service template — drop in your name, city & offer.","tags":["template","local-service","premium"],"live":true,"status":"live"},
+    {"id":"footprint-motion","name":"Footprint Motion Template","category":"Cinematic Templates","url":"https://dsh.growwithfootprint.com/cinematic/templates/footprint-motion/index.html","description":"Flagship motion template (v4) — cinematic video hero, directional fly-ins, 3D spin-ins, flips, Ken Burns images, auto-scroll carousel, folding rows, kinetic text, magnetic cursor, marquee and leak-picker.","tags":["template","cinematic","video","motion","award-tier","agency","lead-gen"],"live":true,"status":"live"},
+    {"id":"footprint-growth-engine","name":"Footprint Growth Engine Template","category":"Cinematic Templates","url":"https://dsh.growwithfootprint.com/cinematic/templates/footprint-growth-engine/index.html","description":"v3.1 light-theme interactive widget template — giant Growth Command Center dashboard (channel switcher, live SVG charts, period tabs, activity feed, budget slider), before/after pipeline comparison slider, revenue calculator, hover-orbit feature cards, animated stat graphs, flywheel, testimonial carousel, video modal, and a floating Theme Studio: two-tone color wheel, 11 font pairings (script, poster, editorial, more), 9 backgrounds including dark mode, 4 card styles and 5 button styles.","tags":["template","cinematic","widgets","dashboard","calculator","comparison-slider","interactive","light-theme","theme-studio","color-wheel","lead-gen"],"live":true,"status":"live"},
+    {"id":"footprint-kage","name":"Footprint Kage","category":"Cinematic Templates","url":"https://dsh.growwithfootprint.com/cinematic/templates/footprint-kage/index.html","description":"ThreeUI Kage temple-night world re-skinned for Footprint \u2014 a cinematic night walk through the 6-phase Growth System, giant FOOTPRINT wordmark rendered live in WebGL, with the \"growth should not feel this hard\" hero story.","tags":["threeui","cinematic","three.js","webgl","template","immersive"],"live":true,"status":"live"},
+    {"id":"footprint-sylva","name":"Footprint Sylva","category":"Cinematic Templates","url":"https://dsh.growwithfootprint.com/cinematic/templates/footprint-sylva/index.html","description":"ThreeUI Sylva living-world re-skinned \u2014 mossy 3D forest hero telling the organic-growth story: acquisition, conversion and retention machines that compound while you sleep. \"Growth is a living system.\"","tags":["threeui","cinematic","three.js","webgl","template","immersive"],"live":true,"status":"live"},
+    {"id":"footprint-tower","name":"Footprint Tower","category":"Cinematic Templates","url":"https://dsh.growwithfootprint.com/cinematic/templates/footprint-tower/index.html","description":"ThreeUI Country Towers re-skinned \u2014 3D tower construction study where each build stage narrates a phase of the Footprint Growth System, floor by floor: Clarify to Optimize.","tags":["threeui","cinematic","three.js","webgl","template","immersive"],"live":true,"status":"live"},
+    {"id":"footprint-landscape","name":"Footprint Landscape","category":"Cinematic Templates","url":"https://dsh.growwithfootprint.com/cinematic/templates/footprint-landscape/index.html","description":"ThreeUI Landscape re-skinned \u2014 \"Know your terrain.\" 3D terrain world mapping the market a local business must cross: visibility peaks, trust, conversion and follow-up paths.","tags":["threeui","cinematic","three.js","webgl","template","immersive"],"live":true,"status":"live"},
+    {"id":"footprint-sketchbook","name":"Footprint Sketchbook","category":"Cinematic Templates","url":"https://dsh.growwithfootprint.com/cinematic/templates/footprint-sketchbook/index.html","description":"ThreeUI Sketchbook re-skinned \u2014 editorial field-notes journal of real Footprint builds: XactInsure 19-city SEO machine, Golden Memorial 20-section blueprint, Clean Hustle 30-day retail brand.","tags":["threeui","editorial","journal","case-studies","template"],"live":true,"status":"live"},
+    {"id":"footprint-spark","name":"Footprint Spark","category":"Cinematic Templates","url":"https://dsh.growwithfootprint.com/cinematic/templates/footprint-spark/index.html","description":"ThreeUI Spark Badge re-skinned \u2014 particle badge / proof mark component, \"Receipts, not promises.\" Canvas-only visual with Footprint title treatment.","tags":["threeui","component","badge","canvas","template"],"live":true,"status":"live"},
+    {"id":"footprint-synthralos","name":"Footprint Synthralos","category":"Cinematic Templates","url":"https://dsh.growwithfootprint.com/cinematic/templates/footprint-synthralos/index.html","description":"ThreeUI Synthralos halftone re-skinned \u2014 interactive shader studies reframed as Noise, Signal, Footprint: see the pattern in your numbers, cut what does not work. The Optimize phase, visualized.","tags":["threeui","cinematic","shader","webgl","template","data"],"live":true,"status":"live"},
+    {"id":"footprint-shelf","name":"Footprint Shelf","category":"Cinematic Templates","url":"https://dsh.growwithfootprint.com/cinematic/templates/footprint-shelf/index.html","description":"ThreeUI Complete Shelf re-skinned \u2014 \"The Growth Library\": a 3D bookshelf where every volume is a phase of the Footprint Growth System plus a Case Files volume for the three client builds.","tags":["threeui","cinematic","three.js","webgl","template","immersive"],"live":true,"status":"live"},
+    {"id":"footprint-books","name":"Footprint Books","category":"Cinematic Templates","url":"https://dsh.growwithfootprint.com/cinematic/templates/footprint-books/index.html","description":"ThreeUI Bestsellers showcase re-skinned \u2014 \"Stories that sell\": client stories as featured titles \u2014 The 19-City Machine (XactInsure), The First-Review Blueprint (Golden Memorial), Thirty Days to a Brand (Clean Hustle).","tags":["threeui","showcase","case-studies","template"],"live":true,"status":"live"}
+  ]};
+
+  var T = DATA.templates;
+  var q = document.getElementById('q');
+  var grid = document.getElementById('grid');
+  var chipsBox = document.getElementById('chips');
+
+  var cats = {};
+  T.forEach(function (t) { cats[t.category] = (cats[t.category] || 0) + 1; });
+  var catNames = Object.keys(cats).sort(function (a, b) { return cats[b] - cats[a]; });
+
+  var live = T.filter(function (t) { return t.status === 'live'; }).length;
+  var archived = T.filter(function (t) { return t.status === 'archived'; }).length;
+  document.getElementById('meta').innerHTML =
+    '<span><b>' + T.length + '</b> templates</span><span>·</span>' +
+    '<span><b>' + live + '</b> live</span><span>·</span>' +
+    '<span><b>' + archived + '</b> archived</span><span>·</span>' +
+    '<span>updated <b>' + DATA.updated + '</b></span>';
+  document.getElementById('ftCount').textContent = T.length + ' entries';
+  document.getElementById('ftUpdated').textContent = 'Catalog updated ' + DATA.updated;
+
+  var state = { cat: 'All', text: '' };
+
+  function chip(label, count, value) {
+    var b = document.createElement('button');
+    b.className = 'chip' + (state.cat === value ? ' on' : '');
+    b.innerHTML = label + '<span class="n">' + count + '</span>';
+    b.addEventListener('click', function () {
+      state.cat = value;
+      Array.prototype.forEach.call(chipsBox.children, function (c) { c.classList.remove('on'); });
+      b.classList.add('on');
+      render();
+    });
+    return b;
+  }
+  chipsBox.appendChild(chip('All', T.length, 'All'));
+  catNames.forEach(function (c) { chipsBox.appendChild(chip(c, cats[c], c)); });
+
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (ch) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch];
+    });
+  }
+
+  function card(t) {
+    var linked = !!t.url;
+    var el = document.createElement('a');
+    if (linked) { el.href = t.url; el.target = '_blank'; el.rel = 'noopener'; }
+    el.className = 'card' + (linked ? '' : ' flat');
+    var preview = '';
+    if (linked) {
+      preview = '<div class="preview"><iframe src="' + esc(t.url) + '" loading="lazy" title="Preview of ' + esc(t.name) + '"></iframe>' +
+        '<div class="badgez"><span class="badge b-' + esc(t.status) + '">' + esc(t.status) + '</span></div></div>';
+    } else {
+      preview = '<div class="preview"><div class="ph">Preview unavailable</div>' +
+        '<div class="badgez"><span class="badge b-' + esc(t.status) + '">' + esc(t.status) + '</span></div></div>';
+    }
+    el.innerHTML = preview +
+      '<div class="body"><div class="row"><span class="cat">' + esc(t.category) + '</span></div>' +
+      '<h2>' + esc(t.name) + '</h2>' +
+      '<p>' + esc(t.description) + '</p>' +
+      '<div class="tags">' + t.tags.map(function (tg) { return '<span class="tag">' + esc(tg) + '</span>'; }).join('') + '</div>' +
+      (linked ? '<span class="go">Visit <span class="a"></span></span>' : '<span class="nolink">Not yet deployed</span>') + '</div>';
+    return el;
+  }
+
+  function render() {
+    var text = state.text.trim().toLowerCase();
+    grid.innerHTML = '';
+    var shown = 0;
+    T.forEach(function (t) {
+      if (state.cat !== 'All' && t.category !== state.cat) return;
+      if (text) {
+        var hay = (t.name + ' ' + t.id + ' ' + t.description + ' ' + t.tags.join(' ')).toLowerCase();
+        if (hay.indexOf(text) === -1) return;
+      }
+      grid.appendChild(card(t));
+      shown++;
+    });
+    if (!shown) {
+      var e = document.createElement('div');
+      e.className = 'empty';
+      e.textContent = 'No templates match "' + state.text + '".';
+      grid.appendChild(e);
+    }
+  }
+
+  q.addEventListener('input', function () { state.text = q.value; render(); });
+  render();
+})();
+</script>
+</body>
+</html>
