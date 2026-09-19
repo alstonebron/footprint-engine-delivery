@@ -4,10 +4,10 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Footprint Growth Engine Template — The Growth Command Center</title>
-<meta name="description" content="Interactive light-theme growth template: giant live dashboard widget, before/after pipeline slider, revenue calculator, hover-orbit feature cards, live theme picker with floating Theme Studio (color / font / background / style switchers), animated infographics and video — Footprint style. fpge-v3" />
+<meta name="description" content="Interactive light-theme growth template: giant live dashboard widget, before/after pipeline slider, revenue calculator, hover-orbit feature cards, live theme picker with floating Theme Studio (two-tone color wheel, 11 font pairings, 9 backgrounds, style switchers, button styles), animated infographics and video — Footprint style. fpge-v31" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600&family=Playfair+Display:wght@600;700;800&family=Source+Sans+3:wght@400;600;700&family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;600&family=Poppins:wght@400;600;800&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600&family=Playfair+Display:wght@600;700;800&family=Source+Sans+3:wght@400;600;700&family=Inter:wght@400;600;800&family=JetBrains+Mono:wght@400;600&family=Poppins:wght@400;600;800&family=Nunito:wght@400;600;800&family=Dancing+Script:wght@600;700&family=Bebas+Neue&family=Abril+Fatface&family=Pacifico&family=Caveat:wght@600;700&family=Archivo+Black&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#f5f7f4; --panel:#ffffff; --panel2:#eef3ee;
@@ -385,9 +385,21 @@ footer{border-top:1px solid var(--line);padding:52px 0 34px;background:var(--bg)
 .studio.open .s-group:nth-child(2){transition-delay:.09s}
 .studio.open .s-group:nth-child(3){transition-delay:.14s}
 .studio.open .s-group:nth-child(4){transition-delay:.19s}
+.studio.open .s-group:nth-child(5){transition-delay:.24s}
+.wheel-wrap{display:flex;align-items:center;gap:14px;margin-bottom:12px}
+.wheel{position:relative;width:96px;height:96px;border-radius:50%;flex:0 0 auto;cursor:crosshair;touch-action:none;box-shadow:inset 0 0 0 3px var(--panel),0 8px 22px rgba(13,31,20,.18);transition:transform .25s}
+.wheel:hover{transform:scale(1.05) rotate(12deg)}
+.wheel::after{content:"";position:absolute;inset:27%;border-radius:50%;background:var(--panel);box-shadow:0 3px 10px rgba(13,31,20,.25)}
+.wheel .two{position:absolute;inset:34%;border-radius:50%;background:linear-gradient(135deg,var(--accent) 50%,var(--accent-deep) 50%);z-index:1;transition:background .15s;box-shadow:0 0 0 2px var(--panel)}
+.wheel-hint{font-size:11px;line-height:1.55;color:var(--dim)}
+.wheel-hint b{display:block;font-size:12px;color:var(--ink)}
 
 /* --- background variants --- */
 body[data-bg="meadow"]{--bg:#eaf4ec;--panel2:#e0efe4}
+body[data-bg="sand"]{--bg:#f6f0e4;--panel2:#efe6d3}
+body[data-bg="blush"]{--bg:#f9eef1;--panel2:#f3e2e7}
+body[data-bg="ocean"]{--bg:#e8f1f8;--panel2:#dce9f3}
+body[data-bg="fog"]{--bg:#eef0f2;--panel2:#e4e8eb}
 body[data-bg="cream"]{--bg:#faf5ec;--panel2:#f3ecdd}
 body[data-bg="slate"]{--bg:#e9eef3;--panel2:#dfe7ee}
 body[data-bg="night"]{--bg:#0d1411;--panel:#131d16;--panel2:#0f1812;--ink:#e9f3ec;--dim:#9db2a6;--dim2:#6f847a;--line:rgba(233,243,236,.13)}
@@ -418,6 +430,21 @@ body[data-style="pill"] .case .kpi{border-radius:24px}
 body[data-style="glass"] :is(.stat-card,.ocard,.themer .card,.calc .card,.icard,.chip){background:color-mix(in srgb,var(--panel) 52%,transparent);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-color:color-mix(in srgb,var(--ink) 15%,transparent)}
 body[data-style="glass"] .stat-card{box-shadow:0 14px 44px rgba(13,31,20,.14)}
 body[data-style="glass"] .themer .demo{background:color-mix(in srgb,var(--panel) 60%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+
+/* --- button style variants (site-wide: nav CTAs, hero, calculator, modal) --- */
+body[data-bstyle="pill"] .btn{border-radius:999px}
+body[data-bstyle="square"] .btn{border-radius:8px;letter-spacing:.1em}
+body[data-bstyle="outline"] .btn{background:transparent!important;box-shadow:none!important;border-width:2px}
+body[data-bstyle="outline"] .btn-a{color:var(--accent-deep);border-color:var(--accent)}
+body[data-bstyle="outline"] .btn-a:hover{background:var(--accent)!important;color:#fff}
+body[data-bstyle="outline"] .btn-g{border-color:rgba(13,31,20,.4)}
+body[data-bstyle="shadow"] .btn{border-radius:10px;box-shadow:4px 4px 0 rgba(13,31,20,.85);transform:translate(0,0);transition:transform .15s ease,box-shadow .15s ease}
+body[data-bstyle="shadow"] .btn-a:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 rgba(13,31,20,.85)}
+body[data-bstyle="shadow"] .btn-g{box-shadow:4px 4px 0 var(--accent)}
+body[data-bstyle="shadow"] .btn-g:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--accent)}
+body[data-bstyle="glossy"] .btn-a{background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 72%,#fff) 0%,var(--accent) 52%,var(--accent-deep) 100%);box-shadow:inset 0 1px 0 rgba(255,255,255,.55),0 10px 26px var(--accent-soft)}
+body[data-bstyle="glossy"] .btn-a:hover{background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 60%,#fff) 0%,var(--accent) 52%,var(--accent-deep) 100%)}
+body[data-bstyle="glossy"] .btn-g{background:linear-gradient(180deg,rgba(255,255,255,.7),rgba(255,255,255,.2))}
 
 @media(max-width:960px){
   .sgrid{grid-template-columns:1fr 1fr}
@@ -862,7 +889,7 @@ body[data-style="glass"] .themer .demo{background:color-mix(in srgb,var(--panel)
 <footer>
   <div class="wrap fbot">
     <span>© Footprint — Attention → Revenue</span>
-    <span>Footprint Growth Engine Template · v3 · fpge-v3 · Theme Studio inside</span>
+    <span>Footprint Growth Engine Template · v3.1 · fpge-v31 · Theme Studio: wheel, 11 fonts, 9 bgs, 4 styles, 5 buttons</span>
     <span>Privacy · Terms · Accessibility</span>
   </div>
 </footer>
@@ -872,12 +899,16 @@ body[data-style="glass"] .themer .demo{background:color-mix(in srgb,var(--panel)
 <aside class="studio" id="studio" aria-hidden="true" aria-label="Theme Studio">
   <div class="s-head">
     <b>Theme Studio</b>
-    <span class="combo" id="comboName">Forest · Modern<br/>Dawn · Soft</span>
+    <span class="combo" id="comboName">Forest · Modern<br/>Dawn · Soft · Pill</span>
     <button id="studioClose" aria-label="Close Theme Studio">✕</button>
   </div>
   <div class="s-body">
     <div class="s-group">
-      <span class="g-label">Color</span>
+      <span class="g-label">Color — two-tone wheel</span>
+      <div class="wheel-wrap">
+        <div class="wheel" id="colorWheel" role="slider" aria-label="Two-tone color wheel" aria-valuemin="0" aria-valuemax="360" aria-valuenow="150" tabindex="0"><span class="two"></span></div>
+        <p class="wheel-hint"><b>Drag the wheel</b> — it picks a hue and derives the two-tone pair: bright accent + deep shadow. The split dot previews both.</p>
+      </div>
       <div class="g-row" id="studioColors">
         <button class="csw on" data-accent="#0e9f5d" data-deep="#0a7a47" style="background:#0e9f5d" aria-label="Forest"></button>
         <button class="csw" data-accent="#e23c50" data-deep="#b32236" style="background:#e23c50" aria-label="Crimson"></button>
@@ -892,6 +923,12 @@ body[data-style="glass"] .themer .demo{background:color-mix(in srgb,var(--panel)
       <div class="g-row" id="studioFonts">
         <button class="fchip on" data-font="modern"><span class="aa" style="font-family:'Sora'">Aa</span>Modern</button>
         <button class="fchip" data-font="editorial"><span class="aa" style="font-family:'Playfair Display'">Aa</span>Editorial</button>
+        <button class="fchip" data-font="script"><span class="aa" style="font-family:'Dancing Script'">Aa</span>Script</button>
+        <button class="fchip" data-font="sassy"><span class="aa" style="font-family:'Pacifico'">Aa</span>Sassy</button>
+        <button class="fchip" data-font="poster"><span class="aa" style="font-family:'Bebas Neue'">AA</span>Poster</button>
+        <button class="fchip" data-font="vogue"><span class="aa" style="font-family:'Abril Fatface'">Aa</span>Vogue</button>
+        <button class="fchip" data-font="marker"><span class="aa" style="font-family:'Caveat'">Aa</span>Marker</button>
+        <button class="fchip" data-font="heavy"><span class="aa" style="font-family:'Archivo Black'">Aa</span>Heavy</button>
         <button class="fchip" data-font="friendly"><span class="aa" style="font-family:'Poppins'">Aa</span>Friendly</button>
         <button class="fchip" data-font="technical"><span class="aa" style="font-family:'Inter'">Aa</span>Technical</button>
         <button class="fchip" data-font="grotesk"><span class="aa" style="font-family:'Space Grotesk'">Aa</span>Grotesk</button>
@@ -903,7 +940,11 @@ body[data-style="glass"] .themer .demo{background:color-mix(in srgb,var(--panel)
         <button class="bchip on" data-bg="dawn"><i style="background:#f5f7f4"></i>Dawn</button>
         <button class="bchip" data-bg="meadow"><i style="background:#eaf4ec"></i>Meadow</button>
         <button class="bchip" data-bg="cream"><i style="background:#faf5ec"></i>Cream</button>
+        <button class="bchip" data-bg="sand"><i style="background:#f6f0e4"></i>Sand</button>
+        <button class="bchip" data-bg="blush"><i style="background:#f9eef1"></i>Blush</button>
+        <button class="bchip" data-bg="ocean"><i style="background:#e8f1f8"></i>Ocean</button>
         <button class="bchip" data-bg="slate"><i style="background:#e9eef3"></i>Slate</button>
+        <button class="bchip" data-bg="fog"><i style="background:#eef0f2"></i>Fog</button>
         <button class="bchip" data-bg="night"><i style="background:#0d1411"></i>Night</button>
       </div>
     </div>
@@ -914,6 +955,16 @@ body[data-style="glass"] .themer .demo{background:color-mix(in srgb,var(--panel)
         <button class="schip" data-style="sharp"><i>■</i>Sharp</button>
         <button class="schip" data-style="pill"><i>▬</i>Pill</button>
         <button class="schip" data-style="glass"><i>◌</i>Glass</button>
+      </div>
+    </div>
+    <div class="s-group">
+      <span class="g-label">Buttons</span>
+      <div class="g-row" id="studioBtns">
+        <button class="schip on" data-bstyle="pill"><i>▬</i>Pill</button>
+        <button class="schip" data-bstyle="square"><i>▢</i>Square</button>
+        <button class="schip" data-bstyle="outline"><i>◌</i>Outline</button>
+        <button class="schip" data-bstyle="shadow"><i>◫</i>Shadow</button>
+        <button class="schip" data-bstyle="glossy"><i>✦</i>Glossy</button>
       </div>
     </div>
   </div>
@@ -1171,14 +1222,21 @@ body[data-style="glass"] .themer .demo{background:color-mix(in srgb,var(--panel)
   var FONT_SETS = {
     modern:   {name:'Modern',    head:"'Sora',system-ui,sans-serif",            body:"'Sora',system-ui,sans-serif",          mono:"'Space Grotesk',monospace"},
     editorial:{name:'Editorial', head:"'Playfair Display',Georgia,serif",       body:"'Source Sans 3',system-ui,sans-serif", mono:"'JetBrains Mono',monospace"},
+    script:   {name:'Script',    head:"'Dancing Script',cursive",               body:"'Nunito',system-ui,sans-serif",        mono:"'Space Grotesk',monospace"},
+    sassy:    {name:'Sassy',     head:"'Pacifico',cursive",                     body:"'Poppins',system-ui,sans-serif",       mono:"'Poppins',sans-serif"},
+    poster:   {name:'Poster',    head:"'Bebas Neue',system-ui,sans-serif",      body:"'Inter',system-ui,sans-serif",         mono:"'JetBrains Mono',monospace"},
+    vogue:    {name:'Vogue',     head:"'Abril Fatface',Georgia,serif",          body:"'Source Sans 3',system-ui,sans-serif", mono:"'Space Grotesk',monospace"},
+    marker:   {name:'Marker',    head:"'Caveat',cursive",                       body:"'Nunito',system-ui,sans-serif",        mono:"'Caveat',cursive"},
+    heavy:    {name:'Heavy',     head:"'Archivo Black',system-ui,sans-serif",   body:"'Inter',system-ui,sans-serif",         mono:"'JetBrains Mono',monospace"},
     friendly: {name:'Friendly',  head:"'Poppins',system-ui,sans-serif",         body:"'Nunito',system-ui,sans-serif",        mono:"'Nunito',sans-serif"},
     technical:{name:'Technical', head:"'Inter',system-ui,sans-serif",           body:"'Inter',system-ui,sans-serif",         mono:"'JetBrains Mono',monospace"},
     grotesk:  {name:'Grotesk',   head:"'Space Grotesk',system-ui,sans-serif",   body:"'Space Grotesk',system-ui,sans-serif", mono:"'Space Grotesk',monospace"}
   };
-  var BG_NAMES  = {dawn:'Dawn', meadow:'Meadow', cream:'Cream', slate:'Slate', night:'Night'};
+  var BG_NAMES  = {dawn:'Dawn', meadow:'Meadow', cream:'Cream', sand:'Sand', blush:'Blush', ocean:'Ocean', slate:'Slate', fog:'Fog', night:'Night'};
   var STYLE_NAMES = {soft:'Soft', sharp:'Sharp', pill:'Pill', glass:'Glass'};
+  var BUTTON_NAMES = {pill:'Pill', square:'Square', outline:'Outline', shadow:'Shadow', glossy:'Glossy'};
   var COLOR_NAMES = {'#0e9f5d':'Forest','#e23c50':'Crimson','#4f5df0':'Indigo','#f2740d':'Sunset','#0fb5a6':'Lagoon','#a23ce8':'Plum'};
-  var themeState = {accent:'Forest', font:'Modern', bg:'Dawn', style:'Soft'};
+  var themeState = {accent:'Forest', font:'Modern', bg:'Dawn', style:'Soft', btn:'Pill'};
   var rootStyle = document.documentElement.style;
   var fab = document.getElementById('studioFab');
 
@@ -1189,7 +1247,7 @@ body[data-style="glass"] .themer .demo{background:color-mix(in srgb,var(--panel)
   }
   function updateCombo(){
     document.getElementById('comboName').innerHTML =
-      themeState.accent + ' · ' + themeState.font + '<br/>' + themeState.bg + ' · ' + themeState.style;
+      themeState.accent + ' · ' + themeState.font + '<br/>' + themeState.bg + ' · ' + themeState.style + ' · ' + themeState.btn;
   }
   function setAccent(hex, deep){
     var r = parseInt(hex.slice(1,3),16), g = parseInt(hex.slice(3,5),16), bl = parseInt(hex.slice(5,7),16);
@@ -1234,6 +1292,48 @@ body[data-style="glass"] .themer .demo{background:color-mix(in srgb,var(--panel)
     updateCombo();
     flashFab();
   }
+  function setBStyle(key){
+    document.body.dataset.bstyle = key;
+    document.querySelectorAll('#studioBtns .schip').forEach(function(c){
+      c.classList.toggle('on', c.dataset.bstyle === key);
+    });
+    themeState.btn = BUTTON_NAMES[key] || key;
+    updateCombo();
+    flashFab();
+  }
+  /* two-tone color wheel: hue -> bright accent + deep shadow pair */
+  var wheel = document.getElementById('colorWheel');
+  var HUE_NAMES = ['Red','Vermilion','Orange','Amber','Lime','Green','Emerald','Teal','Cyan','Azure','Blue','Indigo','Violet','Purple','Magenta','Rose'];
+  function hueName(h){ return HUE_NAMES[Math.min(15, Math.floor(((h % 360) + 360) % 360 / 22.5))]; }
+  function setHue(h){
+    h = ((h % 360) + 360) % 360;
+    rootStyle.setProperty('--accent', 'hsl(' + h + ',68%,44%)');
+    rootStyle.setProperty('--accent-deep', 'hsl(' + h + ',74%,30%)');
+    rootStyle.setProperty('--accent-soft', 'hsla(' + h + ',68%,44%,.14)');
+    document.querySelectorAll('[data-accent]').forEach(function(s){ s.classList.remove('on'); });
+    wheel.setAttribute('aria-valuenow', Math.round(h));
+    themeState.accent = hueName(h) + ' wheel';
+    if(!reduced) drawChart();
+    updateCombo();
+    flashFab();
+  }
+  function pickHue(e){
+    var r = wheel.getBoundingClientRect();
+    var dx = e.clientX - (r.left + r.width / 2);
+    var dy = e.clientY - (r.top + r.height / 2);
+    if(Math.sqrt(dx*dx + dy*dy) < r.width * .18) return; /* ignore center dot */
+    setHue(Math.atan2(dy, dx) * 180 / Math.PI + 90);
+  }
+  var wheelDown = false;
+  wheel.addEventListener('pointerdown', function(e){ wheelDown = true; wheel.setPointerCapture(e.pointerId); pickHue(e); });
+  wheel.addEventListener('pointermove', function(e){ if(wheelDown) pickHue(e); });
+  wheel.addEventListener('pointerup', function(){ wheelDown = false; });
+  wheel.addEventListener('pointercancel', function(){ wheelDown = false; });
+  wheel.addEventListener('keydown', function(e){
+    var cur = +wheel.getAttribute('aria-valuenow') || 150;
+    if(e.key === 'ArrowLeft' || e.key === 'ArrowDown'){ setHue(cur - 10); e.preventDefault(); }
+    if(e.key === 'ArrowRight' || e.key === 'ArrowUp'){ setHue(cur + 10); e.preventDefault(); }
+  });
   /* one delegated listener drives the section picker AND the studio */
   document.addEventListener('click', function(e){
     var acc = e.target.closest('[data-accent]');
@@ -1243,7 +1343,9 @@ body[data-style="glass"] .themer .demo{background:color-mix(in srgb,var(--panel)
     var bg = e.target.closest('#studioBgs [data-bg]');
     if(bg){ setBg(bg.dataset.bg); return; }
     var st = e.target.closest('#studioStyles [data-style]');
-    if(st){ setStyle(st.dataset.style); }
+    if(st){ setStyle(st.dataset.style); return; }
+    var bt = e.target.closest('#studioBtns [data-bstyle]');
+    if(bt){ setBStyle(bt.dataset.bstyle); }
   });
 
   /* studio open/close */
