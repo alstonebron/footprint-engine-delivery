@@ -1,0 +1,988 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Footprint Motion Template — Optimizing Attention Everywhere</title>
+<meta name="description" content="Attention is everywhere. Revenue lives in between. One system that seals the six leaks for owner-led service businesses." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b0f14; --bg2:#0e141b; --panel:#121a23; --line:rgba(246,243,238,.1);
+  --ink:#f6f3ee; --dim:rgba(246,243,238,.62); --dim2:rgba(246,243,238,.4);
+  --amber:#ffb638; --amber-soft:rgba(255,182,56,.14);
+  --max:1200px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:'Sora',system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a,button{touch-action:manipulation}
+.cursor,.cursor-trail{position:fixed;pointer-events:none;z-index:999;border-radius:50%;mix-blend-mode:difference;transform:translate(-50%,-50%)}
+.cursor{width:10px;height:10px;background:var(--amber);transition:width .2s,height .2s,background .2s}
+.cursor.big{width:46px;height:46px;background:rgba(255,182,56,.25);mix-blend-mode:normal}
+.cursor-trail{width:30px;height:30px;border:1px solid rgba(255,182,56,.55);transition:top .12s,left .12s,width .2s,height .2s,opacity .2s}
+@media(pointer:coarse){.cursor,.cursor-trail{display:none}}
+img,video{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.kick{font-family:'Space Grotesk',monospace;font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--amber);display:flex;align-items:center;gap:12px}
+.kick::before{content:"";width:28px;height:1px;background:var(--amber)}
+h2.sec{font-weight:800;font-size:clamp(30px,4.4vw,52px);letter-spacing:-.03em;line-height:1.04;margin:16px 0 0}
+h2.sec em{font-style:normal;color:var(--amber)}
+.sub{color:var(--dim);font-size:15.5px;line-height:1.7;max-width:60ch}
+.btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:14px 26px;font-size:13.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border:1px solid transparent;transition:all .25s ease}
+.btn-a{background:var(--amber);color:#141311}
+.btn-a:hover{background:#ffc85e;transform:translateY(-2px)}
+.btn-g{border-color:rgba(246,243,238,.28);color:var(--ink)}
+.btn-g:hover{border-color:var(--amber);color:var(--amber)}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,.61,.36,1)}
+.rv.in{opacity:1;transform:none}
+.rv-stagger{opacity:0;transform:translateY(30px);transition:opacity .6s ease,transform .6s cubic-bezier(.22,.61,.36,1)}
+.rv-stagger.in{opacity:1;transform:none}
+
+/* award-tier entrances: directional fly, 3d spin, flip, clip wipe (v4 — exaggerated) */
+.fly-l,.fly-r,.fly-u,.fly-d,.spin-l,.spin-r,.flip-in,.clip-reveal,.rowfade,.fold-in{will-change:transform,opacity}
+.fly-l{opacity:0;transform:translateX(-170px) rotate(-8deg);transition:opacity .6s ease,transform .95s cubic-bezier(.22,.61,.36,1)}
+.fly-r{opacity:0;transform:translateX(170px) rotate(8deg);transition:opacity .6s ease,transform .95s cubic-bezier(.22,.61,.36,1)}
+.fly-u{opacity:0;transform:translateY(-120px) rotate(-4deg);transition:opacity .6s ease,transform .95s cubic-bezier(.22,.61,.36,1)}
+.fly-d{opacity:0;transform:translateY(120px) rotate(4deg);transition:opacity .6s ease,transform .95s cubic-bezier(.22,.61,.36,1)}
+.fly-l.in,.fly-r.in,.fly-u.in,.fly-d.in{opacity:1;transform:none}
+.spin-l{opacity:0;transform:perspective(1100px) rotateY(-115deg) translateX(-150px);transform-origin:left center;transition:opacity .55s ease,transform 1.1s cubic-bezier(.22,.61,.36,1)}
+.spin-r{opacity:0;transform:perspective(1100px) rotateY(115deg) translateX(150px);transform-origin:right center;transition:opacity .55s ease,transform 1.1s cubic-bezier(.22,.61,.36,1)}
+.spin-l.in,.spin-r.in{opacity:1;transform:none}
+.flip-in{opacity:0;transform:perspective(900px) rotateX(105deg) translateY(90px);transform-origin:center bottom;transition:opacity .55s ease,transform 1s cubic-bezier(.34,1.35,.64,1)}
+.flip-in.in{opacity:1;transform:none}
+.rowfade{opacity:0;transition:opacity .55s ease}
+.rowfade.in{opacity:1}
+.fold-in{opacity:0;transform:perspective(900px) rotateX(-88deg) scale(.92);transform-origin:center top;transition:opacity .5s ease,transform .8s cubic-bezier(.34,1.25,.64,1)}
+.fold-in.in{opacity:1;transform:none}
+.clip-reveal{clip-path:inset(0 100% 0 0);transition:clip-path 1.2s cubic-bezier(.77,0,.18,1)}
+.clip-reveal.clip-rl{clip-path:inset(0 0 0 100%)}
+.clip-reveal.clip-tb{clip-path:inset(0 0 100% 0)}
+.clip-reveal.in{clip-path:inset(0 0 0 0)}
+
+/* ken burns */
+.kb{overflow:hidden}
+.kb img{animation:kb 16s ease-in-out infinite alternate}
+@keyframes kb{0%{transform:scale(1) translate(0,0)}100%{transform:scale(1.16) translate(-2.5%,2%)}}
+
+/* image carousel strip */
+.strip{position:relative;padding:70px 0 90px;background:var(--bg2);overflow:hidden;border-block:1px solid var(--line)}
+.strip-track{display:flex;gap:18px;width:max-content;animation:stripmove 55s linear infinite;will-change:transform}
+.strip:hover .strip-track{animation-play-state:paused}
+@keyframes stripmove{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.strip .cell{position:relative;flex:0 0 auto;width:360px;aspect-ratio:16/10;border-radius:16px;overflow:hidden;border:1px solid var(--line);transform:skewY(-1.2deg);transition:transform .3s}
+.strip .cell:nth-child(even){transform:skewY(1.2deg)}
+.strip .cell:hover{transform:skewY(0) scale(1.04)}
+.strip .cell img{width:100%;height:100%;object-fit:cover;animation:kb 18s ease-in-out infinite alternate}
+.strip .cell:nth-child(even) img{animation-direction:alternate-reverse}
+.strip .cell::after{content:attr(data-label);position:absolute;left:16px;bottom:12px;font-family:'Space Grotesk',monospace;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);background:rgba(11,15,20,.65);backdrop-filter:blur(6px);padding:6px 12px;border-radius:999px}
+.strip .cell:hover img{filter:brightness(1.15)}
+
+/* kinetic outlined text */
+.kinetic{position:absolute;top:50%;left:0;transform:translateY(-50%);white-space:nowrap;font-weight:800;font-size:clamp(90px,15vw,200px);letter-spacing:-.03em;line-height:1;color:transparent;-webkit-text-stroke:1.5px rgba(246,243,238,.09);animation:kinetic 32s linear infinite;pointer-events:none;z-index:1;user-select:none}
+@keyframes kinetic{0%{transform:translateY(-50%) translateX(0)}100%{transform:translateY(-50%) translateX(-50%)}}
+
+/* loader curtain */
+.loader{position:fixed;inset:0;z-index:300;background:var(--bg);display:grid;place-items:center;transition:transform .9s cubic-bezier(.77,0,.18,1) .25s}
+.loader .mark{display:flex;align-items:center;gap:12px;font-weight:800;font-size:22px;letter-spacing:-.02em}
+.loader .mark .dot{width:11px;height:11px;border-radius:50%;background:var(--amber);animation:pulse 1.1s ease-in-out infinite}
+.loader .bar{position:absolute;bottom:0;left:0;height:2px;background:var(--amber);width:0;animation:loadbar 1.4s cubic-bezier(.22,.61,.36,1) forwards}
+@keyframes loadbar{0%{width:0}60%{width:70%}100%{width:100%}}
+body.loaded .loader{transform:translateY(-101%)}
+body.loaded .loader .bar{display:none}
+.split-char{display:inline-block;opacity:0;transform:translateY(110%) rotate(8deg);transition:opacity .7s cubic-bezier(.22,.61,.36,1),transform .7s cubic-bezier(.22,.61,.36,1)}
+.split-char.in{opacity:1;transform:none}
+.split-line{display:inline-block;overflow:hidden;vertical-align:bottom}
+.scramble{opacity:1}
+
+/* magnetic & sheen */
+.mag{display:inline-flex;position:relative;transition:transform .15s ease-out}
+.sheen{position:relative;overflow:hidden}
+.sheen::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.08) 50%,transparent 60%);transform:translateX(-120%);transition:transform .7s ease}
+.sheen:hover::after{transform:translateX(120%)}
+.spotlight{position:relative;overflow:hidden;--sx:50%;--sy:50%}
+.spotlight::before{content:"";position:absolute;inset:0;background:radial-gradient(220px circle at var(--sx) var(--sy),rgba(255,182,56,.16),transparent 60%);opacity:0;transition:opacity .3s;pointer-events:none}
+.spotlight:hover::before{opacity:1}
+
+/* marquee */
+.marquee{position:relative;overflow:hidden;padding:34px 0;border-block:1px solid var(--line);margin-top:52px}
+.marquee-track{display:flex;width:max-content;animation:marquee 32s linear infinite}
+.marquee:hover .marquee-track{animation-play-state:paused}
+.marquee span{white-space:nowrap;padding:0 40px;font-family:'Space Grotesk',monospace;font-size:13px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim);display:flex;align-items:center;gap:18px}
+.marquee span b{font-family:'Sora',sans-serif;font-size:26px;font-weight:700;color:var(--ink);letter-spacing:-.02em}
+.marquee span::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--amber)}
+@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+
+/* ============ HEADER ============ */
+header{position:fixed;inset:0 0 auto 0;z-index:100;transition:background .35s ease,box-shadow .35s ease}
+header.solid{background:rgba(11,15,20,.92);backdrop-filter:blur(14px);box-shadow:0 1px 0 var(--line)}
+.nav{max-width:var(--max);margin:0 auto;padding:0 24px;height:72px;display:flex;align-items:center;gap:28px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;letter-spacing:-.02em}
+.logo .dot{width:9px;height:9px;border-radius:50%;background:var(--amber);box-shadow:0 0 14px var(--amber)}
+nav.main{display:flex;gap:4px;margin-left:12px;flex:1}
+nav.main>div{position:relative}
+nav.main .top{display:flex;align-items:center;gap:6px;padding:26px 14px;font-size:13.5px;font-weight:500;color:var(--dim);background:none;border:0;transition:color .2s}
+nav.main .top:hover,nav.main>div.open .top{color:var(--ink)}
+nav.main .top svg{width:9px;height:9px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .25s}
+nav.main>div.open .top svg{transform:rotate(225deg) translateY(-1px)}
+.mega{position:absolute;top:100%;left:50%;transform:translate(-50%,8px);min-width:340px;background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;opacity:0;pointer-events:none;transition:all .25s ease;box-shadow:0 24px 60px rgba(0,0,0,.5)}
+nav.main>div.open .mega{opacity:1;pointer-events:auto;transform:translate(-50%,0)}
+.mega h5{font-family:'Space Grotesk',monospace;font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--dim2);margin:4px 0 10px}
+.mega a{display:block;padding:9px 12px;border-radius:10px;font-size:13.5px;color:var(--dim);transition:all .18s}
+.mega a b{color:var(--ink);font-weight:600}
+.mega a:hover{background:var(--amber-soft);color:var(--ink)}
+.mega a span{display:block;font-size:11.5px;color:var(--dim2);margin-top:2px}
+.mega.cols2{display:grid;grid-template-columns:1fr 1fr;gap:4px 14px}
+.nav-r{display:flex;align-items:center;gap:10px}
+.icbtn{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:none;color:var(--dim);display:grid;place-items:center;transition:all .2s}
+.icbtn:hover{color:var(--amber);border-color:var(--amber)}
+.hamb{display:none}
+.drawer{position:fixed;inset:0;z-index:99;background:rgba(11,15,20,.98);padding:96px 24px 40px;overflow-y:auto;opacity:0;pointer-events:none;transition:opacity .3s}
+.drawer.open{opacity:1;pointer-events:auto}
+.drawer .grp{border-bottom:1px solid var(--line);padding:14px 0}
+.drawer .grp>a,.drawer .grp>button{display:flex;justify-content:space-between;align-items:center;width:100%;background:none;border:0;color:var(--ink);font-size:17px;font-weight:600;padding:8px 0}
+.drawer .sub{display:none;padding:6px 0 8px}
+.drawer .grp.open .sub{display:block}
+.drawer .sub a{display:block;padding:8px 12px;color:var(--dim);font-size:14.5px;border-left:2px solid var(--line)}
+.drawer .sub a:hover{color:var(--amber);border-color:var(--amber)}
+
+/* search overlay */
+.search-ov{position:fixed;inset:0;z-index:120;background:rgba(11,15,20,.97);backdrop-filter:blur(8px);display:grid;place-items:start center;padding-top:16vh;opacity:0;pointer-events:none;transition:opacity .3s}
+.search-ov.open{opacity:1;pointer-events:auto}
+.search-ov .box{width:min(680px,90vw)}
+.search-ov h4{font-size:15px;color:var(--dim);font-weight:400;margin-bottom:16px}
+.search-ov input{width:100%;background:none;border:0;border-bottom:2px solid var(--line);color:var(--ink);font-family:'Sora',sans-serif;font-size:clamp(24px,4vw,40px);font-weight:700;padding:10px 0;outline:none;transition:border-color .25s}
+.search-ov input:focus{border-color:var(--amber)}
+.search-ov .hint{margin-top:22px;display:flex;gap:8px;flex-wrap:wrap}
+.search-ov .hint button{background:var(--amber-soft);color:var(--amber);border:0;border-radius:999px;padding:8px 16px;font-size:12.5px}
+.search-ov .close{position:absolute;top:24px;right:24px}
+
+/* ============ HERO ============ */
+.hero{position:relative;height:100svh;min-height:640px;display:flex;align-items:center;overflow:hidden;perspective:1200px}
+.hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;transform:scale(1.08)}
+.hero .veil{position:absolute;inset:0;background:linear-gradient(100deg,rgba(11,15,20,.86) 8%,rgba(11,15,20,.55) 45%,rgba(11,15,20,.25) 75%),linear-gradient(0deg,rgba(11,15,20,.9),transparent 30%);z-index:1}
+.hero .inner{position:relative;z-index:2;width:100%;transform-style:preserve-3d;transition:transform .15s ease-out}
+.hero h1{font-weight:800;font-size:clamp(40px,7vw,86px);letter-spacing:-.035em;line-height:1;margin:20px 0 22px;max-width:12ch}
+.hero h1 em{font-style:normal;color:var(--amber)}
+.hero .sub{font-size:clamp(15px,1.6vw,18px);max-width:52ch}
+.hero .cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}
+.hero .btn-a,.hero .btn-g{will-change:transform}
+.scrollcue{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:10px;color:var(--dim2);font-family:'Space Grotesk',monospace;font-size:10px;letter-spacing:.3em;text-transform:uppercase}
+.scrollcue .line{width:1px;height:44px;background:linear-gradient(var(--amber),transparent);animation:cue 1.8s ease-in-out infinite}
+.scrollcue .mouse{width:20px;height:32px;border:1.5px solid var(--dim2);border-radius:12px;position:relative;opacity:.7}
+.scrollcue .mouse::after{content:"";position:absolute;top:6px;left:50%;transform:translateX(-50%);width:3px;height:5px;background:var(--dim2);border-radius:3px;animation:scrollBall 1.6s ease-in-out infinite}
+@keyframes scrollBall{0%,100%{opacity:1;top:6px}50%{opacity:.4;top:14px}}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}55%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* ============ PILLARS ============ */
+.pillars{padding:110px 0 90px;background:var(--bg)}
+.pillars .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:52px}
+.pillar{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:34px 30px 30px;overflow:hidden;transition:transform .3s ease,border-color .3s ease;cursor:default;transform-style:preserve-3d}
+.pillar::before{content:"";position:absolute;inset:auto -30% -60% -30%;height:80%;background:radial-gradient(50% 60% at 50% 100%,var(--amber-soft),transparent 70%);opacity:0;transition:opacity .35s}
+.pillar::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.06) 50%,transparent 60%);transform:translateX(-130%);transition:transform .8s ease;pointer-events:none}
+.pillar:hover{transform:translateY(-5px);border-color:rgba(255,182,56,.4)}
+.pillar:hover::before{opacity:1}
+.pillar:hover::after{transform:translateX(130%)}
+.pillar .num{font-family:'Space Grotesk',monospace;font-size:11px;color:var(--amber);letter-spacing:.24em}
+.pillar h3{font-size:23px;font-weight:700;letter-spacing:-.01em;margin:14px 0 12px}
+.pillar p{color:var(--dim);font-size:14px;line-height:1.7}
+.pillar .more{max-height:0;overflow:hidden;transition:max-height .45s ease,margin .45s ease}
+.pillar:hover .more{max-height:120px;margin-top:12px}
+.pillar .more p{font-size:13px;color:var(--dim2)}
+
+/* ============ STATS BAND ============ */
+.stats{position:relative;padding:120px 0;overflow:hidden;border-block:1px solid var(--line)}
+.stats video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.stats .veil{position:absolute;inset:0;background:rgba(11,15,20,.72);z-index:1}
+.stats .wrap{position:relative;z-index:2}
+.stats .grid{display:grid;grid-template-columns:repeat(5,1fr);gap:20px;margin-top:48px}
+.stat b{display:block;font-weight:800;font-size:clamp(34px,4.2vw,54px);letter-spacing:-.03em;color:var(--amber);font-variant-numeric:tabular-nums}
+.stat b sup{font-size:.5em;color:var(--ink)}
+.stat span{display:block;margin-top:8px;color:var(--dim);font-size:13px;line-height:1.5}
+
+/* ============ LEAKS ============ */
+.leaks{padding:110px 0;background:var(--bg2)}
+.leaks .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:52px}
+.leak{border:1px solid var(--line);border-radius:16px;padding:26px 24px;background:var(--panel);transition:all .3s ease;position:relative;transform-style:preserve-3d;overflow:hidden}
+.leak::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.06) 50%,transparent 60%);transform:translateX(-130%);transition:transform .8s ease;pointer-events:none}
+.leak:hover{border-color:rgba(255,182,56,.45);transform:translateY(-4px)}
+.leak:hover::after{transform:translateX(130%)}
+.leak .no{font-family:'Space Grotesk',monospace;font-size:11px;color:var(--dim2);letter-spacing:.24em}
+.leak h3{font-size:20px;font-weight:700;margin:12px 0 8px}
+.leak p{color:var(--dim);font-size:13.5px;line-height:1.65}
+
+/* ============ LEAK PICKER ============ */
+.picker{padding:110px 0;background:var(--bg)}
+.picker .card{margin-top:44px;background:linear-gradient(140deg,var(--panel),#0d131a);border:1px solid var(--line);border-radius:24px;padding:clamp(28px,5vw,56px)}
+.picker .opts{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+.picker .opts button{background:none;border:1px solid var(--line);border-radius:999px;color:var(--dim);padding:12px 22px;font-size:13.5px;font-weight:600;transition:all .22s}
+.picker .opts button:hover{border-color:rgba(255,182,56,.5);color:var(--ink)}
+.picker .opts button.on{background:var(--amber);border-color:var(--amber);color:#141311}
+.picker .out{margin-top:30px;min-height:84px;border-top:1px solid var(--line);padding-top:24px}
+.picker .out h4{font-size:20px;font-weight:700;color:var(--amber)}
+.picker .out p{color:var(--dim);font-size:14.5px;line-height:1.7;margin-top:8px;max-width:64ch}
+.picker .out .zero{color:var(--dim2);font-size:14.5px}
+
+/* ============ WORK TABS ============ */
+.work{padding:110px 0;background:var(--bg2)}
+.tabs{display:flex;gap:8px;margin-top:44px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.tabs button{background:none;border:0;color:var(--dim);font-size:14.5px;font-weight:600;padding:14px 20px;position:relative;transition:color .2s}
+.tabs button.on{color:var(--ink)}
+.tabs button::after{content:"";position:absolute;left:20px;right:20px;bottom:-1px;height:2px;background:var(--amber);transform:scaleX(0);transition:transform .3s ease}
+.tabs button.on::after{transform:scaleX(1)}
+.workpanes{position:relative;margin-top:40px;perspective:1400px}
+.pane{display:none;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center;transform-style:preserve-3d}
+.pane.on{display:grid;animation:fadeUp .6s ease}
+@keyframes fadeUp{from{opacity:0;transform:translateY(18px) rotateX(6deg)}to{opacity:1;transform:none}}
+.pane .meta{font-family:'Space Grotesk',monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--amber);margin-bottom:14px}
+.pane h3{font-size:clamp(24px,3vw,34px);font-weight:800;letter-spacing:-.02em;line-height:1.1}
+.pane p{color:var(--dim);font-size:14.5px;line-height:1.75;margin-top:16px}
+.pane .a{margin-top:26px}
+.pane .img{border-radius:20px;overflow:hidden;border:1px solid var(--line);aspect-ratio:16/10;position:relative;transform-style:preserve-3d;transition:transform .3s ease}
+.pane .img img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.22,.61,.36,1)}
+.pane .img:hover img{transform:scale(1.05)}
+.pane .img::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.08) 50%,transparent 60%);transform:translateX(-130%);transition:transform .9s ease;pointer-events:none}
+.pane .img:hover::after{transform:translateX(130%)}
+.pane .img:hover img{animation-play-state:paused}
+.pane .img.clip-reveal img{transform-origin:center}
+
+/* ============ SERVICES TABLE ============ */
+.services{padding:110px 0;background:var(--bg)}
+.svc{width:100%;border-collapse:collapse;margin-top:48px}
+.svc tr{border-bottom:1px solid var(--line);transition:background .2s;cursor:default}
+.svc tr:first-child{border-top:1px solid var(--line)}
+.svc tr:hover{background:var(--amber-soft)}
+.svc td{padding:20px 18px;vertical-align:middle}
+.svc .no{font-family:'Space Grotesk',monospace;color:var(--amber);font-size:13px;width:56px}
+.svc .name{font-weight:700;font-size:16.5px;letter-spacing:-.01em}
+.svc .mv{color:var(--dim);font-size:13.5px;text-align:right;font-family:'Space Grotesk',monospace;letter-spacing:.04em}
+
+/* ============ GROVE CARDS ============ */
+.grove{padding:110px 0;background:var(--bg2)}
+.grove .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:52px}
+.gcard{position:relative;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--panel);transition:transform .3s,border-color .3s;display:flex;flex-direction:column;transform-style:preserve-3d}
+.gcard::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.07) 50%,transparent 60%);transform:translateX(-130%);transition:transform .8s ease;pointer-events:none}
+.gcard:hover{transform:translateY(-5px);border-color:rgba(255,182,56,.4)}
+.gcard:hover::after{transform:translateX(130%)}
+.gcard .vis{aspect-ratio:16/9;position:relative;overflow:hidden}
+.gcard .vis::before{content:"";position:absolute;inset:0;background:radial-gradient(90% 120% at 20% 0%,var(--g1),transparent 60%),radial-gradient(90% 120% at 90% 100%,var(--g2),transparent 60%);opacity:.9;transition:transform .6s ease}
+.gcard:hover .vis::before{transform:scale(1.08)}
+.gcard .vis .big{position:absolute;left:22px;bottom:14px;font-weight:800;font-size:40px;letter-spacing:-.03em;color:rgba(246,243,238,.92);transition:transform .3s ease}
+.gcard:hover .vis .big{transform:translateY(-8px) rotate(-8deg) scale(1.08)}
+.gcard .body{padding:24px}
+.gcard .tag{font-family:'Space Grotesk',monospace;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--amber)}
+.gcard h3{font-size:19px;font-weight:700;margin:10px 0 8px}
+.gcard p{color:var(--dim);font-size:13.5px;line-height:1.65}
+.gcard .go{margin-top:18px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--amber);display:inline-flex;align-items:center;gap:8px}
+.gcard .go .a{width:7px;height:7px;border-right:2px solid var(--amber);border-bottom:2px solid var(--amber);transform:rotate(-45deg);transition:transform .25s}
+.gcard:hover .go .a{transform:rotate(-45deg) translate(3px,3px)}
+
+/* ============ SCAN / SUPPORT ============ */
+.scan{padding:110px 0;background:var(--bg)}
+.scan .card{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:24px;overflow:hidden;background:var(--panel);position:relative}
+.scan .card::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.05) 50%,transparent 60%);transform:translateX(-130%);transition:transform 1s ease;pointer-events:none}
+.scan .card:hover::after{transform:translateX(130%)}
+.scan .txt{padding:clamp(28px,5vw,56px)}
+.scan .txt h2{font-size:clamp(24px,3vw,34px);font-weight:800;letter-spacing:-.02em;margin:14px 0 14px}
+.scan .vis{position:relative;min-height:320px;background:
+  radial-gradient(80% 90% at 80% 10%,rgba(255,182,56,.25),transparent 60%),
+  radial-gradient(70% 80% at 20% 90%,rgba(64,169,255,.14),transparent 60%),
+  #0d131a}
+.scan .vis .ring{position:absolute;border:1px solid rgba(255,182,56,.35);border-radius:50%;inset:0;margin:auto}
+.scan .vis .r1{width:140px;height:140px;animation:pulse 3s ease-in-out infinite}
+.scan .vis .r2{width:240px;height:240px;animation:pulse 3s ease-in-out .5s infinite}
+.scan .vis .r3{width:360px;height:360px;animation:pulse 3s ease-in-out 1s infinite}
+@keyframes pulse{0%,100%{transform:scale(.92);opacity:.4}50%{transform:scale(1.04);opacity:1}}
+.scan .vis .core{position:absolute;inset:0;margin:auto;width:16px;height:16px;border-radius:50%;background:var(--amber);box-shadow:0 0 40px var(--amber)}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:64px}
+.fact{border-left:2px solid var(--amber);padding:4px 0 4px 18px}
+.fact h4{font-size:16.5px;font-weight:700}
+.fact p{color:var(--dim);font-size:13px;line-height:1.6;margin-top:6px}
+
+/* ============ FINAL CTA ============ */
+.final{padding:130px 0;text-align:center;background:radial-gradient(60% 90% at 50% 110%,rgba(255,182,56,.16),transparent 60%),var(--bg2)}
+.final h2{font-size:clamp(32px,5vw,58px);font-weight:800;letter-spacing:-.03em;line-height:1.05;margin:18px 0 16px}
+.final .aud{font-family:'Space Grotesk',monospace;font-size:12px;letter-spacing:.26em;text-transform:uppercase;color:var(--dim2);margin-top:26px}
+
+/* ============ FOOTER ============ */
+footer{border-top:1px solid var(--line);background:var(--bg);padding:64px 0 34px}
+.trust{display:flex;flex-wrap:wrap;gap:10px 26px;align-items:center;padding-bottom:40px;border-bottom:1px solid var(--line);margin-bottom:44px}
+.trust span{font-family:'Space Grotesk',monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim2)}
+.trust b{font-size:13.5px;color:var(--dim);font-weight:600;transition:color .2s}
+.trust b:hover{color:var(--amber)}
+.fgrid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px}
+.fgrid h5{font-family:'Space Grotesk',monospace;font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--dim2);margin-bottom:16px}
+.fgrid a{display:block;color:var(--dim);font-size:13.5px;padding:5px 0;transition:color .2s}
+.fgrid a:hover{color:var(--amber)}
+.socials{display:flex;gap:10px;margin-top:18px}
+.socials a{width:36px;height:36px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font-size:12px;color:var(--dim);transition:all .2s}
+.socials a:hover{color:var(--amber);border-color:var(--amber)}
+.fbot{margin-top:48px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-family:'Space Grotesk',monospace;font-size:11px;color:var(--dim2)}
+
+/* ============ RESPONSIVE ============ */
+@media(max-width:1000px){
+  nav.main{display:none}
+  .hamb{display:grid}
+  .pillars .grid,.leaks .grid,.grove .grid{grid-template-columns:1fr 1fr}
+  .stats .grid{grid-template-columns:repeat(3,1fr);row-gap:40px}
+  .pane.on{grid-template-columns:1fr}
+  .scan .card{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:1fr 1fr}
+  .facts{grid-template-columns:1fr 1fr}
+}
+@media(max-width:620px){
+  .pillars .grid,.leaks .grid,.grove .grid{grid-template-columns:1fr}
+  .stats .grid{grid-template-columns:1fr 1fr}
+  .svc .mv{display:none}
+  .facts{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;animation-iteration-count:1!important}
+  html{scroll-behavior:auto}
+  .cursor,.cursor-trail{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- loader curtain -->
+<div class="loader" id="loader"><div class="mark"><span class="dot"></span>Footprint</div><span class="bar"></span></div>
+
+<!-- cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-trail" id="cursorTrail"></div>
+
+<!-- ================= HEADER ================= -->
+<header id="hdr">
+  <div class="nav">
+    <a class="logo" href="#top"><span class="dot"></span>Footprint</a>
+    <nav class="main" id="mainnav">
+      <div>
+        <button class="top" data-dd>The System <svg viewBox="0 0 10 10"></svg></button>
+        <div class="mega">
+          <h5>How we do it</h5>
+          <a href="#leaks"><b>Clarify</b><span>Obvious in one breath.</span></a>
+          <a href="#leaks"><b>Trust</b><span>Proof where they look.</span></a>
+          <a href="#leaks"><b>Demand</b><span>Found before the other guy.</span></a>
+          <a href="#leaks"><b>Convert</b><span>Every click has a job.</span></a>
+          <a href="#leaks"><b>Follow up</b><span>Nothing slips overnight.</span></a>
+          <a href="#leaks"><b>Optimize</b><span>Keep what compounds.</span></a>
+        </div>
+      </div>
+      <div>
+        <button class="top" data-dd>The Work <svg viewBox="0 0 10 10"></svg></button>
+        <div class="mega">
+          <h5>Case studies</h5>
+          <a href="#work" data-tab="0"><b>City-to-City HVAC</b><span>Home Services / HVAC · 2025</span></a>
+          <a href="#work" data-tab="1"><b>Global Security</b><span>Security / Trust-Based · 2025</span></a>
+          <a href="#work" data-tab="2"><b>TRACE by Footprint</b><span>Internal Engine · 2026</span></a>
+        </div>
+      </div>
+      <div>
+        <button class="top" data-dd>Services <svg viewBox="0 0 10 10"></svg></button>
+        <div class="mega cols2">
+          <a href="#services"><b>Website Design &amp; Build</b></a>
+          <a href="#services"><b>Marketing Automation</b></a>
+          <a href="#services"><b>CRM &amp; Pipeline Setup</b></a>
+          <a href="#services"><b>Paid Ad Campaigns</b></a>
+          <a href="#services"><b>Reputation Management</b></a>
+          <a href="#services"><b>Lead Generation</b></a>
+          <a href="#services"><b>Funnel Development</b></a>
+          <a href="#services"><b>Email &amp; SMS Marketing</b></a>
+        </div>
+      </div>
+      <div><a class="top" href="#grove">The Grove</a></div>
+      <div><a class="top" href="#scan">Support</a></div>
+    </nav>
+    <div class="nav-r">
+      <button class="icbtn mag" id="searchBtn" aria-label="Search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      </button>
+      <a class="btn btn-a mag" href="#picker" style="padding:11px 20px">Get the Scan</a>
+      <button class="icbtn hamb mag" id="hambBtn" aria-label="Menu">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- mobile drawer -->
+<div class="drawer" id="drawer">
+  <div class="grp"><a href="#why">Why we matter</a></div>
+  <div class="grp">
+    <button data-acc>The System <span>+</span></button>
+    <div class="sub">
+      <a href="#leaks">Clarify</a><a href="#leaks">Trust</a><a href="#leaks">Demand</a>
+      <a href="#leaks">Convert</a><a href="#leaks">Follow up</a><a href="#leaks">Optimize</a>
+    </div>
+  </div>
+  <div class="grp">
+    <button data-acc>The Work <span>+</span></button>
+    <div class="sub">
+      <a href="#work">City-to-City HVAC</a><a href="#work">Global Security</a><a href="#work">TRACE by Footprint</a>
+    </div>
+  </div>
+  <div class="grp"><a href="#services">Services</a></div>
+  <div class="grp"><a href="#grove">The Grove</a></div>
+  <div class="grp"><a href="#scan">Support</a></div>
+  <a class="btn btn-a" href="#picker" style="margin-top:24px;width:100%;justify-content:center">Get the Scan</a>
+</div>
+
+<!-- search overlay -->
+<div class="search-ov" id="searchOv">
+  <button class="icbtn close" id="searchClose" aria-label="Close">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6L6 18M6 6l12 12"/></svg>
+  </button>
+  <div class="box">
+    <h4>What are you looking for?</h4>
+    <input id="searchInput" type="text" placeholder="Type and press enter…" />
+    <div class="hint">
+      <button data-hint>Six leaks</button><button data-hint>Case studies</button><button data-hint>Services</button><button data-hint>Free scan</button>
+    </div>
+  </div>
+</div>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <video id="heroVid" autoplay muted loop playsinline preload="metadata" src="assets/hero.mp4"></video>
+  <div class="veil"></div>
+  <div class="inner wrap">
+    <p class="kick rv scramble" data-scramble>Footprint · Attention → Revenue</p>
+    <h1 class="rv" id="heroHeadline">Attention is everywhere.<br /><em>Revenue lives in&nbsp;between.</em></h1>
+    <p class="sub rv">Leads slip. Follow-up sleeps. Growth runs on you. We build the system that holds the pressure — one engine that seals the six leaks between attention and revenue.</p>
+    <div class="cta rv">
+      <a class="btn btn-a mag" href="#picker">Get the free scan</a>
+      <a class="btn btn-g mag" href="#work">See the work</a>
+    </div>
+  </div>
+  <div class="scrollcue"><span>Scroll</span><div class="mouse"></div></div>
+</section>
+
+<!-- ================= PILLARS ================= -->
+<section class="pillars" id="why">
+  <div class="wrap">
+    <p class="kick rv">01 · Why we matter</p>
+    <h2 class="sec rv">Our core power.</h2>
+    <p class="sub rv" style="margin-top:16px">You run the business. We hold the pressure. Three things we never outsource.</p>
+    <div class="grid">
+      <div class="pillar flip-in tiltable">
+        <span class="num">/01</span>
+        <h3>One System</h3>
+        <p>Not a menu. A single engine with six parts and zero leaks — website, automation, CRM, ads, reputation and follow-up pulling in one direction.</p>
+        <div class="more"><p>Built in your accounts, day one. You own everything.</p></div>
+      </div>
+      <div class="pillar flip-in tiltable">
+        <span class="num">/02</span>
+        <h3>Proof First</h3>
+        <p>Trust is engineered, not hoped for — reviews banked, signals aligned, proof placed exactly where your next customer is already looking.</p>
+        <div class="more"><p>19 city pages deployed. 60k subscribers rebuilt.</p></div>
+      </div>
+      <div class="pillar flip-in tiltable">
+        <span class="num">/03</span>
+        <h3>Always On</h3>
+        <p>24/7 follow-up that never sleeps and never forgets. Nothing slips overnight, and what compounds gets kept.</p>
+        <div class="more"><p>Live in 4 weeks, then iterate.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STATS ================= -->
+<section class="stats">
+  <video id="flowVid" autoplay muted loop playsinline preload="none" src="assets/flow.mp4"></video>
+  <div class="veil"></div>
+  <div class="kinetic" aria-hidden="true">ATTENTION → REVENUE · FOOTPRINT MOTION · ATTENTION → REVENUE · FOOTPRINT MOTION ·&nbsp;</div>
+  <div class="wrap">
+    <p class="kick rv">The grove</p>
+    <h2 class="sec rv">Sealed leaks grow into a grove.</h2>
+    <div class="grid">
+      <div class="stat fly-l"><b><span class="cnt" data-to="6" data-prefix="×">×0</span></b><span>seals holding</span></div>
+      <div class="stat fly-r"><b>24/7</b><span>follow-up awake</span></div>
+      <div class="stat fly-l"><b><span class="cnt" data-to="19">0</span></b><span>city pages deployed</span></div>
+      <div class="stat fly-r"><b><span class="cnt" data-to="60" data-suffix="k">0</span></b><span>subscribers rebuilt</span></div>
+      <div class="stat fly-l"><b><span class="cnt" data-to="1" data-prefix="×">×0</span></b><span>system compounding</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LEAKS ================= -->
+<section class="leaks" id="leaks">
+  <div class="wrap">
+    <p class="kick rv">02 · What we do</p>
+    <h2 class="sec rv">Not a marketing problem.<br /><em>A leak.</em></h2>
+    <div class="grid">
+      <div class="leak fly-l tiltable"><span class="no">01 / LEAK</span><h3>Invisible.</h3><p>Found after the other guy. We make you the obvious answer before the search ends.</p></div>
+      <div class="leak fly-r tiltable"><span class="no">02 / LEAK</span><h3>Unclear.</h3><p>If it takes three sentences to explain, it leaks. Obvious in one breath.</p></div>
+      <div class="leak fly-l tiltable"><span class="no">03 / LEAK</span><h3>Unproven.</h3><p>No proof where they look. We bank the evidence and put it in the path.</p></div>
+      <div class="leak fly-r tiltable"><span class="no">04 / LEAK</span><h3>Unfollowed.</h3><p>Leads go cold overnight. Our follow-up stays awake so you don't have to.</p></div>
+      <div class="leak fly-l tiltable"><span class="no">05 / LEAK</span><h3>Untracked.</h3><p>You can't fix what you can't see. Every dollar and every call gets a paper trail.</p></div>
+      <div class="leak fly-r tiltable"><span class="no">06 / LEAK</span><h3>Owner-dependent.</h3><p>Growth that runs on you isn't growth — it's a job with extra steps. We build it to run without you.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= LEAK PICKER ================= -->
+<section class="picker" id="picker">
+  <div class="wrap">
+    <p class="kick rv">03 · How we do it</p>
+    <h2 class="sec rv">Where is it leaking?</h2>
+    <div class="card rv">
+      <p class="sub">Pick one. We show the first fix.</p>
+      <div class="opts" id="leakOpts"></div>
+      <div class="out" id="leakOut"><p class="zero">0 selected — choose a leak above and we'll show you the first move.</p></div>
+      <a class="btn btn-a" href="#scan" style="margin-top:28px">Start with one</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WORK ================= -->
+<section class="work" id="work">
+  <div class="wrap">
+    <p class="kick rv">04 · The work</p>
+    <h2 class="sec rv">Our work.</h2>
+    <div class="tabs rv" id="workTabs">
+      <button class="on" data-pane="0">City-to-City HVAC</button>
+      <button data-pane="1">Global Security</button>
+      <button data-pane="2">TRACE by Footprint</button>
+    </div>
+    <div class="workpanes">
+      <div class="pane on">
+        <div>
+          <p class="meta">Home Services / HVAC · 2025</p>
+          <h3>City-to-City HVAC</h3>
+          <p>A three-tier lead engine — money site, isolated city cells, and an apex domain. Every city page has one job and one phone number, so nothing leaks between the click and the call.</p>
+          <div class="a"><a class="btn btn-g" href="#scan">Read more</a></div>
+        </div>
+        <div class="img clip-reveal clip-lr kb"><img src="assets/work-hvac.jpg" alt="City-to-City HVAC technician at dusk" loading="lazy" /></div>
+      </div>
+      <div class="pane">
+        <div>
+          <p class="meta">Security / Trust-Based · 2025</p>
+          <h3>Global Security</h3>
+          <p>Trust-based selling rebuilt from the ground up — proof banked before it's asked for, follow-up that answers while the fear is still fresh, and a pipeline the owner can actually see.</p>
+          <div class="a"><a class="btn btn-g" href="#scan">Read more</a></div>
+        </div>
+        <div class="img clip-reveal clip-rl kb"><img src="assets/work-security.jpg" alt="Global Security commercial entrance at night" loading="lazy" /></div>
+      </div>
+      <div class="pane">
+        <div>
+          <p class="meta">Internal Engine · 2026</p>
+          <h3>TRACE by Footprint</h3>
+          <p>Our own operating engine — every lead traced from first impression to signed revenue. If a dollar leaks, TRACE shows exactly which seal failed and when.</p>
+          <div class="a"><a class="btn btn-g" href="#scan">Read more</a></div>
+        </div>
+        <div class="img clip-reveal clip-tb kb"><img src="assets/work-trace.jpg" alt="TRACE by Footprint operations dashboard" loading="lazy" /></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= IMAGE CAROUSEL STRIP ================= -->
+<section class="strip" aria-label="Footprint in motion">
+  <div class="strip-track">
+    <div class="cell" data-label="Main Street"><img src="assets/broll-1.jpg" alt="Glowing storefront at night" loading="lazy" /></div>
+    <div class="cell" data-label="Revenue Engine"><img src="assets/broll-2.jpg" alt="Revenue dashboard on laptop" loading="lazy" /></div>
+    <div class="cell" data-label="City Flow"><img src="assets/broll-3.jpg" alt="City traffic light trails" loading="lazy" /></div>
+    <div class="cell" data-label="Owner Mode"><img src="assets/broll-4.jpg" alt="Business owner checking notifications" loading="lazy" /></div>
+    <div class="cell" data-label="City-to-City HVAC"><img src="assets/work-hvac.jpg" alt="HVAC technician at dusk" loading="lazy" /></div>
+    <div class="cell" data-label="Global Security"><img src="assets/work-security.jpg" alt="Security entrance at night" loading="lazy" /></div>
+    <div class="cell" data-label="TRACE"><img src="assets/work-trace.jpg" alt="TRACE operations dashboard" loading="lazy" /></div>
+    <div class="cell" data-label="Main Street"><img src="assets/broll-1.jpg" alt="Glowing storefront at night" loading="lazy" /></div>
+    <div class="cell" data-label="Revenue Engine"><img src="assets/broll-2.jpg" alt="Revenue dashboard on laptop" loading="lazy" /></div>
+    <div class="cell" data-label="City Flow"><img src="assets/broll-3.jpg" alt="City traffic light trails" loading="lazy" /></div>
+    <div class="cell" data-label="Owner Mode"><img src="assets/broll-4.jpg" alt="Business owner checking notifications" loading="lazy" /></div>
+    <div class="cell" data-label="City-to-City HVAC"><img src="assets/work-hvac.jpg" alt="HVAC technician at dusk" loading="lazy" /></div>
+    <div class="cell" data-label="Global Security"><img src="assets/work-security.jpg" alt="Security entrance at night" loading="lazy" /></div>
+    <div class="cell" data-label="TRACE"><img src="assets/work-trace.jpg" alt="TRACE operations dashboard" loading="lazy" /></div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services" id="services">
+  <div class="wrap">
+    <p class="kick rv">Every piece has a job</p>
+    <h2 class="sec rv">Not a menu. <em>A system.</em></h2>
+    <table class="svc rv">
+      <tbody>
+        <tr class="fold-in"><td class="no">01</td><td class="name">Website Design &amp; Build</td><td class="mv">→ Fix the story</td></tr>
+        <tr class="fold-in"><td class="no">02</td><td class="name">Marketing Automation</td><td class="mv">→ Stop the drops</td></tr>
+        <tr class="fold-in"><td class="no">03</td><td class="name">CRM &amp; Pipeline Setup</td><td class="mv">→ See the flow</td></tr>
+        <tr class="fold-in"><td class="no">04</td><td class="name">Paid Ad Campaigns</td><td class="mv">→ Buy attention</td></tr>
+        <tr class="fold-in"><td class="no">05</td><td class="name">Reputation Management</td><td class="mv">→ Bank the proof</td></tr>
+        <tr class="fold-in"><td class="no">06</td><td class="name">Lead Generation</td><td class="mv">→ Open the tap</td></tr>
+        <tr class="fold-in"><td class="no">07</td><td class="name">Funnel Development</td><td class="mv">→ Convert the cold</td></tr>
+        <tr class="fold-in"><td class="no">08</td><td class="name">Email &amp; SMS Marketing</td><td class="mv">→ Stay top-of-mind</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ================= GROVE CARDS ================= -->
+<section class="grove" id="grove">
+  <div class="wrap">
+    <p class="kick rv">From the grove</p>
+    <h2 class="sec rv">What leaked now compounds.</h2>
+    <div class="grid">
+      <a class="gcard spin-l tiltable" href="#work" style="--g1:rgba(255,182,56,.4);--g2:rgba(255,90,42,.28)">
+        <div class="vis"><span class="big">×3</span></div>
+        <div class="body"><span class="tag">Case studies</span><h3>Three engines, live</h3><p>City-to-City, Global Security and TRACE — every seal holding, every number on the board.</p><span class="go">See the work <span class="a"></span></span></div>
+      </a>
+      <a class="gcard spin-r tiltable" href="#leaks" style="--g1:rgba(64,169,255,.3);--g2:rgba(255,182,56,.24)">
+        <div class="vis"><span class="big">19</span></div>
+        <div class="body"><span class="tag">City pages</span><h3>Deployed &amp; ranking</h3><p>Isolated city cells with one job each — found before the other guy, in every market we touch.</p><span class="go">How we do it <span class="a"></span></span></div>
+      </a>
+      <a class="gcard spin-l tiltable" href="#scan" style="--g1:rgba(63,213,127,.26);--g2:rgba(255,182,56,.26)">
+        <div class="vis"><span class="big">60k</span></div>
+        <div class="body"><span class="tag">Subscribers</span><h3>Rebuilt &amp; compounding</h3><p>Email and SMS lists that stay top-of-mind — attention banked instead of leaked.</p><span class="go">Get the scan <span class="a"></span></span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SCAN ================= -->
+<section class="scan" id="scan">
+  <div class="wrap">
+    <div class="card rv">
+      <div class="txt">
+        <p class="kick">Support</p>
+        <h2>The free scan.</h2>
+        <p class="sub">A scan of your public signals — how you show up where customers already look — with a score and one next step. No pitch, no deck. Just the first leak, named.</p>
+        <div class="cta" style="margin-top:28px"><a class="btn btn-a" href="#picker">Run the scan</a></div>
+      </div>
+      <div class="vis">
+        <span class="ring r1"></span><span class="ring r2"></span><span class="ring r3"></span>
+        <span class="core"></span>
+      </div>
+    </div>
+    <div class="facts">
+      <div class="fact flip-in"><h4>You own everything.</h4><p>Built in your accounts, day one.</p></div>
+      <div class="fact flip-in"><h4>Live in 4 weeks.</h4><p>Then we iterate, not restart.</p></div>
+      <div class="fact flip-in"><h4>Start with one.</h4><p>Build from there. No bundles.</p></div>
+      <div class="fact flip-in"><h4>Built for you.</h4><p>Owner-led service businesses.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FINAL CTA ================= -->
+<section class="final">
+  <div class="wrap">
+    <p class="kick rv" style="justify-content:center">Attention → Revenue</p>
+    <h2 class="rv">How can we<br />help <em style="font-style:normal;color:var(--amber)">you?</em></h2>
+    <p class="sub rv" style="margin:0 auto">Contact a Footprint strategist. Bring one leak — we'll show the first fix.</p>
+    <div class="cta rv" style="display:flex;gap:14px;justify-content:center;margin-top:34px;flex-wrap:wrap">
+      <a class="btn btn-a mag" href="#picker">Get the scan</a>
+      <a class="btn btn-g mag" href="#services">Talk to us</a>
+    </div>
+    <p class="aud rv">Built for owner-led service businesses</p>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="trust">
+      <span>Trusted.</span>
+      <b class="mag flip-in">XactInsure</b><b class="mag flip-in">Global Security</b><b class="mag flip-in">City-to-City HVAC</b><b class="mag flip-in">Golden Memorial</b><b class="mag flip-in">Lincoln Heritage</b><b class="mag flip-in">The Clean Hustle</b>
+    </div>
+    <div class="marquee rv">
+      <div class="marquee-track">
+        <span><b>Attention</b> → Revenue</span><span><b>6</b> leaks sealed</span><span><b>24/7</b> follow-up</span><span><b>19</b> city pages</span><span><b>60k</b> subscribers rebuilt</span><span><b>One</b> system</span>
+        <span><b>Attention</b> → Revenue</span><span><b>6</b> leaks sealed</span><span><b>24/7</b> follow-up</span><span><b>19</b> city pages</span><span><b>60k</b> subscribers rebuilt</span><span><b>One</b> system</span>
+      </div>
+    </div>
+    <div class="fgrid">
+      <div>
+        <a class="logo" href="#top" style="margin-bottom:16px"><span class="dot"></span>Footprint</a>
+        <p class="sub" style="font-size:13px;max-width:34ch">One system. Six parts. Zero leaks. We hold the pressure so you can run the business.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="X">X</a><a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      <div>
+        <h5>System</h5>
+        <a href="#why">Why we matter</a><a href="#leaks">The six leaks</a><a href="#picker">Where is it leaking?</a><a href="#services">Services</a>
+      </div>
+      <div>
+        <h5>Work</h5>
+        <a href="#work">City-to-City HVAC</a><a href="#work">Global Security</a><a href="#work">TRACE by Footprint</a><a href="#grove">The Grove</a>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <a href="#scan">Free scan</a><a href="#scan">Support</a><a href="#top">News &amp; media</a><a href="#top">Contact us</a>
+      </div>
+    </div>
+    <div class="fbot">
+      <span>© Footprint — Attention → Revenue</span>
+      <span>Footprint Motion Template · v4</span>
+      <span>Privacy · Terms · Accessibility</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  'use strict';
+
+  var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+
+  /* header solid on scroll */
+  var hdr = document.getElementById('hdr');
+  function onScroll(){ hdr.classList.toggle('solid', window.scrollY > 40); }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+
+  /* reveal on view (all entrance classes) */
+  var ENTR = '.rv,.fly-l,.fly-r,.fly-u,.fly-d,.spin-l,.spin-r,.flip-in,.clip-reveal,.rowfade,.fold-in';
+  var io = new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, {threshold:.12});
+  document.querySelectorAll(ENTR).forEach(function(el){ io.observe(el); });
+
+  /* stagger groups */
+  document.querySelectorAll('.pillars .grid, .leaks .grid, .grove .grid, .facts, .trust, .svc tbody, .stats .grid').forEach(function(g){
+    var items = g.querySelectorAll(ENTR);
+    items.forEach(function(el, i){ el.style.transitionDelay = (i * 90) + 'ms'; });
+  });
+
+  /* loader curtain */
+  function dropLoader(){ document.body.classList.add('loaded'); setTimeout(function(){ var l = document.getElementById('loader'); if(l) l.style.display = 'none'; }, 1400); }
+  if(document.readyState === 'complete'){ setTimeout(dropLoader, 900); }
+  else { window.addEventListener('load', function(){ setTimeout(dropLoader, 900); }); setTimeout(dropLoader, 3200); }
+
+  /* videos: pause when offscreen + subtle parallax */
+  function vidAuto(id){
+    var v = document.getElementById(id); if(!v) return;
+    var o = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if(e.isIntersecting){ v.play().catch(function(){}); } else { v.pause(); } });
+    }, {threshold:.2});
+    o.observe(v);
+    if(!prefersReducedMotion){
+      window.addEventListener('scroll', function(){
+        var y = window.scrollY;
+        var s = v.id === 'heroVid' ? (1 + y * 0.0002) : 1;
+        var t = v.id === 'flowVid' ? (y * 0.04) : 0;
+        v.style.transform = 'scale(' + s.toFixed(3) + ') translateY(' + t.toFixed(1) + 'px)';
+      }, {passive:true});
+    }
+  }
+  vidAuto('heroVid'); vidAuto('flowVid');
+
+  /* count-up */
+  var cio = new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(!e.isIntersecting) return;
+      var el = e.target, to = +el.dataset.to, pre = el.dataset.prefix || '', suf = el.dataset.suffix || '';
+      var t0 = null, dur = 1400;
+      function step(ts){
+        if(!t0) t0 = ts;
+        var p = Math.min((ts - t0)/dur, 1);
+        var eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = pre + Math.round(to * eased) + suf;
+        if(p < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+      cio.unobserve(el);
+    });
+  }, {threshold:.6});
+  document.querySelectorAll('.cnt').forEach(function(el){ cio.observe(el); });
+
+  /* mega menu (desktop) */
+  document.querySelectorAll('#mainnav [data-dd]').forEach(function(btn){
+    var item = btn.parentElement, t;
+    function open(){ item.classList.add('open'); }
+    function close(){ item.classList.remove('open'); }
+    item.addEventListener('mouseenter', function(){ clearTimeout(t); open(); });
+    item.addEventListener('mouseleave', function(){ t = setTimeout(close, 160); });
+    btn.addEventListener('click', function(){ item.classList.toggle('open'); });
+  });
+  document.addEventListener('click', function(e){
+    if(!e.target.closest('#mainnav')) document.querySelectorAll('#mainnav > div.open').forEach(function(d){ d.classList.remove('open'); });
+  });
+
+  /* work tabs (also driven from mega menu) */
+  var tabs = document.querySelectorAll('#workTabs button');
+  var panes = document.querySelectorAll('.pane');
+  function setTab(i){
+    tabs.forEach(function(b,j){ b.classList.toggle('on', j===i); });
+    panes.forEach(function(p,j){ p.classList.toggle('on', j===i); });
+  }
+  tabs.forEach(function(b,i){ b.addEventListener('click', function(){ setTab(i); }); });
+  document.querySelectorAll('[data-tab]').forEach(function(a){
+    a.addEventListener('click', function(){ setTab(+a.dataset.tab); });
+  });
+
+  /* mobile drawer */
+  var drawer = document.getElementById('drawer'), hamb = document.getElementById('hambBtn');
+  hamb.addEventListener('click', function(){ drawer.classList.toggle('open'); });
+  drawer.querySelectorAll('[data-acc]').forEach(function(b){
+    b.addEventListener('click', function(){
+      var g = b.parentElement;
+      drawer.querySelectorAll('.grp.open').forEach(function(o){ if(o!==g) o.classList.remove('open'); });
+      g.classList.toggle('open');
+    });
+  });
+  drawer.querySelectorAll('a').forEach(function(a){ a.addEventListener('click', function(){ drawer.classList.remove('open'); }); });
+
+  /* search overlay */
+  var ov = document.getElementById('searchOv'), si = document.getElementById('searchInput');
+  document.getElementById('searchBtn').addEventListener('click', function(){ ov.classList.add('open'); setTimeout(function(){ si.focus(); }, 120); });
+  document.getElementById('searchClose').addEventListener('click', function(){ ov.classList.remove('open'); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape'){ ov.classList.remove('open'); drawer.classList.remove('open'); } });
+  ov.querySelectorAll('[data-hint]').forEach(function(b){
+    b.addEventListener('click', function(){ si.value = b.textContent; });
+  });
+
+  /* leak picker */
+  var LEAKS = [
+    {k:'Invisible', fix:'Claim your ground', d:'We rebuild the pages that answer "best X near me" — profile, citations, and city cells — so you are found before the other guy.'},
+    {k:'Unclear', fix:'Fix the story', d:'One breath: who you serve, what it costs, why you. We rewrite the homepage and every headline until a stranger gets it instantly.'},
+    {k:'Unproven', fix:'Bank the proof', d:'A review engine that asks at the moment of delight and places the evidence where the next customer is already looking.'},
+    {k:'Unfollowed', fix:'Stop the drops', d:'Speed-to-lead automation — instant text, instant call task, instant booking link — so no lead sleeps overnight unfollowed.'},
+    {k:'Untracked', fix:'See the flow', d:'CRM and pipeline setup with call tracking on every number, so you know which dollar worked and which seal failed.'},
+    {k:'Owner-dependent', fix:'Open the tap', d:'Paid campaigns + funnel development tuned by TRACE, so demand arrives on a system — not on your stamina.'}
+  ];
+  var opts = document.getElementById('leakOpts'), out = document.getElementById('leakOut');
+  LEAKS.forEach(function(L, i){
+    var b = document.createElement('button');
+    b.textContent = L.k;
+    b.addEventListener('click', function(){
+      opts.querySelectorAll('button').forEach(function(x){ x.classList.remove('on'); });
+      b.classList.add('on');
+      out.innerHTML = '<h4>01 / ' + L.fix + '</h4><p>' + L.d + '</p>';
+      out.style.animation = 'none'; void out.offsetWidth; out.style.animation = 'fadeUp .5s ease';
+    });
+    opts.appendChild(b);
+  });
+
+  if(prefersReducedMotion) return;
+
+  /* cursor */
+  var cursor = document.getElementById('cursor'), trail = document.getElementById('cursorTrail');
+  if(cursor && window.matchMedia('(pointer:fine)').matches){
+    var mx = window.innerWidth/2, my = window.innerHeight/2, tx = mx, ty = my, ttx = mx, tty = my;
+    document.addEventListener('mousemove', function(e){ tx = e.clientX; ty = e.clientY; }, {passive:true});
+    document.addEventListener('mousedown', function(){ cursor.classList.add('big'); });
+    document.addEventListener('mouseup', function(){ cursor.classList.remove('big'); });
+    var mags = document.querySelectorAll('.mag');
+    mags.forEach(function(m){
+      m.addEventListener('mouseenter', function(){ cursor.classList.add('big'); });
+      m.addEventListener('mouseleave', function(){ cursor.classList.remove('big'); });
+    });
+    function loop(){
+      mx += (tx - mx) * 0.22;
+      my += (ty - my) * 0.22;
+      ttx += (tx - ttx) * 0.12;
+      tty += (ty - tty) * 0.12;
+      cursor.style.left = mx + 'px'; cursor.style.top = my + 'px';
+      trail.style.left = ttx + 'px'; trail.style.top = tty + 'px';
+      requestAnimationFrame(loop);
+    }
+    loop();
+  }
+
+  /* magnetic pull */
+  document.querySelectorAll('.mag').forEach(function(el){
+    el.addEventListener('mousemove', function(e){
+      var r = el.getBoundingClientRect();
+      var dx = e.clientX - (r.left + r.width/2);
+      var dy = e.clientY - (r.top + r.height/2);
+      el.style.transform = 'translate(' + (dx*0.42).toFixed(1) + 'px,' + (dy*0.42).toFixed(1) + 'px)';
+    });
+    el.addEventListener('mouseleave', function(){ el.style.transform = ''; });
+  });
+
+  /* text scramble for kicks */
+  var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789·→/';
+  document.querySelectorAll('[data-scramble]').forEach(function(el){
+    var final = el.textContent, len = final.length;
+    var iter = 0, dur = 900, t0 = null;
+    function step(ts){
+      if(!t0) t0 = ts;
+      var p = Math.min((ts - t0)/dur, 1);
+      var out = '';
+      for(var i=0;i<len;i++){
+        if(final[i] === ' '){ out += ' '; continue; }
+        if(i < Math.floor(p * len)) out += final[i];
+        else out += chars[Math.floor(Math.random() * chars.length)];
+      }
+      el.textContent = out;
+      if(p < 1) requestAnimationFrame(step);
+      else el.textContent = final;
+    }
+    requestAnimationFrame(step);
+  });
+
+  /* split-text section headings */
+  function splitHeadings(){
+    document.querySelectorAll('h2.sec').forEach(function(h2){
+      if(h2.dataset.split) return;
+      h2.dataset.split = '1';
+      var words = h2.childNodes;
+      var html = '';
+      Array.from(words).forEach(function(n){
+        if(n.nodeType === 3){
+          html += n.textContent.replace(/([^\s]+)/g, function(w){ return '<span class="split-line"><span class="split-char">' + w + '</span></span>'; });
+        } else {
+          html += n.outerHTML;
+        }
+      });
+      h2.innerHTML = html;
+    });
+    var io2 = new IntersectionObserver(function(es){
+      es.forEach(function(e){
+        if(!e.isIntersecting) return;
+        var chars = e.target.querySelectorAll('.split-char');
+        chars.forEach(function(c, i){ setTimeout(function(){ c.classList.add('in'); }, i * 40); });
+        io2.unobserve(e.target);
+      });
+    }, {threshold:.4});
+    document.querySelectorAll('h2.sec').forEach(function(h2){ io2.observe(h2); });
+  }
+  splitHeadings();
+
+  /* 3D tilt on cards */
+  document.querySelectorAll('.tiltable').forEach(function(el){
+    el.addEventListener('mousemove', function(e){
+      var r = el.getBoundingClientRect();
+      var x = (e.clientX - r.left) / r.width;
+      var y = (e.clientY - r.top) / r.height;
+      var rx = (0.5 - y) * 17;
+      var ry = (x - 0.5) * 17;
+      el.style.transform = 'perspective(900px) rotateX(' + rx.toFixed(2) + 'deg) rotateY(' + ry.toFixed(2) + 'deg) translateY(-8px) scale(1.02)';
+    });
+    el.addEventListener('mouseleave', function(){ el.style.transform = ''; });
+  });
+
+  /* hero mouse parallax */
+  var heroInner = document.querySelector('.hero .inner');
+  document.querySelector('.hero').addEventListener('mousemove', function(e){
+    var r = this.getBoundingClientRect();
+    var x = (e.clientX - r.left) / r.width - 0.5;
+    var y = (e.clientY - r.top) / r.height - 0.5;
+    heroInner.style.transform = 'translate(' + (x * 12).toFixed(1) + 'px,' + (y * 8).toFixed(1) + 'px)';
+  });
+  document.querySelector('.hero').addEventListener('mouseleave', function(){ heroInner.style.transform = ''; });
+
+  /* velocity skew */
+  var lastY = window.scrollY, lastT = performance.now(), v = 0;
+  var skewEls = document.querySelectorAll('.pillar, .leak, .gcard');
+  window.addEventListener('scroll', function(){
+    var now = performance.now();
+    var dt = Math.max(1, now - lastT);
+    v = (window.scrollY - lastY) / dt;
+    lastY = window.scrollY; lastT = now;
+    var s = Math.max(-5, Math.min(5, v * 0.35));
+    skewEls.forEach(function(el){ el.style.transform = 'skewY(' + s.toFixed(2) + 'deg)'; });
+    clearTimeout(window._skewT);
+    window._skewT = setTimeout(function(){ skewEls.forEach(function(el){ el.style.transform = ''; }); }, 80);
+  }, {passive:true});
+})();
+</script>
+</body>
+</html>
